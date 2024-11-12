@@ -1,0 +1,49 @@
+[project]
+name = "neural-network-tutorial"
+version = "24.1.0"
+authors = [
+  { name="Min Ye", email="minye.epfl@gmail.com" },
+  { name="Veit Schiele", email="veit@cusy.io" },
+]
+description = "Schulungsmaterialen für unseren Python-Kurs zu neuronalen Netzwerken: https://cusy.io/de/seminare"
+readme = "README.rst"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "tensorflow",
+    "keras",
+]
+
+[project.optional-dependencies]
+docs = [
+    "furo",
+    "ipython",
+    "ipywidgets",
+    "notebook",
+    "nbsphinx",
+    "sphinxext.opengraph", # matplotlib is required for social cards
+    "matplotlib",
+    "sphinx_copybutton",
+    "sphinx-inline-tabs",
+    "sphinxcontrib-svg2pdfconverter",
+    "sphinx-lint",
+    "pygments-pytest",
+]
+
+dev = [
+    "neural-network-tutorial[docs]",
+    "pre-commit",
+    "codespell",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/cusyio/neural-network-tutorial/"
+"Bug Tracker" = "https://github.com/cusyio/neural-network-tutorial/issues"
+
+[tool.codespell]
+skip = "*.rst, *.svg"

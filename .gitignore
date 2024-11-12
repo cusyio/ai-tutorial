@@ -1,0 +1,13 @@
+.python-version
+
+# Distribution / packaging
+*.egg-info/
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# virtualenv
+.venv
