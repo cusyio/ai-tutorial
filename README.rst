@@ -21,7 +21,7 @@ Installation
 
    .. code-block:: console
 
-      $ git clone git@github.com:cusyio/neural-network-tutorial.git
+      $ git clone git@github.com:AInvone/Intro-in-KI-Schulung.git
 
 #. Installieren von Python-Paketen:
 
