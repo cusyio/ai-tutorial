@@ -29,9 +29,9 @@ if os.environ.get("READTHEDOCS", "") == "True":
 # The master toctree document.
 master_doc = "index"
 
-project = "Neural Network Tutorial"
+project = "KI Schulung"
 author = "Min Ye, Veit Schiele"
-copyright = f"2024, {author}"
+copyright = f"2025, {author}"
 
 # The full version, including alpha/beta/rc tags
 release = re.sub("^v", "", os.popen("git describe --abbrev=0").read().strip())
@@ -53,6 +53,7 @@ extensions = [
     "sphinxext.opengraph",
     "sphinx_copybutton",
     "sphinx_inline_tabs",
+    'sphinx.ext.mathjax' # to allow mathematical formular
 ]
 
 # Add any paths that contain templates here, relative to this directory.
