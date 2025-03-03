@@ -97,7 +97,7 @@ Der MDP ist ein mathematisches Framework für die Modellierung von Entscheidungs
 Ein Zustand S_t ist dann und nur dann ein Markov-Zustand, wenn folgendes zutrifft: 
 
 .. math:: 
-   P[S_(t+1) | S_t] = P(S_(t+1) | S_1,S_2, ...,S_t)
+   P[S_{t+1} | S_t] = P(S_{t+1} | S_1,S_2, ...,S_t)
 
 Das heißt, dass der aktuelle Zustand des Roboters nur von seinem unmittelbar vorhergehenden Zustand (bzw. dem vorherigen Zeitschritt) abhängt und nicht von den weiteren vorherigen Zuständen. 
 
@@ -106,7 +106,7 @@ Das heißt, dass der aktuelle Zustand des Roboters nur von seinem unmittelbar vo
 Ein Markov-Prozess wird definiert von (S,P), wobei S die Menge aller Zustände ist und P die Übergangswahrscheinlichkeit von Zustand s nach Zustand s' ist:
 
 .. math:: 
-   P_s_s' = P[S_t_+_1 = s' | S_t=s]
+   P_{ss'} = P[S_{t+1} = s' | S_t = s]
 
 Das MDP-Framework besteht somit aus den folgenden Komponenten:
   

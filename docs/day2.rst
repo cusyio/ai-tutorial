@@ -274,6 +274,10 @@ Somit ist es auch Teil vom allgemeinen **CI/CD** (Continuous Integration/Continu
 
    **Abbildung 1:** Überblick über Training, Test und Inference Pipelines mit Active Learning.
 
+.. seealso::
+   https://github.com/veit/dvc-example/ 
+   
+   https://python4data.science/de/latest/productive/dvc/index.html 
 
 **Kapitel 12: Use Case Fallgruben – Diskussion zur Kundenabwanderung (Customer Churn Prediction)**
 ---------------------------------------------------------------------------------------------------
