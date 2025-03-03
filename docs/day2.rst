@@ -9,8 +9,7 @@ Tag 2: Vertiefung: Neuronale Netze, Deep Learning, Systemüberblick, Use Case Fa
 
 - Diskussion der zentralen Herausforderungen im ML: **Bias, Datenqualität, Modellinterpretierbarkeit.**
 
-- Quiz oder interaktive Übung zur Wiederholung.
-
+- Offene Fragen und Klarstellungen
 
 .. list-table:: Schulungsstruktur für Tag 2
    :header-rows: 1
@@ -311,5 +310,4 @@ Ein Telekommunikationsunternehmen möchte vorhersagen, ob ein Kunde abwandern wi
 - Wie könnte man ethische Fragestellungen (z. B. Diskriminierung) berücksichtigen?
 
 - Welche Maßnahmen könnte ein Unternehmen basierend auf den Vorhersagen ergreifen?
-
 

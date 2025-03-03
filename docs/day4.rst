@@ -1,10 +1,45 @@
 Tag 4: Generative KI
 =======================
 
-Das Neural Network Tutorial möchte euch einen praxisnahen Einstieg in neuronale
-Netze mit Python ermöglichen.
+**Recap der wichtigsten Themen des dritten Tages**
 
-Das Neural Network Tutorial ist Teil einer Reihe von Tutorials zur Datenanalyse
+- Wiederholung der zentralen Konzepte von **Reinforcement Learning**
+
+- **Q-Functions und ihre Rolle in Gradient Descent**
+
+- Diskussion über Anwendungen von **Reinforcement Learning**
+
+- Offene Fragen und Klarstellungen
+
+
+.. list-table:: Schulungsstruktur für KI-Grundlagen: Tag 4
+   :header-rows: 1
+
+   * - Kapitel
+     - Inhalte
+   * - Recap der wichtigsten Themen
+     - Wiederholung von Reinforcement Learning, Q-Learning
+   * - Einführung in Generative KI 
+     - Transformer Modelle, LLM, Agents
+   * - xxx
+     - Definition, ...
+   * - xxx
+     - Theorie, ...
+   * - Praxis: GenAI 
+     - Implementierung mit Python
+   * - Diskussion: Stärken und Schwächen der GenAI, Herausforderungen und Bottlenecks
+     - ... 
+
+
+Kapitel xxx. 
+------------
+
+Abschluss
+=========
+
+Weitere Referenzen: 
+
+Die Cusy hat bereits ein Neural Network Tutorial aufbereitet als Teil einer Reihe von Tutorials zur Datenanalyse
 und -visualisierung:
 
 * `Python Basics <https://python-basics-tutorial.readthedocs.io/de/latest/>`_
@@ -14,11 +49,7 @@ und -visualisierung:
 * `cusy Design-System: Datenvisualisierung
   <https://www.cusy.design/de/latest/viz/index.html>`_
 
-Alle Tutorials dienen als Seminarunterlagen für unsere aufeinander abgestimmten
-Trainings:
 
-Abschluss
-=========
 
 **Ethische Fragestellungen in der KI**
 
