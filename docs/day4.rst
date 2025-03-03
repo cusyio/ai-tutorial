@@ -19,25 +19,25 @@ Tag 4: Generative KI
      - Inhalte
    * - Recap der wichtigsten Themen
      - Wiederholung von Reinforcement Learning, Q-Learning
-   * - Einführung in Generative KI 
+   * - Einführung in Generative KI
      - Transformer Modelle, LLM, Agents
    * - xxx
      - Definition, ...
    * - xxx
      - Theorie, ...
-   * - Praxis: GenAI 
+   * - Praxis: GenAI
      - Implementierung mit Python
    * - Diskussion: Stärken und Schwächen der GenAI, Herausforderungen und Bottlenecks
-     - ... 
+     - ...
 
 
-Kapitel xxx. 
+Kapitel xxx.
 ------------
 
 Abschluss
 =========
 
-Weitere Referenzen: 
+Weitere Referenzen:
 
 Die Cusy hat bereits ein Neural Network Tutorial aufbereitet als Teil einer Reihe von Tutorials zur Datenanalyse
 und -visualisierung:
@@ -64,4 +64,3 @@ Mit der rasanten Entwicklung der KI gehen auch bedeutende ethische Fragen einher
 - **Verantwortung und Haftung:** Wer ist verantwortlich, wenn eine KI fehlerhafte oder schädliche Entscheidungen trifft?
 
 - **Datenschutz:** KI-Anwendungen erfordern oft große Datenmengen, was Datenschutzprobleme aufwirft.
-

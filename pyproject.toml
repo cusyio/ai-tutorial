@@ -15,12 +15,16 @@ classifiers = [
 ]
 
 dependencies = [
-    "tensorflow",
     "keras",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "tensorflow",
 ]
 
 [project.optional-dependencies]
 docs = [
+    "sphinx<8.2",
     "furo",
     "ipython",
     "ipywidgets",

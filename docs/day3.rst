@@ -1,5 +1,5 @@
 Tag 3: Reinforcement Learning (RL)
-=======================
+==================================
 
 **Recap der wichtigsten Themen des zweiten Tages**
 
@@ -11,7 +11,7 @@ Tag 3: Reinforcement Learning (RL)
 
 - Diskussion über Anwendungen von **CNNs für Bildklassifikation**
 
-- MLOps: Training, Testing, Inferencing, CI/CD 
+- MLOps: Training, Testing, Inferencing, CI/CD
 
 - Offene Fragen und Klarstellungen
 
@@ -49,57 +49,57 @@ Tag 3: Reinforcement Learning (RL)
 
 3. **Zustand (State):** Der aktuelle Status der Umgebung.
 
-4. **Aktion (Action):** Die Entscheidung, die der Agent in einem Zustand trifft. Wir kennen die Menge aller Aktionen, die der Agent im Voraus ausführen kann. 
+4. **Aktion (Action):** Die Entscheidung, die der Agent in einem Zustand trifft. Wir kennen die Menge aller Aktionen, die der Agent im Voraus ausführen kann.
 
 5. **Belohnung (Reward):** Das Signal, das die Qualität einer Aktion beschreibt.
 
-6. **Policy (Strategie):** Die Strategie bestimmt, welche Aktion in welchem Zustand gewählt wird. 
-Die Strategie ist der "Denkprozess", der der Auswahl einer Aktion zugrunde liegt. 
-Meist handelt es sich hierbei um eine Wahrscheinlichkeitsverteilung, die der Menge der Aktionen zugewiesen wird. 
-Aktionen mit hoher Belohnung haben eine hohe Wahrscheinlichkeit und vice versa. Wenn eine Aktion eine niedrige Wahrscheinlichkeit hat, bedeutet es aber nicht, dass sie gar nicht ausgewählt wird. Deren Wahl passiert nur weniger wahrscheinlich. 
+6. **Policy (Strategie):** Die Strategie bestimmt, welche Aktion in welchem Zustand gewählt wird.
+Die Strategie ist der "Denkprozess", der der Auswahl einer Aktion zugrunde liegt.
+Meist handelt es sich hierbei um eine Wahrscheinlichkeitsverteilung, die der Menge der Aktionen zugewiesen wird.
+Aktionen mit hoher Belohnung haben eine hohe Wahrscheinlichkeit und vice versa. Wenn eine Aktion eine niedrige Wahrscheinlichkeit hat, bedeutet es aber nicht, dass sie gar nicht ausgewählt wird. Deren Wahl passiert nur weniger wahrscheinlich.
 
 7. **Wertfunktion (Value Function):** Erwartete zukünftige Belohnung eines Zustands.
 
 
 **Beispiel zur Veranschaulichung**
 
-Stellen wir uns einen Roboter in neinem Raum vor, der selbst erlernen soll, wie er am besten zum Ausgang findet. 
+Stellen wir uns einen Roboter in neinem Raum vor, der selbst erlernen soll, wie er am besten zum Ausgang findet.
 
-- Der **Agent** ist der Roboter. 
+- Der **Agent** ist der Roboter.
 
-- Die **Umgebung** ist der Raum mit Wänden, potenziellen Hindernissen und dem Ausgang. 
+- Die **Umgebung** ist der Raum mit Wänden, potenziellen Hindernissen und dem Ausgang.
 
-- Der **Zustand** beschreibt die aktuelle Position des Roboters im Raum. 
+- Der **Zustand** beschreibt die aktuelle Position des Roboters im Raum.
 
 - Die **Aktionen** bestehen aus vier Bewegungsmöglichkeiten: **oben, unten, links, rechts**. (in 2D-Darstellung)
 
-- Die **Belohnung** beträgt **+1**, wenn der Roboter den Ausgang findet, und **-1**, wenn er gegen eine Wand läuft. 
+- Die **Belohnung** beträgt **+1**, wenn der Roboter den Ausgang findet, und **-1**, wenn er gegen eine Wand läuft.
 
-- Die **Policy (Strategie)** bestimmt, welche Aktion der Roboter in welchem Zustand ausführt. 
+- Die **Policy (Strategie)** bestimmt, welche Aktion der Roboter in welchem Zustand ausführt.
 
-- Die **Wertfunktion** bewertet, wie vorteihaft ein Zustand langfristig ist. 
+- Die **Wertfunktion** bewertet, wie vorteihaft ein Zustand langfristig ist.
 
-Das Ziel des Roboters liegt darin, durch **Versuch und Irrtum** (Trial and Error) die optimale **Strategie** zu lernen, um den Ausgang so effizient wie möglich zu erreichen. 
+Das Ziel des Roboters liegt darin, durch **Versuch und Irrtum** (Trial and Error) die optimale **Strategie** zu lernen, um den Ausgang so effizient wie möglich zu erreichen.
 
 ---
 
 **Kapitel 14: Markov-Entscheidungsprozesse (MDP)**
 
-Die meisten der Reinforment Learning Probleme können mit dem Framework des Markov-Entscheidungsprozess (Markov Decision Process, MDP) gelöst werden. 
+Die meisten der Reinforment Learning Probleme können mit dem Framework des Markov-Entscheidungsprozess (Markov Decision Process, MDP) gelöst werden.
 
-Der MDP ist ein mathematisches Framework für die Modellierung von Entscheidungsproblemen, bei denen die Ergebnisse teilweise zufällig und teilweise kontrollierbar sind. 
+Der MDP ist ein mathematisches Framework für die Modellierung von Entscheidungsproblemen, bei denen die Ergebnisse teilweise zufällig und teilweise kontrollierbar sind.
 
 **Recap**
 ---------
 
-**Markov-Eigenschaft** 
+**Markov-Eigenschaft**
 
-Ein Zustand S_t ist dann und nur dann ein Markov-Zustand, wenn folgendes zutrifft: 
+Ein Zustand S_t ist dann und nur dann ein Markov-Zustand, wenn folgendes zutrifft:
 
 .. math:: 
    P[S_{t+1} | S_t] = P(S_{t+1} | S_1,S_2, ...,S_t)
 
-Das heißt, dass der aktuelle Zustand des Roboters nur von seinem unmittelbar vorhergehenden Zustand (bzw. dem vorherigen Zeitschritt) abhängt und nicht von den weiteren vorherigen Zuständen. 
+Das heißt, dass der aktuelle Zustand des Roboters nur von seinem unmittelbar vorhergehenden Zustand (bzw. dem vorherigen Zeitschritt) abhängt und nicht von den weiteren vorherigen Zuständen.
 
 **Markov-Prozess**
 
@@ -109,12 +109,12 @@ Ein Markov-Prozess wird definiert von (S,P), wobei S die Menge aller Zustände i
    P_{ss'} = P[S_{t+1} = s' | S_t = s]
 
 Das MDP-Framework besteht somit aus den folgenden Komponenten:
-  
+
   1. **S** – Menge aller möglichen Zustände: alle möglichen und erlaubten Positionen im Raum.
 
   2. **A** – Menge aller möglichen Aktionen: die vier Bewegungsmöglichkeiten oben, unten, links, rechts.
 
-  3. **P(s' | s, a)** – Übergangswahrscheinlichkeit von Zustand \(s\) zu \(s'\) nach Aktion \(a\): die Wahrscheinlichkeit, dass der Roboter nach der Aktion in einen neuen Zustand übergeht. 
+  3. **P(s' | s, a)** – Übergangswahrscheinlichkeit von Zustand \(s\) zu \(s'\) nach Aktion \(a\): die Wahrscheinlichkeit, dass der Roboter nach der Aktion in einen neuen Zustand übergeht.
 
   4. **R(s, a)** – Belohnung für das Ausführen von Aktion \(a\) in Zustand \(s\).
 
@@ -133,10 +133,10 @@ In "Q-Learning" bezieht sich "Q" auf die Zielfunktion, die der Algorithmus berec
 - Speichert eine **Q-Tabelle**, die Werte für jede **(Zustand, Aktion)-Kombination** enthält.
 
 - Aktualisiert sich mit der **Bellman-Gleichung:**
-  
+
   .. math::
      Q(s,a) = Q(s,a) + \alpha (R + \gamma \max Q(s',a') - Q(s,a))
-  
+
 - Verwendet **Exploration vs. Exploitation:**
 
   - **Exploration:** Zufällige Aktionen testen, um neue Strategien zu entdecken.
@@ -173,9 +173,11 @@ In "Q-Learning" bezieht sich "Q" auf die Zielfunktion, die der Algorithmus berec
                action = env.action_space.sample()
            else:
                action = np.argmax(Q[state])
-           
+
            next_state, reward, done, _, _ = env.step(action)
-           Q[state, action] += alpha * (reward + gamma * np.max(Q[next_state]) - Q[state, action])
+           Q[state, action] += alpha * (
+               reward + gamma * np.max(Q[next_state]) - Q[state, action]
+           )
            state = next_state
 
    print("Q-Tabelle:")

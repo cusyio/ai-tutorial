@@ -4,7 +4,7 @@ Einführung in KI
 
 Die Schulung "Einführung in KI" ermöglicht euch einen praxisnahen Einstieg in KI mit Python.
 
-Die Schulung ist aufgebaut in 4 Blöcken und hat folgende Hauptbestandteile: 
+Die Schulung ist aufgebaut in 4 Blöcken und hat folgende Hauptbestandteile:
 
 Alle Tutorials dienen als Seminarunterlagen für unsere aufeinander abgestimmten
 Trainings:
@@ -65,8 +65,8 @@ Zusatzmaterialien:
    :hidden:
    :titlesonly:
    :maxdepth: 0
-   
-   day1
+
+   intro/index
    day2
    day3
    day4
