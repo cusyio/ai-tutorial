@@ -67,8 +67,8 @@ Zusatzmaterialien:
    :maxdepth: 0
 
    intro/index
-   day2
-   day3
+   day2/index
+   reinforce_learn/index
    day4
    changelog
 

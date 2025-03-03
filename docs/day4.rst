@@ -1,4 +1,4 @@
-Tag 4: Generative KI
+Generative KI
 =======================
 
 **Recap der wichtigsten Themen des dritten Tages**
