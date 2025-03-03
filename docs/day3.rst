@@ -13,6 +13,8 @@ Tag 3: Reinforcement Learning (RL)
 
 - Diskussion über Anwendungen von **CNNs für Bildklassifikation**
 
+- Systemüberblick Training, Testing, Inferencing, CI/CD 
+
 - Offene Fragen und Klarstellungen
 
 

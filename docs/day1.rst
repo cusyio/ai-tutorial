@@ -819,55 +819,7 @@ Kapitel 6: Praktische Einführung: Lineare Regression
 
    - Vorhersagen treffen und mit Metriken wie dem mittleren quadratischen Fehler (MSE) bewerten.
 
-**Code-Beispiel: Lineare Regression mit scikit-learn**
-
-.. code-block:: python
-
-   import numpy as np
-   import matplotlib.pyplot as plt
-   from sklearn.model_selection import train_test_split
-   from sklearn.linear_model import LinearRegression
-   from sklearn.metrics import mean_squared_error
-
-   # Beispiel-Datensatz erstellen
-   np.random.seed(42)
-   X = 2 * np.random.rand(100, 1)
-   y = 4 + 3 * X + np.random.randn(100, 1)
-
-   # Aufteilung in Trainings- und Testdaten
-   X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-   # Modell erstellen und trainieren
-   model = LinearRegression()
-   model.fit(X_train, y_train)
-
-   # Vorhersagen treffen
-   y_pred = model.predict(X_test)
-
-   # Modellbewertung
-   mse = mean_squared_error(y_test, y_pred)
-   print(f'Mittlerer quadratischer Fehler (MSE): {mse}')
-
-   # Visualisierung
-   plt.scatter(X_test, y_test, color='blue', label='Tatsächliche Werte')
-   plt.plot(X_test, y_pred, color='red', linewidth=2, label='Vorhersagen')
-   plt.legend()
-   plt.xlabel('X')
-   plt.ylabel('y')
-   plt.title('Lineare Regression mit scikit-learn')
-   plt.show()
-
-**Erklärung des Codes:**
-
-- Wir generieren synthetische Daten mit einer linearen Beziehung und fügen zufällige Schwankungen hinzu.
-
-- Wir teilen die Daten in **Trainings- und Testsets**, um eine objektive Modellbewertung zu ermöglichen.
-
-- Mit `LinearRegression().fit()` trainieren wir unser Modell.
-
-- Wir verwenden `mean_squared_error()`, um die Modellgenauigkeit zu messen.
-
-- Schließlich visualisieren wir die tatsächlichen und vorhergesagten Werte, um die Modellleistung zu interpretieren.
+**Code-Beispiel: siehe unten**
 
 
 Kapitel 7: Fallstudie: Vorhersage von Immobilienpreisen

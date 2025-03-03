@@ -9,17 +9,17 @@ Die Schulung ist aufgebaut in 4 Blöcken und hat folgende Hauptbestandteile:
 Alle Tutorials dienen als Seminarunterlagen für unsere aufeinander abgestimmten
 Trainings:
 
-+---------------+---------------------------------------------------------------+
-| Dauer         | Titel                                                         |
-+===============+===============================================================+
-| Tag 1         | `Einführung, Überwachtes Lernen, Regression`                  |
-+---------------+---------------------------------------------------------------+
-| Tag 2         | `Unüberwachtes Lernen, Klassifilation, Use Case Fallgruben`   |
-+---------------+---------------------------------------------------------------+
-| Tag 3         | `Reinforcement Learning`                                      |
-+---------------+---------------------------------------------------------------+
-| Tag 4         | `Generative KI - Einführung`                                  |
-+---------------+---------------------------------------------------------------+
++---------------+-----------------------------------------------------------------------------+
+| Dauer         | Titel                                                                       |
++===============+=============================================================================+
+| Tag 1         | `Einführung, Überwachtes Lernen, Regression`                                |
++---------------+-----------------------------------------------------------------------------+
+| Tag 2         | `Unüberwachtes Lernen, Klassifikation, Systemüberblick, Use Case Fallgruben`|
++---------------+-----------------------------------------------------------------------------+
+| Tag 3         | `Reinforcement Learning`                                                    |
++---------------+-----------------------------------------------------------------------------+
+| Tag 4         | `Generative KI - Einführung`                                                |
++---------------+-----------------------------------------------------------------------------+
 
 .. _`Einführung in Python`:
    https://cusy.io/de/unsere-schulungsangebote/einfuehrung-in-python
