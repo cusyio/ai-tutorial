@@ -15,8 +15,11 @@ classifiers = [
 ]
 
 dependencies = [
-    "tensorflow",
     "keras",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "tensorflow",
 ]
 
 [project.optional-dependencies]
