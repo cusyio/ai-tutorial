@@ -66,10 +66,10 @@ Zusatzmaterialien:
    :titlesonly:
    :maxdepth: 0
 
-   intro/index
-   day2/index
-   reinforce_learn/index
-   day4
+   1intro/index
+   2deep_ml_ops/index
+   3reinforce_learn/index
+   4gen_ai/index
    changelog
 
 .. Indices and tables

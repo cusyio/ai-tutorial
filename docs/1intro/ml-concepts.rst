@@ -138,7 +138,7 @@ Reinforcement Learning (Bestärkendes Lernen, RL)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. seealso::
-   * :doc:`../day3`
+   * :doc:`../3reinforce_learn/index`
 
 Definition
 ::::::::::

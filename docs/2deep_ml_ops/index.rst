@@ -11,7 +11,7 @@ Vertiefung: Neuronale Netze, Deep Learning, Systemüberblick, Use Case Fallgrube
 
 - Offene Fragen und Klarstellungen
 
-.. list-table:: Schulungsstruktur für Tag 2
+.. list-table:: 
    :header-rows: 1
 
    * - Kapitel

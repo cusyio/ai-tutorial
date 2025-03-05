@@ -20,6 +20,11 @@ dependencies = [
     "pandas",
     "scikit-learn",
     "tensorflow",
+    "jupyter", 
+    "time",
+    "torch",
+    "transformers",
+    "datasets"
 ]
 
 [project.optional-dependencies]

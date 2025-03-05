@@ -8,7 +8,7 @@ praktischer Implementierungen veranschaulicht.
 Gliederung
 ----------
 
-.. list-table:: Schulungsstruktur für KI-Grundlagen: Tag 1
+.. list-table:: 
    :header-rows: 1
 
    * - Kapitel

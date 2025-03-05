@@ -16,7 +16,7 @@ Reinforcement Learning (RL)
 - Offene Fragen und Klarstellungen
 
 
-.. list-table:: Schulungsstruktur für KI-Grundlagen: Tag 3
+.. list-table:: 
    :header-rows: 1
 
    * - Kapitel
@@ -40,3 +40,4 @@ Reinforcement Learning (RL)
    def
    mdp
    qlearn
+   reinforcement_robotgridexit
