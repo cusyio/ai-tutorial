@@ -15,16 +15,16 @@ classifiers = [
 ]
 
 dependencies = [
+    "datasets",
+    "dedupe",
+    "jupyter",
     "keras",
     "numpy",
     "pandas",
     "scikit-learn",
     "tensorflow",
-    "jupyter", 
-    "time",
     "torch",
     "transformers",
-    "datasets"
 ]
 
 [project.optional-dependencies]
