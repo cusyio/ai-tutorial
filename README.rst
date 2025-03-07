@@ -4,15 +4,15 @@ Schnelleinstieg
 Status
 ------
 
-.. image:: https://img.shields.io/github/contributors/cusyio/neural-network-tutorial.svg
+.. image:: https://img.shields.io/github/contributors/cusyio/ai-tutorial.svg
    :alt: Contributors
-   :target: https://github.com/cusyio/neural-network-tutorial/graphs/contributors
-.. image:: https://img.shields.io/github/license/cusyio/neural-network-tutorial.svg
+   :target: https://github.com/cusyio/ai-tutorial/graphs/contributors
+.. image:: https://img.shields.io/github/license/cusyio/ai-tutorial.svg
    :alt: License
-   :target: https://github.com/cusyio/neural-network-tutorial/blob/main/LICENSE
-.. image:: https://readthedocs.org/projects/neural-network-tutorial/badge/?version=latest
+   :target: https://github.com/cusyio/ai-tutorial/blob/main/LICENSE
+.. image:: https://readthedocs.org/projects/ai-tutorial/badge/?version=latest
    :alt: Docs
-   :target: https://neural-network-tutorial.readthedocs.io/de/latest/
+   :target: https://ai-tutorial.readthedocs.io/de/latest/
 
 Installation
 ------------
@@ -21,7 +21,7 @@ Installation
 
    .. code-block:: console
 
-      $ git clone git@github.com:cusyio/neural-network-tutorial.git
+      $ git clone git@github.com:cusyio/ai-tutorial.git
 
 #. Installieren von Python-Paketen:
 
@@ -100,18 +100,18 @@ Installation
 Folgt uns
 ---------
 
-* `GitHub <https://github.com/cusyio/neural-network-tutorial>`_
+* `GitHub <https://github.com/cusyio/ai-tutorial>`_
 
 Pull-Requests
 -------------
 
 Wenn ihr Vorschläge für Verbesserungen und Ergänzungen habt, empfehlen wir euch,
-einen `Fork <https://github.com/cusyio/neural-network-tutorial/fork>`_ unseres
-`GitHub Repository <https://github.com/cusyio/neural-network-tutorial/>`_ zu
+einen `Fork <https://github.com/cusyio/ai-tutorial/fork>`_ unseres
+`GitHub Repository <https://github.com/cusyio/ai-tutorial/>`_ zu
 erstellen und eure Änderungen dort zu machen. Bevor ihr Commits macht,
 überprüft, ob die pre-commit-Checks erfolgreich durchlaufen:
 
 .. code-block:: console
 
-   $ cd neural-network-tutorial
+   $ cd ai-tutorial
    $ pre-commit install

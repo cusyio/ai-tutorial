@@ -1,12 +1,13 @@
-=======================
-Neural Network Tutorial
-=======================
+===========
+AI-Tutorial
+===========
 
-Das Neural Network Tutorial möchte euch einen praxisnahen Einstieg in neuronale
-Netze mit Python ermöglichen.
+Das :abbr:`AI (Artificial intelligence, engl.: Künstliche Intelligenz)`-Tutorial
+möchte euch einen praxisnahen Einstieg in `Künstliche Intelligenz
+<https://de.wikipedia.org/wiki/A.I._–_Künstliche_Intelligenz>`_ mit Python
+ermöglichen.
 
-Das Neural Network Tutorial ist Teil einer Reihe von Tutorials zur Datenanalyse
-und -visualisierung:
+Es ist Teil einer Reihe von Tutorials zur Datenanalyse und -visualisierung:
 
 * `Python Basics <https://python-basics-tutorial.readthedocs.io/de/latest/>`_
 * `Jupyter-Tutorial <https://jupyter-tutorial.readthedocs.io/de/latest/>`_
