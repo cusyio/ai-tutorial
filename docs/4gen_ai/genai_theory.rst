@@ -105,9 +105,16 @@ Ein typischer Transformer-Block besteht somit aus:
 
 4. Add & Norm (erneut Residual-Verbindung plus Layer-Normalization)
 
-Transformer-wikipedia: https://de.wikipedia.org/wiki/Transformer_%28Maschinelles_Lernen%29#/media/Datei:Transformer,_full_architecture.png 
 
-Transformer-diagram: https://raw.githubusercontent.com/dvgodoy/dl-visuals/main/Transformers/full_transformer.png 
+.. figure:: ../_static/images/04_transformer_diagram.png
+   :alt: Transformer-Modellarchitektur
+   :align: center
+   :width: 700px
+
+   **Abbildung 1:** Transformer-Modellarchitektur mit originaler Position der Layer-Normalisierung. [#]_ [#]_
+
+
+
 
 
 Optimierungsalgorithmen
@@ -169,3 +176,10 @@ Die Parameter werden dann aktualisiert mittels:
 Adam vereint somit die Vorteile von AdaGrad und RMSProp und ist weit verbreitet, weil es die Lernraten dynamisch anpasst und stabile Konvergenzen auch in tiefen Netzwerken ermöglicht.
 
 Die Wahl und Konfiguration des Optimierungsalgorithmus ist entscheidend für die Trainingsdynamik und die Leistungsfähigkeit des endgültigen Modells.
+
+----
+
+.. rubric:: Footnotes
+
+.. [#] Transformer-wikipedia: https://de.wikipedia.org/wiki/Transformer_%28Maschinelles_Lernen%29#/media/Datei:Transformer,_full_architecture.png 
+.. [#] Transformer-diagram: https://raw.githubusercontent.com/dvgodoy/dl-visuals/main/Transformers/full_transformer.png 

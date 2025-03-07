@@ -47,8 +47,10 @@ https://de.wikipedia.org/wiki/Tay_(Bot)
 
    genai_intro
    genai_theory
-   genai_infrastructure
-   cusy_genai
+   genai_infrastructure 
+   genai_llm
+   llm_1
+   llm_2
    genai_agents
    regulatory
    abschluss
