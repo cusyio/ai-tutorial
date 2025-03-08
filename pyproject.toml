@@ -15,12 +15,21 @@ classifiers = [
 ]
 
 dependencies = [
-    "tensorflow",
+    "datasets",
+    "dedupe",
+    "jupyter",
     "keras",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "tensorflow",
+    "torch",
+    "transformers",
 ]
 
 [project.optional-dependencies]
 docs = [
+    "sphinx<8.2",
     "furo",
     "ipython",
     "ipywidgets",

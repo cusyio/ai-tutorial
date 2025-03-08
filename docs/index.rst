@@ -7,6 +7,20 @@ möchte euch einen praxisnahen Einstieg in `Künstliche Intelligenz
 <https://de.wikipedia.org/wiki/A.I._–_Künstliche_Intelligenz>`_ mit Python
 ermöglichen.
 
+Das Tutorial ist aufgebaut in vier Blöcken und hat folgende Hauptbestandteile:
+
++---------------+-----------------------------------------------------------------------------+
+| Dauer         | Titel                                                                       |
++===============+=============================================================================+
+| Tag 1         | `Einführung, Überwachtes Lernen, Regression`                                |
++---------------+-----------------------------------------------------------------------------+
+| Tag 2         | `Unüberwachtes Lernen, Klassifikation, Systemüberblick, Use Case Fallgruben`|
++---------------+-----------------------------------------------------------------------------+
+| Tag 3         | `Reinforcement Learning`                                                    |
++---------------+-----------------------------------------------------------------------------+
+| Tag 4         | `Generative KI - Einführung`                                                |
++---------------+-----------------------------------------------------------------------------+
+
 Es ist Teil einer Reihe von Tutorials zur Datenanalyse und -visualisierung:
 
 * `Python Basics <https://python-basics-tutorial.readthedocs.io/de/latest/>`_
@@ -18,44 +32,6 @@ Es ist Teil einer Reihe von Tutorials zur Datenanalyse und -visualisierung:
 
 Alle Tutorials dienen als Seminarunterlagen für unsere aufeinander abgestimmten
 Trainings:
-
-+---------------+--------------------------------------------------------------+
-| Dauer         | Titel                                                        |
-+===============+==============================================================+
-| 3 Tage        | `Einführung in Python`_                                      |
-+---------------+--------------------------------------------------------------+
-| 2 Tage        | `Fortgeschrittenes Python`_                                  |
-+---------------+--------------------------------------------------------------+
-| 2 Tage        | `Entwurfsmuster in Python`_                                  |
-+---------------+--------------------------------------------------------------+
-| 2 Tage        | `Effizient Testen mit Python`_                               |
-+---------------+--------------------------------------------------------------+
-| 1 Tag         | `Software-Dokumentation mit Sphinx`_                         |
-+---------------+--------------------------------------------------------------+
-| 2 Tage        | `Technisches Schreiben`_                                     |
-+---------------+--------------------------------------------------------------+
-| 3 Tage        | `Jupyter-Notebooks für effiziente Data-Science-Workflows`_   |
-+---------------+--------------------------------------------------------------+
-| 2 Tage        | `Numerische Berechnungen mit NumPy`_                         |
-+---------------+--------------------------------------------------------------+
-| 2 Tage        | `Daten analysieren mit pandas`_                              |
-+---------------+--------------------------------------------------------------+
-| 3 Tage        | `Daten lesen, schreiben und bereitstellen mit Python`_       |
-+---------------+--------------------------------------------------------------+
-| 2 Tage        | `Daten bereinigen und validieren mit Python`_                |
-+---------------+--------------------------------------------------------------+
-| 5 Tage        | `Daten visualisieren mit Python`_                            |
-+---------------+--------------------------------------------------------------+
-| 1 Tag         | `Datenvisualisierungen gestalten`_                           |
-+---------------+--------------------------------------------------------------+
-| 2 Tage        | `Dashboards erstellen`_                                      |
-+---------------+--------------------------------------------------------------+
-| 3 Tage        | `Code und Daten versioniert und reproduzierbar speichern`_   |
-+---------------+--------------------------------------------------------------+
-| Abonnement    | `Neues aus Python für Data-Science`_                         |
-| à 2 h im      |                                                              |
-| Quartal       |                                                              |
-+---------------+--------------------------------------------------------------+
 
 .. _`Einführung in Python`:
    https://cusy.io/de/unsere-schulungsangebote/einfuehrung-in-python
@@ -95,6 +71,10 @@ Trainings:
    :titlesonly:
    :maxdepth: 0
 
+   1intro/index
+   2deep_ml_ops/index
+   3reinforce_learn/index
+   4gen_ai/index
    changelog
 
 .. Indices and tables

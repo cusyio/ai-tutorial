@@ -31,7 +31,7 @@ master_doc = "index"
 
 project = "AI-Tutorial"
 author = "Min Ye, Veit Schiele"
-copyright = f"2024, {author}"
+copyright = f"2025, {author}"
 
 # The full version, including alpha/beta/rc tags
 release = re.sub("^v", "", os.popen("git describe --abbrev=0").read().strip())
@@ -53,6 +53,7 @@ extensions = [
     "sphinxext.opengraph",
     "sphinx_copybutton",
     "sphinx_inline_tabs",
+    "sphinx.ext.mathjax",  # to allow mathematical formular
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -145,6 +146,8 @@ nbsphinx_allow_errors = True
 
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3", None),
+    "Python4DataScience": ("https://www.python4data.science/de/latest", None),
+    "PyViz": ("https://pyviz-tutorial.readthedocs.io/de/latest", None),
 }
 
 
