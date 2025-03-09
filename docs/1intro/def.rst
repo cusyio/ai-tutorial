@@ -1,6 +1,8 @@
 Definition von Künstlicher Intelligenz
 ======================================
 
+Was ist die **Künstliche Intelligenz (KI)**? 
+
 Künstliche Intelligenz (KI) bezeichnet die Fähigkeit eines Computers oder einer
 Maschine, menschenähnliche kognitive Funktionen auszuführen. Dazu gehören
 Aufgaben wie Lernen, Problemlösung, Mustererkennung und Entscheidungsfindung.
@@ -17,12 +19,13 @@ Die Entwicklung der KI lässt sich in mehrere Phasen einteilen:
     * Erste Algorithmen zur symbolischen Verarbeitung und regelbasierten Systeme
       wurden entwickelt.
     * Alan Turings berühmter `Turing-Test
-      <https://de.wikipedia.org/wiki/Turing-Test>`_ stellte eine frühe Methode
-      zur Bewertung der Intelligenz einer Maschine vor.
+      <https://de.wikipedia.org/wiki/Turing-Test>`_ stellte eine `frühe Methode
+      zur Bewertung der Intelligenz einer Maschine 
+      <https://de.wikipedia.org/wiki/Turing-Test#/media/Datei:Turing-Test_ger_ABC.png>`_ vor.
     * In den 1960er Jahren entstanden erste Expertensysteme, die regelbasierte
       Entscheidungsfindung ermöglichten.
 
-1980er–1990er: Erste Fortschritte und Rückschläge**
+1980er–1990er: Erste Fortschritte und Rückschläge
     * KI erlebte durch das Aufkommen von neuronalen Netzen und maschinellem
       Lernen einen Aufschwung.
     * Aufgrund hoher Rechenkosten und begrenzter Datenverfügbarkeit flachte das
@@ -39,8 +42,11 @@ Unterschiedliche Formen der Künstlichen Intelligenz
 
 KI kann auf verschiedene Art und Weisen in verschiedene Kategorien unterteilt
 werden. Eine Möglichkeit ist die Kategorisierung nach ihrem Funktionsumfang und
-ihren Anwendungsmöglichkeiten, wie von Prof. Arend Hintze definiert, Forscher
-und Professor der Integrative Biology an der Michigan State University:
+ihren Anwendungsmöglichkeiten, wie von Prof. Arend Hintze, Forscher
+und Professor der Integrative Biology an der Michigan State University, in dessen 
+`Understanding the four types of AI, from reactive robots to self-aware beings 
+<https://theconversation.com/understanding-the-four-types-of-ai-from-reactive-robots-to-self-aware-beings-67616>`_ 
+definierte:
 
 #. Reaktive KI (Reactive AI)
 
@@ -98,9 +104,9 @@ Prädiktive vs. Generative KI
 ----------------------------
 
 Die aktuell in der Industrie gängigen Formen der KI lassen sind insbesondere in
-**prädiktive KI** und **generative KI** unterscheiden:
+**prädiktive KI** (Predictive AI) und **generative KI** (Generative AI) unterscheiden:
 
-#. Prädiktive KI
+1. Prädiktive KI
 
    * Diese KI nutzt historische Daten, um **zukünftige Ereignisse
      vorherzusagen**.
@@ -138,20 +144,20 @@ Bedeutung dieser Unterscheidung
 Anwendungsfälle von KI
 ----------------------
 
-KI findet heute in zahlreichen Bereichen Anwendung, darunter:
+KI findet heute in zahlreichen Bereichen Anwendung, hier sind nur eine Beispiele aufgelistet:
 
-Gesundheitswesen
+Gesundheitswesen:
     Diagnosestellung durch KI-gestützte Bildverarbeitung,
     Medikamentenentwicklung.
-Finanzwesen
+Finanzwesen:
     Automatische Betrugserkennung, algorithmischer Handel.
-Industrie
+Industrie:
     Automatisierung von Prozessen, Qualitätskontrolle in der Fertigung.
-Autonome Systeme
+Autonome Systeme:
     Selbstfahrende Autos, Drohnen, Robotersteuerung.
-Sprachverarbeitung
+Sprachverarbeitung:
     Sprachassistenten wie Siri, Alexa oder Google Assistant.
-Kreative Anwendungen
+Kreative Anwendungen:
     Generierung von Texten, Musik und Kunst durch KI.
 
 Ethische Fragestellungen in der KI
@@ -160,15 +166,15 @@ Ethische Fragestellungen in der KI
 Mit der rasanten Entwicklung der KI gehen auch bedeutende ethische Fragen
 einher:
 
-Bias und Diskriminierung
-    KI-Modelle können bestehende Vorurteile aus Trainingsdaten übernehmen.
-Arbeitsplatzverdrängung
+Bias und Diskriminierung: 
+    KI-Modelle können bestehende Vorurteile aus den gegebenen Trainingsdaten übernehmen.
+Arbeitsplatzverdrängung: 
     Automatisierung kann menschliche Arbeitsplätze gefährden.
-Transparenz und Erklärbarkeit
+Transparenz und Erklärbarkeit: 
     Viele KI-Modelle, insbesondere Deep Learning, sind schwer zu interpretieren.
-Verantwortung und Haftung
+Verantwortung und Haftung: 
     Wer ist verantwortlich, wenn eine KI fehlerhafte oder schädliche
     Entscheidungen trifft?
-Datenschutz
+Datenschutz: 
     KI-Anwendungen erfordern oft große Datenmengen, was Datenschutzprobleme
     aufwirft.

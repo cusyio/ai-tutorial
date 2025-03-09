@@ -2,17 +2,15 @@ Maschinelles Lernen (ML): Konzepte und Typen
 ============================================
 
 .. note::
-  **TODO: MIT CODE BEISPIEL!**
-  https://www.python4data.science/de/latest/productive/dvc/dag.html
+.. https://www.python4data.science/de/latest/productive/dvc/dag.html
 
-Definition und Konzepte des Maschinellen Lernens (ML)
------------------------------------------------------
+Was ist **Maschinellen Lernens (Machine Learning)**? 
 
 Maschinelles Lernen (Machine Learning, ML) ist ein Teilgebiet der Künstlichen
-Intelligenz, das Computern ermöglicht, aus Daten zu lernen, anstatt explizit
+Intelligenz, das es Computern ermöglicht, aus Daten zu lernen, anstatt explizit
 programmiert zu werden. Es gibt drei Hauptarten des ML:
 
-Überwachtes Lernen (Supervised Learning)
+1. Überwachtes Lernen (Supervised Learning)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Beim **überwachten Lernen** werden Modelle mit **gelabelten Daten** trainiert.
@@ -53,7 +51,7 @@ Modellbewertung
 * Typische Metriken: Genauigkeit, Präzision, Recall und F1-Score, Mean Squared
   Error (MSE).
 
-Unüberwachtes Lernen (Unsupervised Learning)
+2. Unüberwachtes Lernen (Unsupervised Learning)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Beim **unüberwachten Lernen** gibt es **keine gelabelten Daten**.
@@ -92,7 +90,6 @@ Dimensionsreduktion
 Theoretische Konzepte des Unüberwachten Lernens
 :::::::::::::::::::::::::::::::::::::::::::::::
 
-
 Clustering-Algorithmen
 ......................
 
@@ -112,8 +109,16 @@ PCA (Principal Component Analysis)
 t-SNE (t-Distributed Stochastic Neighbor Embedding)
     visualisiert komplexe Datensätze in 2D oder 3D.
 
+
 Vergleich: Überwachtes vs. Unüberwachtes Lernen
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: ../_static/images/day1-supervsed-unsupervised-learning.png
+   :alt: Überwachtes Lernen vs. Unüberwachtes Lernen
+   :align: center
+   :width: 700px
+
+   **Abbildung 1:** Überwachtes Lernen vs. Unüberwachtes Lernen 
 
 .. list-table:: Vergleich von Überwachtem und Unüberwachtem Lernen
   :header-rows: 1
@@ -134,7 +139,7 @@ Vergleich: Überwachtes vs. Unüberwachtes Lernen
     - Klassifikation, Regression
     - Clustering, Dimensionsreduktion
 
-Reinforcement Learning (Bestärkendes Lernen, RL)
+3. Reinforcement Learning (Bestärkendes Lernen, RL)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. seealso::
@@ -156,63 +161,68 @@ wie ein Mensch, der durch Erfahrung lernt.
 Grundprinzipien von Reinforcement Learning
 ::::::::::::::::::::::::::::::::::::::::::
 
-Agent
+Beim Reinforcement Learning wird ein "Agent" definiert, z.B. Roboter, der sich innerhalb einer Umgebung, z.B. in einem Raum, sich zurechtfinden soll, mit einem klar definierten Ziel vor dem Auge, z.B. den Ausgang zu finden. 
+Der Agent bekommt keine klare Schrittreihenfolge vorgeschrieben, sondern hat Anweisungen für schrittweises Handeln und muss selbst herausfinden, wie er sich am besten zum Ziel kommt.   
+
+Auf Details gehen wir in einem späteren Abschnitt dieser Schulung ein. 
+
+.. Agent
     Das KI-System, das lernt (:abbr:`z.B. (zum Beispiel)` ein Roboter, ein
     autonomes Auto, ein Schachprogramm).
-Umgebung (Environment)
+.. Umgebung (Environment)
     Alles außerhalb des Agents, mit dem er interagiert.
-Zustand (State)
+.. Zustand (State)
     Eine Momentaufnahme der Umgebung, die den Agenten beeinflusst.
-Aktion (Action)
+.. Aktion (Action)
     Eine Entscheidung, die der Agent in einem bestimmten Zustand trifft.
-Belohnung (Reward)
+.. Belohnung (Reward)
     Eine numerische Bewertung der Aktion, die dem Agenten signalisiert, ob er
     sich der optimalen Lösung nähert oder nicht.
-Richtlinien (Policy)
+.. Richtlinien (Policy)
     Eine Strategie, die den besten nächsten Schritt für den Agenten bestimmt.
-Qualitäts-Wert (Q-Value)
+.. Qualitäts-Wert (Q-Value)
     Eine Bewertung, wie gut eine bestimmte Aktion in einem Zustand langfristig
     ist.
 
 Beispiele für RL-Anwendungen
 ::::::::::::::::::::::::::::
 
-Spielstrategien
+Spielstrategien:
     AlphaGo von DeepMind besiegte menschliche Meister im Go-Spiel durch RL.
-Autonome Fahrzeuge
+Autonome Fahrzeuge:
     Lernen, sicher zu fahren, indem sie Belohnungen für sichere Entscheidungen
     erhalten.
-Robotik
+Robotik:
     Industrieroboter optimieren ihre Bewegungen, um Aufgaben effizienter zu
     erledigen.
-Algorithmischer Handel
+Algorithmischer Handel:
     KI-Agenten lernen, wann sie Aktien kaufen oder verkaufen sollen.
 
 Wichtige RL-Algorithmen
 :::::::::::::::::::::::
 
-Q-Learning
+Q-Learning:
     Eine tabellenbasierte Methode zur Speicherung der besten Aktionen.
-Deep Q-Networks (DQN)
+Deep Q-Networks (DQN):
     Eine Erweiterung von Q-Learning unter Verwendung von neuronalen Netzen.
-Policy-Gradient-Verfahren
+Policy-Gradient-Verfahren:
     Statt Werte zu lernen, lernt das Modell direkt eine optimale Strategie.
-Proximal Policy Optimization (PPO)
+Proximal Policy Optimization (PPO):
     Häufig in modernen RL-Anwendungen eingesetzt (z. B. bei OpenAI Gym).
 
 Herausforderungen im RL
 :::::::::::::::::::::::
 
-Exploration vs. Exploitation
+Exploration vs. Exploitation:
     Ein Agent muss entscheiden, ob er eine **neue Strategie** testet oder eine
     **bereits bekannte, aber möglicherweise nicht optimale** Strategie nutzt.
-Belohnungsdesign
+Belohnungsdesign:
     Ein schlecht definierter Belohnungsmechanismus kann dazu führen, dass das
     Modell unerwartete oder unerwünschte Strategien lernt.
-Rechenaufwand
+Rechenaufwand:
     RL benötigt oft viele Trainingsdurchläufe und Rechenleistung.
 
-Deep Learning (DL) als spezialisierte Form des ML
+4. Deep Learning (DL) als spezialisierte Form des ML
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Definition
@@ -237,6 +247,14 @@ Verborgene Schichten (Hidden Layers)
 Ausgangsschicht (Output Layer)
     Gibt das Ergebnis der Berechnung aus (:abbr:`z.B. (zum Beispiel)`
     Klassifizierung in „Hund“ oder „Katze“).
+
+
+.. figure:: ../_static/images/day1-neural-network.png
+   :alt: Neural Network Aufbau
+   :align: center
+   :width: 700px
+
+   **Abbildung 1:** Neural Network grober Aufbau 
 
 Arten von neuronalen Netzwerken
 :::::::::::::::::::::::::::::::
@@ -269,8 +287,10 @@ Herausforderungen im Deep Learning
 ::::::::::::::::::::::::::::::::::
 
 Erklärbarkeit
-    DL-Modelle sind oft **Black Boxes**, deren Entscheidungen schwer
-    nachvollziehbar sind.
+    DL-Modelle sind oft **Black Boxes**, deren Entscheidungen schwer nachvollziehbar sind. 
+    Früher hielt man generell alle Machine Learning Modelle für **Black Boxes**, aber dann hat man 
+    für die "traditionellere" ML-Modelle Wege gefunden, dass man von den Modell-Gewichten zu den Features zurückführen kann,
+    warum ein Modell diese Vorhersage getroffen hat, z.B. `shap <https://shap.readthedocs.io/en/latest/>`_ Bibliothek. 
 
 Datenbedarf
     Sehr große Mengen an **Trainingsdaten** sind notwendig.

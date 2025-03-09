@@ -23,8 +23,14 @@ Feature Engineering
 Definition
 ~~~~~~~~~~
 
-Feature Engineering ist die Kunst, relevante Eingangsvariablen für ein Modell zu
-erstellen.
+Feature Engineering ist die Kunst, relevante Eingangsvariablen für ein Modell zu erstellen. 
+
+Beachte, dass Feature Engineering vor allem bei den klassischen Machine-Learning Modellen  
+eine wichtige Rolle spielt und entscheidend für die Modell Performance ist. 
+
+Bei den späteren leistungsfähigeren Modellen, z.B. Deep Learning, kann man oft auf intensive Feature Engineering
+verzichten, und das Modell selbst die wichtigsten Features oder Dimensionen in den Daten finden lassen. 
+Allerdings setzt das genügend leistungsfähige Hardware und Datenqualität vor allem Datenmenge voraus. 
 
 Beispiel
 ~~~~~~~~
@@ -59,10 +65,3 @@ Modelltraining und Optimierung
   4. **Modellbewertung:** Verwendung von Metriken wie Genauigkeit, F1-Score oder Mean Squared Error zur Bewertung der Vorhersagequalität.
 
   5. **Modellbereitstellung:** Einsatz des trainierten Modells in einer produktiven Umgebung.
-
-Praxisbeispiel: Modelltraining in Python
-----------------------------------------
-
-- Implementierung eines einfachen ML-Modells mit scikit-learn zur Vorhersage von Hauspreisen.
-
-- Demonstration von Datenvorbereitung, Feature Engineering und Modelltraining.
