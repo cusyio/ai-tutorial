@@ -101,7 +101,7 @@ Accuracy (Genauigkeit)
 Prozentsatz der korrekten Vorhersagen:
 
 .. math::
-   \text{Accuracy} = \frac{\text{Anzahl der korrekten Vorhersagen}}{\text{Gesamtanzahl der Vorhersagen}}
+   \text{Accuracy} = \frac{\text{Anzahl der korrekten Vorhersagen}}{\text{Gesamtanzahl der Vorhersagen}} = \frac{\text{TP}+\text{TN}}{all}
 
 .. warning:
    Accuracy hat eine Einschränkung bei (stark) unausgewogenen Datensätzen, da
