@@ -1,13 +1,13 @@
-=======================
-Einführung in KI
-=======================
+===========
+AI-Tutorial
+===========
 
-Die Schulung "Einführung in KI" ermöglicht euch einen praxisnahen Einstieg in KI mit Python.
+Das :abbr:`AI (Artificial intelligence, engl.: Künstliche Intelligenz)`-Tutorial
+möchte euch einen praxisnahen Einstieg in `Künstliche Intelligenz
+<https://de.wikipedia.org/wiki/A.I._–_Künstliche_Intelligenz>`_ mit Python
+ermöglichen.
 
-Die Schulung ist aufgebaut in 4 Blöcken und hat folgende Hauptbestandteile:
-
-Alle Tutorials dienen als Seminarunterlagen für unsere aufeinander abgestimmten
-Trainings:
+Das Tutorial ist aufgebaut in vier Blöcken und hat folgende Hauptbestandteile:
 
 +---------------+-----------------------------------------------------------------------------+
 | Dauer         | Titel                                                                       |
@@ -20,6 +20,18 @@ Trainings:
 +---------------+-----------------------------------------------------------------------------+
 | Tag 4         | `Generative KI - Einführung`                                                |
 +---------------+-----------------------------------------------------------------------------+
+
+Es ist Teil einer Reihe von Tutorials zur Datenanalyse und -visualisierung:
+
+* `Python Basics <https://python-basics-tutorial.readthedocs.io/de/latest/>`_
+* `Jupyter-Tutorial <https://jupyter-tutorial.readthedocs.io/de/latest/>`_
+* `Python für Data Science <https://www.python4data.science/de/latest/>`_
+* `PyViz-Tutorial <https://pyviz-tutorial.readthedocs.io/de/latest/>`_
+* `cusy Design-System: Datenvisualisierung
+  <https://www.cusy.design/de/latest/viz/index.html>`_
+
+Alle Tutorials dienen als Seminarunterlagen für unsere aufeinander abgestimmten
+Trainings:
 
 .. _`Einführung in Python`:
    https://cusy.io/de/unsere-schulungsangebote/einfuehrung-in-python
@@ -53,13 +65,6 @@ Trainings:
    https://cusy.io/de/unsere-schulungsangebote/code-und-daten-versioniert-und-reproduzierbar-speichern
 .. _`Neues aus Python für Data-Science`:
    https://cusy.io/de/unsere-schulungsangebote/neues-aus-python-fuer-data-science
-
-Zusatzmaterialien:
-* `Python Basics <https://python-basics-tutorial.readthedocs.io/de/latest/>`_
-* `Jupyter-Tutorial <https://jupyter-tutorial.readthedocs.io/de/latest/>`_
-* `Python für Data Science <https://www.python4data.science/de/latest/>`_
-* `PyViz-Tutorial <https://pyviz-tutorial.readthedocs.io/de/latest/>`_
-* `cusy Design-System: Datenvisualisierung <https://www.cusy.design/de/latest/viz/index.html>`_
 
 .. toctree::
    :hidden:

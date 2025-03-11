@@ -42,7 +42,8 @@ damit die Ergebnisse der Regressionsanalyse interpretiert werden können.
 * Keine Autokorrelation: 
     Die Fehlerkomponente sollte keine Autokorrelation aufweisen.
 
-*siehe auch:* `datalab-tutorial<https://datatab.de/tutorial/lineare-regression>`_
+.. seealso::
+   * `datalab-tutorial <https://datatab.de/tutorial/lineare-regression>`_
 
 Beispiel mit scikit-learn
 -------------------------

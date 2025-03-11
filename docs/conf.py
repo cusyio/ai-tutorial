@@ -29,7 +29,7 @@ if os.environ.get("READTHEDOCS", "") == "True":
 # The master toctree document.
 master_doc = "index"
 
-project = "KI Schulung"
+project = "AI-Tutorial"
 author = "Min Ye, Veit Schiele"
 copyright = f"2025, {author}"
 
@@ -130,9 +130,9 @@ latex_elements = {
 latex_documents = [
     (
         master_doc,
-        "NeuralNetworkTutorial.tex",
-        "Neural Network Tutorial",
-        "Min Ye",
+        "AITutorial.tex",
+        "AI-Tutorial",
+        "Min Ye \\and Veit Schiele",
         "manual",
     ),
 ]
