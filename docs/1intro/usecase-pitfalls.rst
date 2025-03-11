@@ -11,6 +11,9 @@ Use Case Fallgruben – Diskussion zur Kundenabwanderung (Customer Churn Predict
 
 Ein Telekommunikationsunternehmen möchte vorhersagen, ob ein Kunde abwandern wird oder nicht. Die Lernenden sollen erarbeiten:
 
+Relevante Gedankengänge: 
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
 1. **Wie definiert man Kundenabwanderung?**
 
 - z.B. Vertragskunde: kündigt in den nächsten drei Monaten seinen Vertrag
@@ -18,13 +21,15 @@ Ein Telekommunikationsunternehmen möchte vorhersagen, ob ein Kunde abwandern wi
 
 2. **Welche Daten sind relevant?**
 
-2. **Wie sollten Features gestaltet werden?** (z. B. Anrufhäufigkeit, Vertragslaufzeit, Reklamationen?)
+3. **Wie sollten Features gestaltet werden?** 
 
-3. **Welche ML-Methoden eignen sich?** (Klassifikation, Feature Engineering)
+Tip: Anrufhäufigkeit, Vertragslaufzeit, Reklamationen?
 
-4. **Wie validiert man das Modell?**
+4. **Welche ML-Methoden eignen sich?** (Klassifikation, Feature Engineering)
 
-5. **Welche Herausforderungen können auftreten?**
+5. **Wie validiert man das Modell?**
+
+6. **Welche Herausforderungen können auftreten?**
 
 **Diskussionsfragen:**
 
