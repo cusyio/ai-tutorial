@@ -1,13 +1,15 @@
 Markov-Entscheidungsprozesse (MDP)
-------------------------------
+===================================
 
 Die meisten der Reinforment Learning Probleme können mit dem Framework des Markov-Entscheidungsprozess (Markov Decision Process, MDP) gelöst werden.
 
 Der MDP ist ein mathematisches Framework für die Modellierung von Entscheidungsproblemen, bei denen die Ergebnisse teilweise zufällig und teilweise kontrollierbar sind.
 
 **Recap**
+::::::::::
 
 **Markov-Eigenschaft**
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Ein Zustand S_t ist dann und nur dann ein Markov-Zustand, wenn folgendes zutrifft:
 
@@ -17,6 +19,7 @@ Ein Zustand S_t ist dann und nur dann ein Markov-Zustand, wenn folgendes zutriff
 Das heißt, dass der aktuelle Zustand des Roboters nur von seinem unmittelbar vorhergehenden Zustand (bzw. dem vorherigen Zeitschritt) abhängt und nicht von den weiteren vorherigen Zuständen.
 
 **Markov-Prozess**
+~~~~~~~~~~~~~~~~~~~~~
 
 Ein Markov-Prozess wird definiert von (S,P), wobei S die Menge aller Zustände ist und P die Übergangswahrscheinlichkeit von Zustand s nach Zustand s' ist:
 

@@ -23,6 +23,8 @@ Reinforcement Learning (RL)
      - Inhalte
    * - Recap der wichtigsten Themen
      - Wiederholung von Deep Learning und CNNs
+   * - Weiteres Beispiel in Classification (nicht Bilddaten)
+     - Use Case Kundenabwanderung: Daten, Modellieren 
    * - Einführung in Reinforcement Learning
      - Konzepte, Agent, Umgebung, Belohnungen
    * - Markov-Entscheidungsprozesse
@@ -37,6 +39,7 @@ Reinforcement Learning (RL)
    :titlesonly:
    :maxdepth: 0
 
+   customer-churn
    def
    mdp
    qlearn

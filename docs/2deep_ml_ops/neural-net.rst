@@ -40,6 +40,10 @@ Fortgeschrittene Deep-Learning-Techniken:
 
 * Convolutional Neural Networks (CNNs) für **Bildverarbeitung**.
 
+Eine gute dynamische Darstellung, wie das Zusammenspiel zwischen den Schichten 
+bei einem CNN funktioniert, kann in diesem Video gefunden werden: 
+https://www.youtube.com/watch?v=ip2HYPC_T9Q 
+
 * Recurrent Neural Networks (RNNs) für **Sequenz- und Textverarbeitung**.
 
 * Transformer-Modelle für **NLP (z. B. BERT, GPT).**

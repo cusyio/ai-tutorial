@@ -1,5 +1,5 @@
 Definitionen und Grundprinzipien in Reinforcement Learning (RL)
-======================================
+====================================================================
 
 Definitionen
 ------------------------------
