@@ -1,31 +1,30 @@
 Abschluss
-==================================
+=========
 
-**Ethische Fragestellungen in der KI**
+Ethische Fragestellungen in der KI
+----------------------------------
 
-Mit der rasanten Entwicklung der KI gehen auch bedeutende ethische Fragen einher:
+Mit der rasanten Entwicklung der KI gehen auch bedeutende ethische Fragen
+einher:
 
-- **Bias und Diskriminierung:** KI-Modelle können bestehende Vorurteile aus Trainingsdaten übernehmen.
-
-- **Arbeitsplatzverdrängung:** Automatisierung kann menschliche Arbeitsplätze gefährden.
-
-- **Transparenz und Erklärbarkeit:** Viele KI-Modelle, insbesondere Deep Learning, sind schwer zu interpretieren.
-
-- **Verantwortung und Haftung:** Wer ist verantwortlich, wenn eine KI fehlerhafte oder schädliche Entscheidungen trifft?
-
-- **Datenschutz:** KI-Anwendungen erfordern oft große Datenmengen, was Datenschutzprobleme aufwirft.
-
-
-
+Bias und Diskriminierung
+    KI-Modelle können bestehende Vorurteile aus Trainingsdaten übernehmen.
+Arbeitsplatzverdrängung
+    Automatisierung kann menschliche Arbeitsplätze gefährden.
+Transparenz und Erklärbarkeit
+    Viele KI-Modelle, insbesondere Deep Learning, sind schwer zu interpretieren.
+Verantwortung und Haftung
+    Wer ist verantwortlich, wenn eine KI fehlerhafte oder schädliche
+    Entscheidungen trifft?
+Datenschutz
+    KI-Anwendungen erfordern oft große Datenmengen, was Datenschutzprobleme
+    aufwirft.
 
 Weitere Referenzen
--------------------
+------------------
 
-??????????
-===========
-
-Die Cusy hat bereits ein Neural Network Tutorial aufbereitet als Teil einer Reihe von Tutorials zur Datenanalyse
-und -visualisierung:
+cusy hat bereits ein Neural Network Tutorial aufbereitet als Teil einer Reihe
+von Tutorials zur Datenanalyse und -visualisierung:
 
 * `Python Basics <https://python-basics-tutorial.readthedocs.io/de/latest/>`_
 * `Jupyter-Tutorial <https://jupyter-tutorial.readthedocs.io/de/latest/>`_
