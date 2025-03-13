@@ -44,6 +44,7 @@ Q-Learning Algorithmus
 :::::::::::::::::::::::
 
 Der Algorithmus läuft iterativ in folgenden Schritten ab:
+
 1. **Agent befindet sich in einem Zustand `s`.**
 2. **Wählt eine Aktion `a` basierend auf einer Policy (z. B. zufällig oder nach maximalem Q-Wert).**
 3. **Führt die Aktion aus und erhält eine Belohnung `R`.**
@@ -71,11 +72,17 @@ Verbindung zwischen Markov-Prozessen und Q-Learning
 Q-Learning ist direkt mit **Markov-Entscheidungsprozessen (MDP)** verbunden. 
 
 Ein MDP besteht aus:
-* **S (States):** Die Menge aller möglichen Zustände, in denen sich der Agent befinden kann.
-* **A (Actions):** Die Menge aller möglichen Aktionen, die der Agent ausführen kann.
-* **P(s' | s, a) (Transition Model):** Die Wahrscheinlichkeit, dass der Agent nach der Aktion `a` von `s` nach `s'` wechselt.
-* **R(s, a) (Reward):** Die Belohnung, die der Agent für eine Aktion `a` in Zustand `s` erhält.
-* **γ (Discount Factor):** Der Faktor, der bestimmt, wie stark zukünftige Belohnungen gewichtet werden.
+
+* **S (States):** 
+     Die Menge aller möglichen Zustände, in denen sich der Agent befinden kann.
+* **A (Actions):** 
+     Die Menge aller möglichen Aktionen, die der Agent ausführen kann.
+* **P(s' | s, a) (Transition Model):** 
+     Die Wahrscheinlichkeit, dass der Agent nach der Aktion `a` von `s` nach `s'` wechselt.
+* **R(s, a) (Reward):** 
+     Die Belohnung, die der Agent für eine Aktion `a` in Zustand `s` erhält.
+* **γ (Discount Factor):** 
+     Der Faktor, der bestimmt, wie stark zukünftige Belohnungen gewichtet werden.
 
 **Warum ist das wichtig?**
 

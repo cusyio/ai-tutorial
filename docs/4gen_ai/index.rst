@@ -45,6 +45,9 @@ https://de.wikipedia.org/wiki/Tay_(Bot)
    :titlesonly:
    :maxdepth: 0
 
+   nachtrag_ensembleML
+   customer-churn-data-creation
+   customer-churn-2
    genai_intro
    genai_theory
    genai_infrastructure 
