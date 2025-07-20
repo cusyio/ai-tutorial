@@ -30,7 +30,7 @@ dependencies = [
     "transformers",
 ]
 
-[project.optional-dependencies]
+[dependency-groups]
 docs = [
     "sphinx<8.2",
     "furo",
@@ -48,7 +48,7 @@ docs = [
 ]
 
 dev = [
-    "ai-tutorial[docs]",
+    {include-group = "docs"},
     "pre-commit",
     "codespell",
 ]
