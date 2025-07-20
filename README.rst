@@ -32,7 +32,7 @@ Installation
       $ python3 -m venv .venv
       $ . .venv/bin/activate
       $ python -m pip install --upgrade pip
-      $ python -m pip install -e ".[dev]"
+      $ python -m pip install --group dev
 
    … auf Windows:
 
@@ -41,7 +41,7 @@ Installation
       C:> py -m venv .venv
       C:> .\.venv\Scripts\activate.bat
       C:> python -m pip install --upgrade pip
-      C:> python -m pip install -e ".[dev]"
+      C:> python -m pip install --group dev
 
 #. Erstellen der HTML-Dokumentation:
 
