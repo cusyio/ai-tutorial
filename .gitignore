@@ -1,5 +1,3 @@
-.python-version
-
 # Distribution / packaging
 *.egg-info/
 
@@ -11,3 +9,6 @@ docs/_build/
 
 # virtualenv
 .venv
+
+# Generated checkpoints
+docs/4gen_ai/llm_ai_act_finetuned/

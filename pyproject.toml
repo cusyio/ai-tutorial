@@ -7,7 +7,7 @@ authors = [
 ]
 description = "Schulungsmaterialen für unseren Python-Kurs zu neuronalen Netzwerken: https://cusy.io/de/seminare"
 readme = "README.rst"
-requires-python = ">=3.9"
+requires-python = ">=3.13"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: BSD License",
@@ -15,6 +15,7 @@ classifiers = [
 ]
 
 dependencies = [
+    "accelerate>=1.1.0",
     "datasets",
     "dedupe",
     "jupyter",
