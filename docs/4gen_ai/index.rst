@@ -5,7 +5,7 @@ Generative KI
 
 - Wiederholung der zentralen Konzepte von **Reinforcement Learning**
 
-- **Q-Functions und ihre Rolle in Gradient Descent**
+- **Q-Funktionen und ihre Rolle im Reinforcement Learning**
 
 - Diskussion über Anwendungen von **Reinforcement Learning**
 
@@ -24,7 +24,7 @@ Generative KI
    * - Infrastruktur und Architektur 
      - Hardware, Software-Frameworks, Architekturüberblick
    * - Hands-on Beispiel
-     - Lokales LLM mit domänspezifischen Daten feintuning
+     - Lokales LLM mit Feintuning auf domänspezifischen Daten
    * - Generative KI und Agents
      - Definition von Agents, Integration von LLMs, Beispiele
    * - Diskussion
@@ -33,12 +33,13 @@ Generative KI
      - AI Act
 
 Beispiel:
-- Microsoft first chatbot, hatte noch gar keine Constraints, ist binnen kürzester Zeit zu "rechtsextrem" geworden. 
+- Microsofts erster Chatbot (Tay) hatte noch gar keine Constraints, ist binnen kürzester Zeit zu "rechtsextrem" geworden. 
 Damals war die einzige KPI "wie viele Reaktionen bekommst auf deine Aussagen" - mit den radikalsten Thesen bekam er die meisten Rückmeldungen. 
 https://de.wikipedia.org/wiki/Tay_(Bot) 
 
-- österreiches Arbeitsamt: 
+- Österreichisches Arbeitsamt (AMS): 
 "Frauen sollten systematisch Jobs akzeptieren, die 1/3 schlechter bezahlt werden" 
+  (vgl. z.B. Bericht `futurezone.at <https://futurezone.at/netzpolitik/computer-sagt-nein-algorithmus-gibt-frauen-weniger-chancen-beim-ams/400345297>`_)
 
 .. toctree::
    :hidden:

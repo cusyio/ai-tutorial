@@ -38,7 +38,7 @@ Vertiefung: Neuronale Netze, Deep Learning, Systemüberblick, Use Case Fallgrube
      - Kundensegmentierung, Anomalieerkennung
      - Selbstfahrende Autos, Industrieroboter
      - KI-generierte Bilder, Texte, Musik
-   * - Gängige "Klassischen" Algorithmen
+   * - Gängige klassische Algorithmen
      - Lineare Regression, neuronale Netze
      - Decision Trees (Entscheidungsbäume), Random Forest, SVM
      - K-Means Clustering, K-nearest neighbour (kNN), DBSCAN

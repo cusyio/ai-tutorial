@@ -4,7 +4,7 @@ Maschinelles Lernen (ML): Konzepte und Typen
 .. note::
 .. https://www.python4data.science/de/latest/productive/dvc/dag.html
 
-Was ist **Maschinellen Lernens (Machine Learning)**? 
+Was ist **Maschinelles Lernen (Machine Learning)**? 
 
 Maschinelles Lernen (Machine Learning, ML) ist ein Teilgebiet der Künstlichen
 Intelligenz, das es Computern ermöglicht, aus Daten zu lernen, anstatt explizit
@@ -229,7 +229,7 @@ Definition
 ::::::::::
 
 Deep Learning (DL) ist ein Teilgebiet des maschinellen Lernens, das auf
-**künstlichen neuronalen Netzen (KNNs)** basiert.
+**künstlichen neuronalen Netzen (Artificial Neural Networks, ANNs)** basiert.
 
 Es verwendet **mehrere Schichten von Neuronen** (daher der Begriff „Deep“), um
 hochkomplexe Muster in Daten zu lernen.
@@ -274,7 +274,8 @@ Transformer-Modelle
 Beispiele für Anwendungen von Deep Learning
 :::::::::::::::::::::::::::::::::::::::::::
 
-Bilderkennung:** Automatische Erkennung von Objekten in Bildern.
+Bilderkennung
+    Automatische Erkennung von Objekten in Bildern.
 
 Sprachverarbeitung (NLP)
     Chatbots, automatische Übersetzungen (Google Translate, ChatGPT).

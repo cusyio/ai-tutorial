@@ -78,7 +78,7 @@ LLM-gestützte Agents
 
 Es gibt verschiedenste Einsatzmöglichkeiten für **LLM-gestützte Agents** mit Modellen wie GPT-4, DeepSeek, LLaMA oder Mistral. 
 Die Agents können eine Vielzahl von Aufgaben automatisieren und unterstützen, von **Produktivität über Wissenschaft bis hin zu Cybersicherheit und Gaming**.
-Voraussetzung ist, dass das gewählte pre-trained Modell gut genug ist, wenn man selbst nicht die Mittel und Resourcen hat, das Modell selbst stark zu optimieren. 
+Voraussetzung ist, dass das gewählte pre-trained Modell gut genug ist, wenn man selbst nicht die Mittel und Ressourcen hat, das Modell selbst stark zu optimieren. 
 
 
 Produktivität & Automatisierung

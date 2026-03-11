@@ -23,7 +23,7 @@ Relevante Gedankengänge:
 
 3. **Wie sollten Features gestaltet werden?** 
 
-Tip: Anrufhäufigkeit, Vertragslaufzeit, Reklamationen?
+Tipp: Anrufhäufigkeit, Vertragslaufzeit, Reklamationen?
 
 4. **Welche ML-Methoden eignen sich?** (Klassifikation, Feature Engineering)
 

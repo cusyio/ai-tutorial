@@ -25,12 +25,12 @@ Definition
 
 Feature Engineering ist die Kunst, relevante Eingangsvariablen für ein Modell zu erstellen. 
 
-Beachte, dass Feature Engineering vor allem bei den klassischen Machine-Learning Modellen  
-eine wichtige Rolle spielt und entscheidend für die Modell Performance ist. 
+Beachte, dass Feature Engineering vor allem bei den klassischen Machine-Learning-Modellen  
+eine wichtige Rolle spielt und entscheidend für die Modell-Performance ist. 
 
-Bei den späteren leistungsfähigeren Modellen, z.B. Deep Learning, kann man oft auf intensive Feature Engineering
-verzichten, und das Modell selbst die wichtigsten Features oder Dimensionen in den Daten finden lassen. 
-Allerdings setzt das genügend leistungsfähige Hardware und Datenqualität vor allem Datenmenge voraus. 
+Bei den späteren leistungsfähigeren Modellen, z.B. Deep Learning, kann man oft auf intensives Feature Engineering
+verzichten und das Modell selbst die wichtigsten Features oder Dimensionen in den Daten finden lassen, 
+allerdings setzt das genügend leistungsfähige Hardware und hohe Datenqualität, vor allem in Bezug auf die Datenmenge, voraus. 
 
 Beispiel
 ~~~~~~~~

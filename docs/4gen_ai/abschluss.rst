@@ -21,10 +21,10 @@ Mit der rasanten Entwicklung der KI gehen auch bedeutende ethische Fragen einher
 Weitere Referenzen
 -------------------
 
-??????????
-===========
+Weitere Lernressourcen
+=====================
 
-Die Cusy hat bereits ein Neural Network Tutorial aufbereitet als Teil einer Reihe von Tutorials zur Datenanalyse
+Cusy hat bereits ein Neural Network Tutorial aufbereitet als Teil einer Reihe von Tutorials zur Datenanalyse
 und -visualisierung:
 
 * `Python Basics <https://python-basics-tutorial.readthedocs.io/de/latest/>`_

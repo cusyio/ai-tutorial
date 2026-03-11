@@ -50,7 +50,7 @@ definierte:
 
 #. Reaktive KI (Reactive AI)
 
-   Die erste Stufe der KI kann als *Reaktive KI* bezeichent und als ein Ur-Typ
+   Die erste Stufe der KI kann als *Reaktive KI* bezeichnet und als ein Ur-Typ
    der KI angesehen werden. Sie hat weder *Gedächtnis* noch *Lernfähigkeit* und
    kann nur auf Eingaben reagieren für genau die eine Aufgabe, wofür sie
    programmiert wurde. Es ist nicht in der Lage, zukünftige Ergebnisse
@@ -103,7 +103,7 @@ unterschiedlichen technischen Reifegrad in diversen Domänen.
 Prädiktive vs. Generative KI
 ----------------------------
 
-Die aktuell in der Industrie gängigen Formen der KI lassen sind insbesondere in
+Die aktuell in der Industrie gängigen Formen der KI lassen sich insbesondere in
 **prädiktive KI** (Predictive AI) und **generative KI** (Generative AI) unterscheiden:
 
 1. Prädiktive KI
@@ -144,7 +144,7 @@ Bedeutung dieser Unterscheidung
 Anwendungsfälle von KI
 ----------------------
 
-KI findet heute in zahlreichen Bereichen Anwendung, hier sind nur eine Beispiele aufgelistet:
+KI findet heute in zahlreichen Bereichen Anwendung, hier sind nur einige Beispiele aufgelistet:
 
 Gesundheitswesen:
     Diagnosestellung durch KI-gestützte Bildverarbeitung,

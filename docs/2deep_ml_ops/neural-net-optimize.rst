@@ -60,7 +60,7 @@ Varianten von Gradient Descent
 
    **Abbildung 2:** Eine zu hohe Lernrate konvergiert nicht, eine zu niedrige dauert zu lange.
 
-Erweiterte Optimierungsverfahren**
+Erweiterte Optimierungsverfahren
 :::::::::::::::::::::::::::::::::::::::::::::
 
 Neben Gradient Descent gibt es weiterentwickelte Algorithmen, die schneller oder stabiler konvergieren:
@@ -79,7 +79,7 @@ Momentum-based Methoden
 * **v_t**: Beschleunigung in Richtung des Minimums
 * **\beta**: Momentum-Faktor (meist um 0.9)
 
-Adaptiven Lernraten-Methoden
+Adaptive Lernraten-Methoden
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Adagrad:**

@@ -26,9 +26,10 @@ Datenschutz & DSGVO: Worauf Entwickler und Nutzer achten sollten
 ------------------------------------------------------------------
 
 Grundprinzipien der DSGVO
-：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：
+:::::::::::::::::::::::::::
 
 KI-Systeme müssen sich an die **Grundprinzipien der DSGVO** halten, insbesondere:
+
 * **Rechtmäßigkeit, Verarbeitung nach Treu und Glauben & Transparenz**
 * **Zweckbindung:** 
      Daten dürfen nur für festgelegte, legitime Zwecke verarbeitet werden.
@@ -40,9 +41,10 @@ KI-Systeme müssen sich an die **Grundprinzipien der DSGVO** halten, insbesonder
      Sicherheitsmaßnahmen müssen unautorisierte Zugriffe verhindern.
 
 Konkrete Anforderungen für KI-Entwicklung
-：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：
+:::::::::::::::::::::::::::::::::::::::::::::
 
 Ingenieure sollten folgende Datenschutzmaßnahmen implementieren:
+
 * **Datenanonymisierung und Pseudonymisierung:** 
      Reduzierung personenbezogener Bezüge in Daten.
 * **Datensparsamkeit:** 
@@ -53,7 +55,7 @@ Ingenieure sollten folgende Datenschutzmaßnahmen implementieren:
      Datenschutz muss von Anfang an in das KI-System integriert sein.
 
 Nutzung von KI als Endanwender
-：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：
+::::::::::::::::::::::::::::::::::::
 
 * **Transparenz prüfen:** 
      Anbieter müssen erklären, wie die KI Entscheidungen trifft.
@@ -63,7 +65,7 @@ Nutzung von KI als Endanwender
      Nutzer haben das Recht, automatisierte Entscheidungen anzufechten.
 
 Transparenzanforderungen
-：：：：：：：：：：：：：：：：：：：：：：：：：：：：：
+:::::::::::::::::::::::::::
 
 Ein zentrales Element des AI Acts ist die **Forderung nach Transparenz**. Anbieter von KI-Systemen müssen klar und verständlich darlegen, wie ihre Systeme funktionieren und welche Daten zugrunde liegen.
 
@@ -77,7 +79,7 @@ Ein zentrales Element des AI Acts ist die **Forderung nach Transparenz**. Anbiet
 Diese Transparenzmaßnahmen dienen dazu, Missbrauch zu verhindern und Vertrauen in KI-Systeme zu stärken.
 
 Sicherheits- und Datenschutzvorgaben
-：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：
+:::::::::::::::::::::::::::::::::::::
 
 * **Datensicherheit:** 
      KI-Systeme müssen gegen Manipulationen und Cyberangriffe geschützt sein.
@@ -89,9 +91,10 @@ Sicherheits- und Datenschutzvorgaben
      Hochrisiko-KI muss wiederholt geprüft und dokumentiert werden.
 
 Haftungsregelungen & Verantwortung
-：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：
+::::::::::::::::::::::::::::::::::::
 
 Wer haftet im Fehlerfall? Der AI Act definiert klare Haftungsregelungen:
+
 * **Verantwortlichkeit der Anbieter:**
      Hersteller und Betreiber haften für Schäden durch KI-Systeme.
 * **Transparenz bei Fehlern:** 
@@ -102,7 +105,7 @@ Wer haftet im Fehlerfall? Der AI Act definiert klare Haftungsregelungen:
 Wichtig für Ingenieure: Implementierung von Mechanismen, die Fehler und deren Ursachen nachvollziehbar machen.
 
 Auswirkungen auf Forschung & Entwicklung
-：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：
+:::::::::::::::::::::::::::::::::::::::::::::
 
 * **Förderung von Innovation:** 
      Der AI Act stellt sicher, dass Innovation durch regulatorische Standards nicht behindert wird.
@@ -112,13 +115,13 @@ Auswirkungen auf Forschung & Entwicklung
      Industrie, Forschung und Politik müssen zusammenarbeiten, um die Sicherheit von KI-Systemen zu gewährleisten.
 
 Best Practices für KI-Entwicklung
-：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：
+::::::::::::::::::::::::::::::::::::
 
 Um regulatorische Anforderungen zu erfüllen, sollten Entwickler folgende Punkte beachten:
 
 
 Modell-Pipeline & Infrastruktur
-：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：
+::::::::::::::::::::::::::::::::::::
 
 * **Dokumentation:** 
      KI-Modelle müssen vollständig dokumentiert werden (Trainingsdaten, Entscheidungsprozesse, Evaluierungen).
@@ -132,7 +135,7 @@ Modell-Pipeline & Infrastruktur
      Automatische Entscheidungen durch menschliche Kontrolle ergänzen.
 
 Datenschutzgerechte Architektur
-：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：
+::::::::::::::::::::::::::::::::::::
 
 * **Datenminimierung:** 
      Nur notwendige Daten speichern und verarbeiten.
@@ -142,7 +145,7 @@ Datenschutzgerechte Architektur
      Sicherheitsmechanismen zur Datenspeicherung und -übertragung.
 
 Verantwortungsbewusste Nutzung von LLMs
-：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：：
+:::::::::::::::::::::::::::::::::::::::::
 
 * **Sichere Prompt-Designs:** 
      Schutz vor adversarial attacks und Manipulation durch bösartige Prompts.
@@ -152,7 +155,7 @@ Verantwortungsbewusste Nutzung von LLMs
      Keine diskriminierenden oder gesellschaftsschädlichen Outputs.
 
 Fazit
-：：：：：：：：：
+:::::::::
 
 Der AI Act und die DSGVO setzen Regeln für den Umgang mit KI-Systemen. Entwickler müssen:
 
@@ -163,4 +166,4 @@ Der AI Act und die DSGVO setzen Regeln für den Umgang mit KI-Systemen. Entwickl
 
 Während der AI Act den **Einsatz von KI regelt**, sorgt die DSGVO für den **Schutz personenbezogener Daten** – zusammen bilden sie die Grundlage für eine sichere und ethische KI-Nutzung.
 
-Diese Zusammenfassung gibt eine Orientierungshilfe für Ingenieure und Nutzer, die mit KI-Systemen arbeiten. 😊
+Diese Zusammenfassung gibt eine Orientierungshilfe für Ingenieure und Nutzer, die mit KI-Systemen arbeiten.

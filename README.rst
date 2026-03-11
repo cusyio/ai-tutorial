@@ -54,7 +54,7 @@ Installation
 
          $  sudo apt install pandoc
 
-   Zum Erstellen der HTML-Dokumentation führt den folgenden Befehl aus:
+   Zum Erstellen der HTML-Dokumentation führt ihr den folgenden Befehl aus:
 
    .. code-block:: console
 
@@ -63,7 +63,7 @@ Installation
 #. Erstellen eines PDF:
 
    Zum Erstellen einer PDF-Dokumentation benötigt ihr zusätzliche Pakete, die
-   ihr installieren könnt
+   ihr installieren könnt:
 
    … auf Debian/Ubuntu mit
 

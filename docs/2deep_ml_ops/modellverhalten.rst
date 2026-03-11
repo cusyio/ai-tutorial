@@ -121,7 +121,7 @@ Das deutet darauf hin, dass das Hinzufügen weiterer Trainingsbeispiele die Leis
 Es ist auch zu erkennen, dass die Trainings- und Validierungsverluste weit voneinander entfernt sind, die sich bei Hinzufügen zusätzlicher Trainingsdaten einander annähern können
 
 
-2. Modelkomplexität
+2. Modellkomplexität
 ::::::::::::::::::::
 
 Bei der Entscheidung der Modellkomplexität sind zwei Faktoren ausschlaggebend: 
@@ -129,8 +129,7 @@ Bei der Entscheidung der Modellkomplexität sind zwei Faktoren ausschlaggebend:
 
 **Bias**
 
-Sei Y der wahre Wert eines Parameters, und sei 
-Y hat sei ein Schätzer von Y auf der Grundlage einer Datenstichprobe. Dann ist die Verzerrung des Schätzers Y-hat ist gegeben durch:
+Sei Y der wahre Wert eines Parameters, und sei Ŷ (Y-hat) ein Schätzer von Y auf der Grundlage einer Datenstichprobe. Dann ist die Verzerrung des Schätzers Ŷ gegeben durch:
 
    .. math::
       Bias(\hat{Y}) = E(\hat{Y}) - Y 
@@ -160,14 +159,14 @@ Berechnet wird die Varianz, indem die Summe der quadrierten Abweichungen aller M
    .. math::
       Var(X) = \sigma^2 = \sum_{i=1}^{n} (x_i - \mu)^2 * p_i
 
-Das Zusammenspiel zwischen Bias und Varianz in Bezug auf Modelkomplexität kann wiefolgt dargestellt werden:
+Das Zusammenspiel zwischen Bias und Varianz in Bezug auf Modellkomplexität kann wie folgt dargestellt werden:
 
 .. figure:: ../_static/images/day2-model_complexity-bias_and_variance.png
-   :alt: Modelkomplexität - Bias vs Varianz
+   :alt: Modellkomplexität - Bias vs Varianz
    :align: center
    :width: 500px
 
-   **Abbildung 1:** Modelkomplexität - Bias vs Varianz, citation: By Bigbossfarin - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=105307219
+   **Abbildung 1:** Modellkomplexität - Bias vs Varianz, citation: By Bigbossfarin - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=105307219
 
 
 
@@ -192,7 +191,7 @@ Methoden zur Regularisierung:
    Bestraft große Koeffizienten, um ein stabileres Modell zu erzeugen.
 
    .. math::
-      L_1 = \sqrt{\sum{{x_i}^2}}
+      L_2 = \sum{{x_i}^2}
 
 
 * **Cross-Validation**
