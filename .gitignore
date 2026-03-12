@@ -9,6 +9,8 @@ docs/_build/
 
 # virtualenv
 .venv
+.venv312/
+venv/
 
 # Generated checkpoints
 docs/4gen_ai/llm_ai_act_finetuned/
