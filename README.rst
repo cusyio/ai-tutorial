@@ -4,15 +4,12 @@ Schnelleinstieg
 Status
 ------
 
-.. image:: https://img.shields.io/github/contributors/cusyio/ai-tutorial.svg
+.. image:: https://img.shields.io/github/contributors/AInvone/Intro-in-KI-Schulung.svg
    :alt: Contributors
-   :target: https://github.com/cusyio/ai-tutorial/graphs/contributors
-.. image:: https://img.shields.io/github/license/cusyio/ai-tutorial.svg
+   :target: https://github.com/AInvone/Intro-in-KI-Schulung/graphs/contributors
+.. image:: https://img.shields.io/github/license/AInvone/Intro-in-KI-Schulung.svg
    :alt: License
-   :target: https://github.com/cusyio/ai-tutorial/blob/main/LICENSE
-.. image:: https://readthedocs.org/projects/ai-tutorial/badge/?version=latest
-   :alt: Docs
-   :target: https://ai-tutorial.readthedocs.io/de/latest/
+   :target: https://github.com/AInvone/Intro-in-KI-Schulung/blob/main/LICENSE
 
 Installation
 ------------
@@ -21,7 +18,8 @@ Installation
 
    .. code-block:: console
 
-      $ git clone git@github.com:cusyio/ai-tutorial.git
+      $ git clone https://github.com/AInvone/Intro-in-KI-Schulung.git
+      $ cd Intro-in-KI-Schulung
 
 #. Installieren von Python-Paketen:
 
@@ -43,75 +41,66 @@ Installation
       C:> python -m pip install --upgrade pip
       C:> python -m pip install --group dev
 
-#. Erstellen der HTML-Dokumentation:
-
-   .. note::
-      pandoc muss installiert sein.
-
-      … auf Debian/Ubuntu:
-
-      .. code-block:: console
-
-         $  sudo apt install pandoc
-
-   Zum Erstellen der HTML-Dokumentation führt ihr den folgenden Befehl aus:
+   Für den reinen Dokumentations-Build reicht die Gruppe ``docs``:
 
    .. code-block:: console
 
-      $ sphinx-build -ab html docs/ docs/_build/html/
+      $ python -m pip install --group docs
+
+#. Erstellen der HTML-Dokumentation:
+
+   Zum Erstellen der HTML-Dokumentation (inkl. Ausführung der Jupyter-Notebooks):
+
+   .. code-block:: console
+
+      $ sphinx-build -b html docs/ docs/_build/html/
+
+   Das Ergebnis liegt in ``docs/_build/html/``; die Startseite ist
+   ``docs/_build/html/index.html``.
+
+   .. note::
+      Für PDF- oder EPUB-Export wird ggf. **pandoc** benötigt (z. B. unter
+      Debian/Ubuntu: ``sudo apt install pandoc``).
 
 #. Erstellen eines PDF:
 
-   Zum Erstellen einer PDF-Dokumentation benötigt ihr zusätzliche Pakete, die
-   ihr installieren könnt:
+   Für PDF wird eine LaTeX-Installation benötigt:
 
-   … auf Debian/Ubuntu mit
+   … auf Debian/Ubuntu:
 
    .. code-block:: console
 
       $ sudo apt install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended latexmk
 
-   … auf macOS mit
+   … auf macOS (MacTeX):
 
    .. code-block:: console
 
-      $ brew cask install mactex
-      …
-      🍺  mactex was successfully installed!
-      $ curl --remote-name https://www.tug.org/fonts/getnonfreefonts/install-getnonfreefonts
-      $ sudo texlua install-getnonfreefonts
-      …
-      mktexlsr: Updating /usr/local/texlive/2020/texmf-dist/ls-R...
-      mktexlsr: Done.
+      $ brew install --cask mactex
 
-   Anschließend könnt ihr ein PDF generieren mit:
+   Anschließend:
 
    .. code-block:: console
 
-    $ cd docs/
-    $ make latexpdf
-    …
-    The LaTeX files are in _build/latex.
-    Run 'make' in that directory to run these through (pdf)latex
-    …
+      $ cd docs/
+      $ make latexpdf
 
-   Das PDF findet ihr dann in ``docs/_build/latex/pythonbasics.pdf``.
+   Das PDF liegt in ``docs/_build/latex/AITutorial.pdf``.
 
 Folgt uns
 ---------
 
-* `GitHub <https://github.com/cusyio/ai-tutorial>`_
+* `GitHub <https://github.com/AInvone/Intro-in-KI-Schulung>`_
 
 Pull-Requests
 -------------
 
 Wenn ihr Vorschläge für Verbesserungen und Ergänzungen habt, empfehlen wir euch,
-einen `Fork <https://github.com/cusyio/ai-tutorial/fork>`_ unseres
-`GitHub Repository <https://github.com/cusyio/ai-tutorial/>`_ zu
+einen `Fork <https://github.com/AInvone/Intro-in-KI-Schulung/fork>`_ unseres
+`GitHub Repository <https://github.com/AInvone/Intro-in-KI-Schulung/>`_ zu
 erstellen und eure Änderungen dort zu machen. Bevor ihr Commits macht,
 überprüft, ob die pre-commit-Checks erfolgreich durchlaufen:
 
 .. code-block:: console
 
-   $ cd ai-tutorial
    $ pre-commit install

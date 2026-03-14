@@ -57,15 +57,15 @@ Die folgenden Beispiele zeigen, warum Ethik und Regulierung (z. B. AI Act) in 
    :titlesonly:
    :maxdepth: 0
 
-   nachtrag_ensembleML
-   customer-churn-data-creation
-   customer-churn-2
    genai_intro
    genai_theory
-   genai_infrastructure 
+   genai_infrastructure
    genai_llm
    llm_1
    llm_2
+   nachtrag_ensembleML
+   customer-churn-data-creation
+   customer-churn-2
    genai_agents
    regulatory
    abschluss

@@ -139,7 +139,8 @@ latex_documents = [
 
 # -- nbsphinx configuration --------------------------------------------------
 
-nbsphinx_allow_errors = True
+# Notebooks sollten ohne Fehler ausführbar sein; bei Build-Problemen ggf. auf True setzen.
+nbsphinx_allow_errors = False
 # nbsphinx_execute = 'always'
 
 # -- intersphinx configuration -----------------------------------------------
