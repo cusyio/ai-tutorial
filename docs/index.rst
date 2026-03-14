@@ -4,7 +4,7 @@ AI-Tutorial
 
 Das :abbr:`AI (Artificial intelligence, engl.: Künstliche Intelligenz)`-Tutorial
 möchte euch einen praxisnahen Einstieg in `Künstliche Intelligenz
-<https://de.wikipedia.org/wiki/A.I._–_Künstliche_Intelligenz>`_ mit Python
+<https://de.wikipedia.org/wiki/K%C3%BCnstliche_Intelligenz>`_ mit Python
 ermöglichen.
 
 Das Tutorial ist aufgebaut in vier Blöcken und hat folgende Hauptbestandteile:

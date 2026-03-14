@@ -52,8 +52,8 @@ Ein weiteres Tool, um diese 4 Kombinationen leicht sichtbar zu machen, ist die K
 
 Anhand unseres Corona-Schnelltest-Beispiels: 
 
-Nehmen wir an, wir haben 100 Personen für den Testdatensatz an Corona-Schnelltests erfasst und
-die wie folgt aufgeteilt sind: 
+Nehmen wir an, wir haben 100 Personen für den Testdatensatz mit Corona-Schnelltests erfasst und
+die Ergebnisse wie folgt aufgeteilt: 
 
 .. list-table:: Confusion Matrix
    :header-rows: 1

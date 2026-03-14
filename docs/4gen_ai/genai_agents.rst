@@ -43,7 +43,7 @@ Basierend auf dem Kontext und vorliegenden Informationen generiert das Modell pa
 
 In komplexeren Systemen wird das LLM mit weiteren Komponenten (z.B. Entscheidungsalgorithmen, Regelwerken) kombiniert, sodass der Agent nicht nur reagiert, sondern auch proaktiv agieren kann.
 
-Durch diese Integration wird die Entwicklung von interaktiven Systemen, wie z.B. Chatbots oder persönlichen Assistenten, erheblich vereinfacht und ermöglicht es, auch in spezialisierten Fachbereichen fundierte Auskünfte zu geben.
+Durch diese Integration wird die Entwicklung von interaktiven Systemen, wie z. B. Chatbots oder persönlichen Assistenten, erheblich vereinfacht und ermöglicht es, auch in spezialisierten Fachbereichen fundierte Auskünfte zu geben.
 
 Praktische Beispiele
 -------------------------

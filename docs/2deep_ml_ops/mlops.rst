@@ -47,7 +47,7 @@ Dies sind die drei zentralen Phasen, die im gesamten Modellierungsprozess eine w
 
    **Abbildung 1:** Überblick über Training, Test und Inference Pipelines.
 
-Diese Unterscheidung ist essenziell um zu verstehen, wann, wie und womit Modelle trainiert, getestet und produktiv genutzt werden.
+Diese Unterscheidung ist essenziell, um zu verstehen, wann, wie und womit Modelle trainiert, getestet und produktiv genutzt werden.
 Der Bedarf an Infrastruktur und Architektur kann zwischen dem Trainings- und Inference-Prozess oft stark unterscheiden,
 z.B. wird vor allem bei Deep-Learning-Modellen während des Trainings sehr viel Rechenleistung für die Backpropagation verbraucht,
 während die Inference-Phase ausschließlich Forwardpropagation ausgeführt und somit wesentlich weniger Rechenleistung verbraucht wird.

@@ -43,26 +43,20 @@ Statt direkt diese Funktion zu maximieren, wird oft der negative Log-Likelihood 
    -\sum_{i=1}^{N} \log(P(x_i; \theta))
 
 
-### **1.3 Entropie & Log-Loss**
+**1.2 Sprachmodellierung als Prädiktion**
+::::::::::::::::::::::::::::::::::::::::::
+
+Die Aufgabe eines Sprachmodells ist es, das **nächste Token** vorherzusagen – also den **Output mit der höchsten Wahrscheinlichkeit** auszugeben. 
+Dies ist ein typisches Beispiel für ein **bedingtes Wahrscheinlichkeitsmodell**.
+
+**1.3 Entropie & Log-Loss**
 ::::::::::::::::::::::::::::::::::::::
 
 Die Modelloptimierung erfolgt durch Minimierung des **Cross-Entropy Loss**, der misst, wie gut die Verteilung des Modells mit der echten Verteilung der Trainingsdaten übereinstimmt.
 
-In der Praxis wird häufig die **Kreuzentropie** (Cross-Entropy - https://de.wikipedia.org/wiki/Kreuzentropie) als Verlustfunktion verwendet, um den Unterschied zwischen der wahren Datenverteilung und der vom Modell geschätzten Verteilung zu quantifizieren.
-
-
-
-----
+In der Praxis wird häufig die **Kreuzentropie** (Cross-Entropy; siehe `Kreuzentropie (Wikipedia) <https://de.wikipedia.org/wiki/Kreuzentropie>`_) als Verlustfunktion verwendet, um den Unterschied zwischen der wahren Datenverteilung und der vom Modell geschätzten Verteilung zu quantifizieren.
 
 Generative KI basiert im Kern auf **Wahrscheinlichkeitsmodellen**, die darauf abzielen, die Wahrscheinlichkeitsverteilung von Sequenzen zu modellieren.
-
-### 
-
-### **1.2 Sprachmodellierung als Prädiktion**
-Die Aufgabe eines Sprachmodells ist es, das **nächste Token** vorherzusagen – also den **Output mit der höchsten Wahrscheinlichkeit** auszugeben. 
-Dies ist ein typisches Beispiel für ein **bedingtes Wahrscheinlichkeitsmodell**.
-
-----
 
 
 Transformer-Architektur

@@ -35,7 +35,8 @@ allerdings setzt das genügend leistungsfähige Hardware und hohe Datenqualität
 Beispiel
 ~~~~~~~~
 
-`Kohorte <https://de.wikipedia.org/wiki/Kohorte_(Sozialwissenschaft)>`_
+Siehe den Begriff **Kohorte** (z. B. in der Sozialwissenschaft): `Kohorte
+<https://de.wikipedia.org/wiki/Kohorte_(Sozialwissenschaft)>`_.
 
 Typische Techniken
 ~~~~~~~~~~~~~~~~~~

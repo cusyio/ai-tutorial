@@ -131,8 +131,8 @@ Backwardpropagation (Rückwärtsdurchlauf):
 
 * Die Berechnung erfolgt mit Hilfe der **Kettenregel der Ableitungen**, um die Gradienten für jedes Gewicht zu bestimmen:
 
-..   .. math::
-..      rac{\partial L}{\partial w} = rac{\partial L}{\partial y} \cdot rac{\partial y}{\partial z} \cdot rac{\partial z}{\partial w}
+  .. math::
+      \frac{\partial L}{\partial w} = \frac{\partial L}{\partial y} \cdot \frac{\partial y}{\partial z} \cdot \frac{\partial z}{\partial w}
 
 * In jeder Epoche passt das Modell diese Parameter an und verringert so den Verlust, indem es dem Fehlergradienten folgt. 
 `Backpropagation <https://www.geeksforgeeks.org/backpropagation-in-neural-network/>`_ verwendet häufig Optimierungsalgorithmen wie Gradientenabstieg (Gradient Descent) oder stochastischer Gradientenabstieg (stochastic Gradient Descent). 

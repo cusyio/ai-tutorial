@@ -1,5 +1,5 @@
 Neuronale Netze und Deep Learning – Optimierung
-============================================
+================================================
 
 Optimierung: Modellparameter effizient anpassen
 ---------------------------------------------------

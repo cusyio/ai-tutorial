@@ -40,7 +40,7 @@ Die Entwicklung der KI lässt sich in mehrere Phasen einteilen:
 Unterschiedliche Formen der Künstlichen Intelligenz
 ---------------------------------------------------
 
-KI kann auf verschiedene Art und Weisen in verschiedene Kategorien unterteilt
+KI kann auf verschiedene **Art und Weise** in verschiedene Kategorien unterteilt
 werden. Eine Möglichkeit ist die Kategorisierung nach ihrem Funktionsumfang und
 ihren Anwendungsmöglichkeiten, wie von Prof. Arend Hintze, Forscher
 und Professor der Integrative Biology an der Michigan State University, in dessen 

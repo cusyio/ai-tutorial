@@ -7,7 +7,7 @@ Einführung
 Nachdem wir uns am ersten Tag mit **Regression und Klassifikation** beschäftigt haben, wenden wir uns nun einem zentralen Problem im maschinellen Lernen zu: 
 **Wie stellen wir sicher, dass unser Modell nicht nur auf Trainingsdaten gut funktioniert, sondern auch auf unbekannte Daten?**
 
-Dazu müssen wir drei wichtige Konzepte verstehen:
+Dazu müssen wir zwei zentrale Konzepte verstehen:
 
 1. **Overfitting und Underfitting** – Wann ist ein Modell zu komplex oder zu einfach?
 2. **Regularisierung** – Wie können wir Overfitting verhindern?
@@ -118,7 +118,7 @@ Die Lernkurve eines Overfit-Modells weist zu Beginn einen sehr niedrigen Trainin
 
 Die Lernkurve eines Overfit-Modells weist zu Beginn einen hohen Validierungsverlust auf, der mit dem Hinzufügen von Trainingsbeispielen allmählich sinkt und nicht abflacht. 
 Das deutet darauf hin, dass das Hinzufügen weiterer Trainingsbeispiele die Leistung des Modells bei ungesehenen Daten verbessern kann.
-Es ist auch zu erkennen, dass die Trainings- und Validierungsverluste weit voneinander entfernt sind, die sich bei Hinzufügen zusätzlicher Trainingsdaten einander annähern können
+Es ist auch zu erkennen, dass die Trainings- und Validierungsverluste weit voneinander entfernt sind, die sich bei Hinzufügen zusätzlicher Trainingsdaten einander annähern können.
 
 
 2. Modellkomplexität
@@ -148,7 +148,10 @@ ist. Es ist die Messung des Modells, wie gut es zu den Daten passt.
 
 Eine geringe Verzerrung bedeutet, dass weniger Annahmen getroffen werden, um die Zielfunktion zu erstellen. 
 In diesem Fall stimmt das Modell gut mit dem Trainingsdatensatz überein.
-Hohe Verzerrung: Ein hoher Verzerrungswert bedeutet, dass mehr Annahmen zur Erstellung der Zielfunktion getroffen werden. 
+
+**Hohe Verzerrung:**
+
+Ein hoher Verzerrungswert bedeutet, dass mehr Annahmen zur Erstellung der Zielfunktion getroffen werden. 
 In diesem Fall stimmt das Modell nicht genau mit dem Trainingsdatensatz überein. 
 
 **Varianz**

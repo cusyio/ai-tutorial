@@ -1,5 +1,5 @@
 Abschluss
-==================================
+=========
 
 **Ethische Fragestellungen in der KI**
 
