@@ -3,9 +3,11 @@ Einführung zu LLM (Large Language Models)
 
 - **LLM-Lingo:** Must-Know Terms
 
-https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/llm_lingo/llm_lingo_p1.pdf
-
-https://python-basics-tutorial.readthedocs.io/en/latest/_sources/appendix/glossary.rst.txt
+.. seealso::
+   * `Awesome Generative AI Guide – LLM Lingo (PDF)
+     <https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/llm_lingo/llm_lingo_p1.pdf>`_
+   * `Python-Basics-Tutorial – Glossar
+     <https://python-basics-tutorial.readthedocs.io/en/latest/_sources/appendix/glossary.rst.txt>`_
 
 
 

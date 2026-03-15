@@ -3,7 +3,7 @@ Systemübersicht – wie Training, Testing, Inferencing und CI/CD zusammenhänge
 
 In diesem Kapitel sprechen wir über die verschiedenen Phasen des Machine Learnings: Training, Test, und Inferenz.
 
-Dies sind die drei zentrale Phasen, die im gesammten Modellierungsprozess eine wichtige Rolle spielen:
+Dies sind die drei zentralen Phasen, die im gesamten Modellierungsprozess eine wichtige Rolle spielen:
 
 1. **Training**
 
@@ -47,9 +47,9 @@ Dies sind die drei zentrale Phasen, die im gesammten Modellierungsprozess eine w
 
    **Abbildung 1:** Überblick über Training, Test und Inference Pipelines.
 
-Diese Unterscheidung ist essenziell um zu verstehen, wann, wie und womit Modelle trainiert, getestet und produktiv genutzt werden.
+Diese Unterscheidung ist essenziell, um zu verstehen, wann, wie und womit Modelle trainiert, getestet und produktiv genutzt werden.
 Der Bedarf an Infrastruktur und Architektur kann zwischen dem Trainings- und Inference-Prozess oft stark unterscheiden,
-z.B. wird vor allem bei Deepl-Learning Modellen während des Trainings sehr viel Rechenleistung für die Backpropagation verbraucht,
+z.B. wird vor allem bei Deep-Learning-Modellen während des Trainings sehr viel Rechenleistung für die Backpropagation verbraucht,
 während die Inference-Phase ausschließlich Forwardpropagation ausgeführt und somit wesentlich weniger Rechenleistung verbraucht wird.
 
 
@@ -72,7 +72,7 @@ Dieser Prozess ist ein Hauptbestandteil von **MLOps** (Machine Learning & Operat
 
 Ziel hierbei ist es, die Zusammenarbeit und Kommunikation zwischen den verschiedenen Kollaboratoren wie Data Scientist, Machine Learning Ingenieuren und Software-/IT-Ops-Teams zu verbessern, um letztlich die richtige, sichere und stabile Bereitstellung hochwertiger ML-Anwendungen zu beschleunigen.
 
-Somit ist es auch Teil vom allgemeinen **CI/CD** (Continuous Integration/Continuous Delivery) in der Software-Entwicklung, das der kontinuerlichen Zusammenführung von kleinen Änderungen und Korrekturen, den kurzen Zyklen zwischen Software-Code updates für ein ständig stabiles System auf hoher Qualität dient.
+Somit ist es auch Teil vom allgemeinen **CI/CD** (Continuous Integration/Continuous Delivery) in der Software-Entwicklung, das der kontinuierlichen Zusammenführung von kleinen Änderungen und Korrekturen, den kurzen Zyklen zwischen Software-Code updates für ein ständig stabiles System auf hoher Qualität dient.
 
 .. figure:: ../_static/images/day2-train-test-infer-system-overview4.png
    :alt: Systemüberblick zu Training, Test und Inference Pipelines mit

@@ -52,8 +52,8 @@ Ein weiteres Tool, um diese 4 Kombinationen leicht sichtbar zu machen, ist die K
 
 Anhand unseres Corona-Schnelltest-Beispiels: 
 
-Nehmen wir an, wir haben 100 Personen für den Testdatensatz an Corona-Schnelltests erfasst und
-die sind wiefolgt aufgeteilt: 
+Nehmen wir an, wir haben 100 Personen für den Testdatensatz mit Corona-Schnelltests erfasst und
+die Ergebnisse wie folgt aufgeteilt: 
 
 .. list-table:: Confusion Matrix
    :header-rows: 1
@@ -101,7 +101,7 @@ Accuracy (Genauigkeit)
 Prozentsatz der korrekten Vorhersagen:
 
 .. math::
-   \text{Accuracy} = \frac{\text{Anzahl der korrekten Vorhersagen}}{\text{Gesamtanzahl der Vorhersagen}} = \frac{\text{TP}+\text{TN}}{all}
+   \text{Accuracy} = \frac{\text{Anzahl der korrekten Vorhersagen}}{\text{Gesamtanzahl der Vorhersagen}} = \frac{\text{TP}+\text{TN}}{\text{TP}+\text{TN}+\text{FP}+\text{FN}}
 
 .. warning:
    Accuracy hat eine Einschränkung bei (stark) unausgewogenen Datensätzen, da
@@ -134,23 +134,23 @@ positiven Fälle zu erfassen (:abbr:`z.B. (zum Beispiel)` Krebsdiagnosen).
 F1-Score
 ~~~~~~~~
 
-Der F1-Score ist das harmonisches Mittel von Präzision und Recall, um ein
+Der F1-Score ist das harmonische Mittel von Präzision und Recall, um ein
 ausgewogenes Maß zu erhalten:
 
 .. math::
    \text{F1-Score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
 
 Der F1-Score ist besonders nützlich bei unausgewogenen Datensätzen (engl.:
-*unbiased data sets*).
+*imbalanced data sets*).
 
 False Negative Rate (FNR)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Die False Negative Rate (FNR) wird in der Business-Welt nicht so häufig verwendet, 
-sondern vor allem in spezifiellen Domänen wie in unserem Beispiel der medizinischen Tests:
+sondern vor allem in speziellen Domänen wie in unserem Beispiel der medizinischen Tests:
 
 .. math::
-   \text{FNR} = \frac{\text{FN} }{\text{TN} + \text{FN}}
+   \text{FNR} = \frac{\text{FN}}{\text{FN} + \text{TP}}
 
 Die FNR ist also beim Evaluieren eines Tests einer hoch-ansteckenden Viruserkrankung ein wichtiger Indikator, 
 da es fatale Konsequenzen haben könnte, wenn zu viele *False Negatives* ausgelassen werden.
@@ -215,4 +215,3 @@ Ein Beispiel zur Berechnung dieser Metriken mit `scikit-learn`:
    print(
        f"Accuracy: {accuracy}, Precision: {precision}, Recall: {recall}, F1-Score: {f1}"
    )
-   return (accuracy, precision, recall, f1)

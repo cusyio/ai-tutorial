@@ -13,7 +13,7 @@ Warum Ensemble-Methoden?
 * Sie **verbessern die Vorhersagegenauigkeit**, indem sie die Stärken mehrerer Algorithmen kombinieren.
 * Sie **machen Modelle robuster gegenüber Rauschen und Ausreißern**.
 
-Haupttypen von Ensemble-Methoden**
+Haupttypen von Ensemble-Methoden
 ------------------------------------
 
 Ensemble-Methoden lassen sich in zwei Hauptkategorien einteilen: **Bagging** und **Boosting**.
@@ -69,14 +69,18 @@ Stärken von Boosting
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 ✔ Reduziert Bias, indem es Fehler schrittweise korrigiert.
+
 ✔ Sehr leistungsfähig bei strukturierten Daten.
+
 ✔ Gute Ergebnisse mit wenigen Trainingsdaten.
 
 Schwächen von Boosting:
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 ✖ Höheres Overfitting-Risiko, wenn zu viele Bäume verwendet werden.
+
 ✖ Langsameres Training als Bagging-Methoden.
+
 ✖ Schwieriger zu parallelisieren.
 
 Vergleich von Bagging vs. Boosting

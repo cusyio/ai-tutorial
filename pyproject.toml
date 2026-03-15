@@ -5,7 +5,7 @@ authors = [
   { name="Min Ye", email="minye.epfl@gmail.com" },
   { name="Veit Schiele", email="veit@cusy.io" },
 ]
-description = "Schulungsmaterialen für unseren Python-Kurs zu neuronalen Netzwerken: https://cusy.io/de/seminare"
+description = "Schulungsmaterialien für die Einführung in KI mit Python (ML, Deep Learning, Reinforcement Learning, Generative KI). Seminare: https://cusy.io/de/seminare"
 readme = "README.rst"
 requires-python = ">=3.13"
 classifiers = [
@@ -29,16 +29,20 @@ dependencies = [
     "tensorflow",
     "torch",
     "transformers",
+    "kagglehub",
+    "plotly",
+    "missingno"
 ]
 
 [dependency-groups]
 docs = [
-    "sphinx<8.2",
+    "sphinx>=8,<9",
     "furo",
     "ipython",
     "ipywidgets",
     "notebook",
     "nbsphinx",
+    "sentence-transformers",
     "sphinxext.opengraph", # matplotlib is required for social cards
     "matplotlib",
     "sphinx_copybutton",
@@ -55,8 +59,8 @@ dev = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/cusyio/ai-tutorial/"
-"Bug Tracker" = "https://github.com/cusyio/ai-tutorial/issues"
+"Homepage" = "https://github.com/AInvone/Intro-in-KI-Schulung/"
+"Bug Tracker" = "https://github.com/AInvone/Intro-in-KI-Schulung/issues"
 
 [tool.codespell]
 skip = "*.rst, *.svg"

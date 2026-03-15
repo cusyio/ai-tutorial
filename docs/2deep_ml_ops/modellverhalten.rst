@@ -7,7 +7,7 @@ Einführung
 Nachdem wir uns am ersten Tag mit **Regression und Klassifikation** beschäftigt haben, wenden wir uns nun einem zentralen Problem im maschinellen Lernen zu: 
 **Wie stellen wir sicher, dass unser Modell nicht nur auf Trainingsdaten gut funktioniert, sondern auch auf unbekannte Daten?**
 
-Dazu müssen wir drei wichtige Konzepte verstehen:
+Dazu müssen wir zwei zentrale Konzepte verstehen:
 
 1. **Overfitting und Underfitting** – Wann ist ein Modell zu komplex oder zu einfach?
 2. **Regularisierung** – Wie können wir Overfitting verhindern?
@@ -118,10 +118,10 @@ Die Lernkurve eines Overfit-Modells weist zu Beginn einen sehr niedrigen Trainin
 
 Die Lernkurve eines Overfit-Modells weist zu Beginn einen hohen Validierungsverlust auf, der mit dem Hinzufügen von Trainingsbeispielen allmählich sinkt und nicht abflacht. 
 Das deutet darauf hin, dass das Hinzufügen weiterer Trainingsbeispiele die Leistung des Modells bei ungesehenen Daten verbessern kann.
-Es ist auch zu erkennen, dass die Trainings- und Validierungsverluste weit voneinander entfernt sind, die sich bei Hinzufügen zusätzlicher Trainingsdaten einander annähern können
+Es ist auch zu erkennen, dass die Trainings- und Validierungsverluste weit voneinander entfernt sind, die sich bei Hinzufügen zusätzlicher Trainingsdaten einander annähern können.
 
 
-2. Modelkomplexität
+2. Modellkomplexität
 ::::::::::::::::::::
 
 Bei der Entscheidung der Modellkomplexität sind zwei Faktoren ausschlaggebend: 
@@ -129,8 +129,7 @@ Bei der Entscheidung der Modellkomplexität sind zwei Faktoren ausschlaggebend:
 
 **Bias**
 
-Sei Y der wahre Wert eines Parameters, und sei 
-Y hat sei ein Schätzer von Y auf der Grundlage einer Datenstichprobe. Dann ist die Verzerrung des Schätzers Y-hat ist gegeben durch:
+Sei Y der wahre Wert eines Parameters, und sei Ŷ (Y-hat) ein Schätzer von Y auf der Grundlage einer Datenstichprobe. Dann ist die Verzerrung des Schätzers Ŷ gegeben durch:
 
    .. math::
       Bias(\hat{Y}) = E(\hat{Y}) - Y 
@@ -149,7 +148,10 @@ ist. Es ist die Messung des Modells, wie gut es zu den Daten passt.
 
 Eine geringe Verzerrung bedeutet, dass weniger Annahmen getroffen werden, um die Zielfunktion zu erstellen. 
 In diesem Fall stimmt das Modell gut mit dem Trainingsdatensatz überein.
-Hohe Verzerrung: Ein hoher Verzerrungswert bedeutet, dass mehr Annahmen zur Erstellung der Zielfunktion getroffen werden. 
+
+**Hohe Verzerrung:**
+
+Ein hoher Verzerrungswert bedeutet, dass mehr Annahmen zur Erstellung der Zielfunktion getroffen werden. 
 In diesem Fall stimmt das Modell nicht genau mit dem Trainingsdatensatz überein. 
 
 **Varianz**
@@ -160,14 +162,14 @@ Berechnet wird die Varianz, indem die Summe der quadrierten Abweichungen aller M
    .. math::
       Var(X) = \sigma^2 = \sum_{i=1}^{n} (x_i - \mu)^2 * p_i
 
-Das Zusammenspiel zwischen Bias und Varianz in Bezug auf Modelkomplexität kann wiefolgt dargestellt werden:
+Das Zusammenspiel zwischen Bias und Varianz in Bezug auf Modellkomplexität kann wie folgt dargestellt werden:
 
 .. figure:: ../_static/images/day2-model_complexity-bias_and_variance.png
-   :alt: Modelkomplexität - Bias vs Varianz
+   :alt: Modellkomplexität - Bias vs Varianz
    :align: center
    :width: 500px
 
-   **Abbildung 1:** Modelkomplexität - Bias vs Varianz, citation: By Bigbossfarin - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=105307219
+   **Abbildung 1:** Modellkomplexität - Bias vs Varianz, citation: By Bigbossfarin - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=105307219
 
 
 
@@ -192,7 +194,7 @@ Methoden zur Regularisierung:
    Bestraft große Koeffizienten, um ein stabileres Modell zu erzeugen.
 
    .. math::
-      L_1 = \sqrt{\sum{{x_i}^2}}
+      L_2 = \sum{{x_i}^2}
 
 
 * **Cross-Validation**

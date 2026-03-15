@@ -47,4 +47,5 @@ Gliederung
    case-study
    reflection
    usecase-pitfalls
+   customer-churn
    extra

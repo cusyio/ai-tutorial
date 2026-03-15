@@ -1,5 +1,5 @@
 Theorie (Mathematik) hinter Generativer KI
-=================================
+==========================================
 
 - **Wahrscheinlichkeitsmodelle:** Grundlagen der statistischen Modellierung.  
 
@@ -8,15 +8,24 @@ Theorie (Mathematik) hinter Generativer KI
 - **Optimierungsalgorithmen:** Überblick über gängige Verfahren wie Adam und ihre mathematischen Grundlagen.
 
 
-Wahrscheinlichkeitsmodelle
-------------------------------
+Wahrscheinlichkeitsmodelle - die Grundlage Generativer KI
+------------------------------------------------------------
 
-Statistische Modellierung bilden die mathematische Grundlage hinter der Generativen KI. 
+Statistische Modellierung bildet die mathematische Grundlage hinter der Generativen KI. 
 Generative KI-Modelle basieren auf dem Prinzip, die zugrunde liegende Wahrscheinlichkeitsverteilung der Trainingsdaten zu erlernen. 
 Dabei wird angenommen, dass die beobachteten Daten aus einer bestimmten, aber oft unbekannten Verteilung stammen. 
 Durch die Anwendung von Konzepten wie der Maximum-Likelihood-Schätzung und der Minimierung der Kreuzentropie wird versucht, diese Verteilung zu approximieren. 
 Dies bildet die Grundlage dafür, dass das Modell anschließend in der Lage ist, neue, statistisch konsistente Datenpunkte zu generieren, die den Mustern und Strukturen der Trainingsdaten entsprechen.
 
+**1.1 Bedingte Wahrscheinlichkeiten**
+::::::::::::::::::::::::::::::::::::::
+
+LLMs berechnen die Wahrscheinlichkeit eines Tokens basierend auf dem bisherigen Kontext:
+
+.. math::
+   P(x_1, x_2, ..., x_n) = \prod_{i=1}^{n} P(x_i | x_1, ..., x_{i-1})
+
+Das bedeutet: Die Wahrscheinlichkeit für ein ganzes Textstück ergibt sich durch das Produkt der Wahrscheinlichkeiten für jedes Token, gegeben alle vorhergehenden.
 
 
 Generative Modelle basieren darauf, die zugrunde liegende Wahrscheinlichkeitsverteilung der Daten zu approximieren. 
@@ -33,7 +42,21 @@ Statt direkt diese Funktion zu maximieren, wird oft der negative Log-Likelihood 
 .. math::
    -\sum_{i=1}^{N} \log(P(x_i; \theta))
 
-In der Praxis wird häufig die **Kreuzentropie** (Cross-Entropy - https://de.wikipedia.org/wiki/Kreuzentropie) als Verlustfunktion verwendet, um den Unterschied zwischen der wahren Datenverteilung und der vom Modell geschätzten Verteilung zu quantifizieren.
+
+**1.2 Sprachmodellierung als Prädiktion**
+::::::::::::::::::::::::::::::::::::::::::
+
+Die Aufgabe eines Sprachmodells ist es, das **nächste Token** vorherzusagen – also den **Output mit der höchsten Wahrscheinlichkeit** auszugeben. 
+Dies ist ein typisches Beispiel für ein **bedingtes Wahrscheinlichkeitsmodell**.
+
+**1.3 Entropie & Log-Loss**
+::::::::::::::::::::::::::::::::::::::
+
+Die Modelloptimierung erfolgt durch Minimierung des **Cross-Entropy Loss**, der misst, wie gut die Verteilung des Modells mit der echten Verteilung der Trainingsdaten übereinstimmt.
+
+In der Praxis wird häufig die **Kreuzentropie** (Cross-Entropy; siehe `Kreuzentropie (Wikipedia) <https://de.wikipedia.org/wiki/Kreuzentropie>`_) als Verlustfunktion verwendet, um den Unterschied zwischen der wahren Datenverteilung und der vom Modell geschätzten Verteilung zu quantifizieren.
+
+Generative KI basiert im Kern auf **Wahrscheinlichkeitsmodellen**, die darauf abzielen, die Wahrscheinlichkeitsverteilung von Sequenzen zu modellieren.
 
 
 Transformer-Architektur
@@ -89,11 +112,11 @@ Somit ermöglichen diese Mechanismen es, längere Abhängigkeiten und feinkörni
 
 **Zusätzliche Elemente:**
 
-- **Residual-Verbindungen:** 
-Diese addieren den Eingang einer Schicht zu ihrem Ausgang, um den Informationsfluss zu verbessern und das Verschwinden von Gradienten zu verhindern.
+- **Residual-Verbindungen:**
+  Diese addieren den Eingang einer Schicht zu ihrem Ausgang, um den Informationsfluss zu verbessern und das Verschwinden von Gradienten zu verhindern.
 
-- **Layer-Normalization:** 
-Eine Normierungstechnik, die dazu beiträgt, die Stabilität und Effizienz des Trainings zu erhöhen.
+- **Layer-Normalization:**
+  Eine Normierungstechnik, die dazu beiträgt, die Stabilität und Effizienz des Trainings zu erhöhen.
 
 Ein typischer Transformer-Block besteht somit aus:
 
@@ -134,10 +157,10 @@ wobei \(\eta\) die Lernrate ist und \(\nabla L(\theta_t)\) den Gradienten der Ve
 
 **AdaGrad:**
 
-AdaGrad passt die Lernrate für jeden Parameter individuell an, indem es die Summe der Quadrate der bisherigen Gradienten berücksichtigt. Für den Parameter \(\theta_i\) erfolgt die Aktualisierung:
+AdaGrad passt die Lernrate für jeden Parameter individuell an, indem es die Summe der Quadrate der bisherigen Gradienten berücksichtigt. Dabei bezeichnet \(g_t = \nabla L(\theta_t)\) den Gradienten der Verlustfunktion. Für den Parameter \(\theta_i\) erfolgt die Aktualisierung:
 
 .. math::
-   \theta_{t+1} = \theta_t - \frac{\eta}{\sqrt{G_{t,ii} + \epsilon}} \nabla \theta_t
+   \theta_{t+1} = \theta_t - \frac{\eta}{\sqrt{G_{t,ii} + \epsilon}} g_t
 
 Dabei akkumuliert \(G_{t,ii}\) die Summe der Quadrate der Gradienten für \(\theta_i\) bis zum Zeitpunkt \(t\) und \(\epsilon\) ist eine kleine Konstante zur Vermeidung einer Division durch Null. AdaGrad ist besonders nützlich bei spärlichen Daten, führt aber manchmal zu einer zu schnellen Reduktion der Lernrate.
 
@@ -146,10 +169,10 @@ Dabei akkumuliert \(G_{t,ii}\) die Summe der Quadrate der Gradienten für \(\the
 RMSProp modifiziert AdaGrad, indem es statt der kumulierten Summe einen exponentiell gewichteten gleitenden Durchschnitt der quadratischen Gradienten verwendet. Dies verhindert, dass die Lernrate zu stark abnimmt:
 
 .. math::
-   E[g^2]_t = \gamma E[g^2]_{t-1} + (1-\gamma)(\nabla \theta_t)^2
+   E[g^2]_t = \gamma E[g^2]_{t-1} + (1-\gamma) g_t^2
 
 .. math::
-   \theta_{t+1} = \theta_t - \frac{\eta}{\sqrt{E[g^2]_t + \epsilon}} \nabla \theta_t
+   \theta_{t+1} = \theta_t - \frac{\eta}{\sqrt{E[g^2]_t + \epsilon}} g_t
 
 Hierbei ist \(\gamma\) ein Zerfallsfaktor, der bestimmt, wie stark frühere Gradienten gewichtet werden.
 
@@ -158,10 +181,10 @@ Hierbei ist \(\gamma\) ein Zerfallsfaktor, der bestimmt, wie stark frühere Grad
 Adam kombiniert die Ideen von RMSProp mit der Integration von Momentum. Es berechnet sowohl einen gleitenden Durchschnitt der Gradienten als auch der quadrierten Gradienten:
 
 .. math::
-   m_t = \beta_1 m_{t-1} + (1-\beta_1) \nabla \theta_t
+   m_t = \beta_1 m_{t-1} + (1-\beta_1) g_t
 
 .. math::
-   v_t = \beta_2 v_{t-1} + (1-\beta_2)(\nabla \theta_t)^2
+   v_t = \beta_2 v_{t-1} + (1-\beta_2) g_t^2
 
 Da die Schätzungen in den ersten Schritten verzerrt sein können, werden sie wie folgt korrigiert:
 

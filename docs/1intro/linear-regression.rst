@@ -28,7 +28,7 @@ Was ist Lineare Regression?
 Interpretabilität von Linearen Regressions-Modellen
 ----------------------------------------------------
 
-Wie viele Modelle müssen für die Lineare Regression einige Voraussetzungen in den Daten erfüllt sein, 
+Wie bei vielen Modellen müssen für die Lineare Regression einige Voraussetzungen in den Daten erfüllt sein, 
 damit die Ergebnisse der Regressionsanalyse interpretiert werden können. 
 
 * Linearität: 

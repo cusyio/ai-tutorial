@@ -34,7 +34,7 @@ Aktionen mit hoher Belohnung haben eine hohe Wahrscheinlichkeit und vice versa. 
 Beispiel zur Veranschaulichung
 ------------------------------
 
-Stellen wir uns einen Roboter in neinem Raum vor, der selbst erlernen soll, wie er am besten zum Ausgang findet.
+Stellen wir uns einen Roboter in einem Raum vor, der selbst erlernen soll, wie er am besten zum Ausgang findet.
 
 - Der **Agent** ist der Roboter.
 
@@ -44,10 +44,10 @@ Stellen wir uns einen Roboter in neinem Raum vor, der selbst erlernen soll, wie 
 
 - Die **Aktionen** bestehen aus vier Bewegungsmöglichkeiten: **oben, unten, links, rechts**. (in 2D-Darstellung)
 
-- Die **Belohnung** beträgt **+100**, wenn der Roboter den Ausgang findet, und **-100**, wenn er gegen eine Wand läuft, und **-1** bei jedem Schritt, er macht ohne zum Ziel zu kommen. 
+- Die **Belohnung** beträgt **+100**, wenn der Roboter den Ausgang findet, **-100**, wenn er gegen eine Wand läuft, und **-1** bei jedem Schritt, den er macht, ohne zum Ziel zu kommen. 
 
 - Die **Policy (Strategie)** bestimmt, welche Aktion der Roboter in welchem Zustand ausführt.
 
-- Die **Wertfunktion** bewertet, wie vorteihaft ein Zustand langfristig ist.
+- Die **Wertfunktion** bewertet, wie vorteilhaft ein Zustand langfristig ist.
 
 Das Ziel des Roboters liegt darin, durch **Versuch und Irrtum** (Trial and Error) die optimale **Strategie** zu lernen, um den Ausgang so effizient wie möglich zu erreichen.
