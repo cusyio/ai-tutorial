@@ -12,6 +12,8 @@ Generative KI
 - Offene Fragen und Klarstellungen
 
 
+**Hauptkapitel (Lernpfad)**
+
 .. list-table:: 
    :header-rows: 1
 
@@ -19,8 +21,54 @@ Generative KI
      - Inhalte
    * - Einführung in Generative KI
      - Konzepte und Grundlagen
-   * - Theorie hinter Generative KI 
-     - Wahrscheinlichkeitsmodelle, Transformer-Architektur, Optimierungsalgorithmen
+   * - Lernpfad (Roadmap)
+     - Text → Tokens → Embeddings → Retrieval → RAG → optional Interna
+   * - LLM-Intuition
+     - Was ein Sprachmodell macht (Next-Token-Prediction)
+   * - Tokenisierung
+     - Tokens, Tokenizer, Kontextlänge
+   * - Prompt-Engineering
+     - Zero-Shot, Few-Shot, System-Prompt
+   * - Embeddings
+     - Text als Vektor, semantische Ähnlichkeit
+   * - Semantische Suche
+     - Retrieval mit Kosinusähnlichkeit
+   * - RAG (Einführung)
+     - Retrieval-Augmented Generation, Konzept
+   * - RAG-Praxis (Notebook)
+     - Lokaler RAG-Ablauf ohne externe LLM-API
+   * - Grenzen und Risiken von LLMs
+     - Halluzinationen, Bias, Sicherheit, Regulierung
+
+**Optionale Vertiefung (LLM-Interna)**
+
+.. list-table:: 
+   :header-rows: 1
+
+   * - Kapitel
+     - Inhalte
+   * - Theorie hinter Generative KI
+     - Wahrscheinlichkeitsmodelle, Transformer, Optimierung (nach RAG/Kapitel)
+   * - LLM-Interna (konzeptionell)
+     - Attention, Decoder-only, ausgewählte Code-Snippets (keine Vollimplementierung)
+
+**Referenz (außerhalb des Haupt-Lernflusses)**
+
+.. list-table:: 
+   :header-rows: 1
+
+   * - Kapitel
+     - Inhalte
+   * - LLM-Lingo (Glossar)
+     - Begriffserklärungen zum Nachschlagen
+
+**Weitere Kapitel**
+
+.. list-table:: 
+   :header-rows: 1
+
+   * - Kapitel
+     - Inhalte
    * - Infrastruktur und Architektur 
      - Hardware, Software-Frameworks, Architekturüberblick
    * - Hands-on Beispiel
@@ -58,9 +106,19 @@ Die folgenden Beispiele zeigen, warum Ethik und Regulierung (z. B. AI Act) in 
    :maxdepth: 0
 
    genai_intro
+   genai_roadmap
+   llm_intuition
+   tokenization
+   prompt_engineering
+   embeddings
+   semantic_search
+   rag_intro
+   rag_practice
+   llm_limitations
    genai_theory
-   genai_infrastructure
+   llm_internals
    genai_llm
+   genai_infrastructure
    llm_1
    llm_2
    nachtrag_ensembleML

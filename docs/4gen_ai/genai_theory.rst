@@ -1,5 +1,5 @@
 Theorie (Mathematik) hinter Generativer KI
-=================================
+==========================================
 
 - **Wahrscheinlichkeitsmodelle:** Grundlagen der statistischen Modellierung.  
 
@@ -112,11 +112,11 @@ Somit ermöglichen diese Mechanismen es, längere Abhängigkeiten und feinkörni
 
 **Zusätzliche Elemente:**
 
-- **Residual-Verbindungen:** 
-Diese addieren den Eingang einer Schicht zu ihrem Ausgang, um den Informationsfluss zu verbessern und das Verschwinden von Gradienten zu verhindern.
+- **Residual-Verbindungen:**
+  Diese addieren den Eingang einer Schicht zu ihrem Ausgang, um den Informationsfluss zu verbessern und das Verschwinden von Gradienten zu verhindern.
 
-- **Layer-Normalization:** 
-Eine Normierungstechnik, die dazu beiträgt, die Stabilität und Effizienz des Trainings zu erhöhen.
+- **Layer-Normalization:**
+  Eine Normierungstechnik, die dazu beiträgt, die Stabilität und Effizienz des Trainings zu erhöhen.
 
 Ein typischer Transformer-Block besteht somit aus:
 

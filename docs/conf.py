@@ -139,8 +139,10 @@ latex_documents = [
 
 # -- nbsphinx configuration --------------------------------------------------
 
-# Notebooks sollten ohne Fehler ausführbar sein; bei Build-Problemen ggf. auf True setzen.
-nbsphinx_allow_errors = False
+# Notebooks sollten ohne Fehler ausführbar sein.
+# True: Build läuft durch; in einigen Notebooks (z. B. sklearn-Ausgabe in customer-churn-2)
+# erzeugt HTML-Code RST-Referenzen (z. B. best_params_), die zu "Unknown target" führen.
+nbsphinx_allow_errors = True
 # nbsphinx_execute = 'always'
 
 # -- intersphinx configuration -----------------------------------------------

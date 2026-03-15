@@ -53,7 +53,7 @@ Installation
 
    .. code-block:: console
 
-      $ sphinx-build -b html docs/ docs/_build/html/
+      $ sphinx-build -b html docs docs/_build/html
 
    Das Ergebnis liegt in ``docs/_build/html/``; die Startseite ist
    ``docs/_build/html/index.html``.
