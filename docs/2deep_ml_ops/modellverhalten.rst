@@ -60,7 +60,7 @@ Das überangepasste Modell wird zwar auf den Trainingsdaten eine sehr niedrige F
    :align: center
    :width: 400px
 
-   **Abbildung 1:** Overfitting, citation: By Chabacano - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=3610704
+   **Abbildung 1:** Overfitting, citation: By Chabacano - Own work, CC BY-SA 4.0, `Wikimedia Commons <https://commons.wikimedia.org/w/index.php?curid=3610704>`_.
 
 Weitere Darstellungen von Overfitting und Underfitting finden sich z. B. in der `Wikipedia (Overfitting) <https://de.wikipedia.org/wiki/Overfitting>`_ oder in der `scikit-learn-Dokumentation <https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html>`_. 
 
@@ -169,7 +169,7 @@ Das Zusammenspiel zwischen Bias und Varianz in Bezug auf Modellkomplexität kann
    :align: center
    :width: 500px
 
-   **Abbildung 1:** Modellkomplexität - Bias vs Varianz, citation: By Bigbossfarin - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=105307219
+   **Abbildung 1:** Modellkomplexität - Bias vs Varianz, citation: By Bigbossfarin - Own work, CC0, `Wikimedia Commons <https://commons.wikimedia.org/w/index.php?curid=105307219>`_.
 
 
 

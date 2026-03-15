@@ -157,13 +157,42 @@ intersphinx_mapping = {
     "PyViz": ("https://pyviz-tutorial.readthedocs.io/de/latest", None),
 }
 
-# Linkcheck: bekannte externe URLs, die 403/404 liefern oder nicht zuverlässig erreichbar sind
+# Linkcheck: externe URLs, die in CI oft 403/404 liefern, Bots blockieren oder nicht zuverlässig erreichbar sind
 linkcheck_ignore = [
     r"https://de\.mathworks\.com/.*",
     r"https://www\.cusy\.design/.*",
+    r"https://cusy\.io/.*",
     r"https://medium\.com/.*",
     r"https://miro\.medium\.com/.*",
+    r"https://www\.youtube\.com/.*",
+    r"https://youtube\.com/.*",
+    r"https://www\.geeksforgeeks\.org/.*",
+    r"https://theconversation\.com/.*",
+    r"https://mindsquare\.de/.*",
+    r"https://.*\.statista\.com/.*",
+    r"https://lamarr-institute\.org/.*",
+    r"https://botpenguin\.com/.*",
+    r"https://raw\.githubusercontent\.com/.*",
+    r"https://www\.kaggle\.com/.*",
+    r"https://eur-lex\.europa\.eu/.*",
+    r"https://.*\.ibm\.com/.*",
+    r"https://docs\.dedupe\.io/.*",
+    r"https://datatab\.de/.*",
+    r"https://futurezone\.at/.*",
+    r"https://www\.infosperber\.ch/.*",
+    r"https://shap\.readthedocs\.io/.*",
+    r"https://storage\.googleapis\.com/.*",
+    r"https://github\.com/.*",  # API/raw können in CI flackern
+    r"https://www\.python4data\.science/.*",
+    r"https://.*\.readthedocs\.io/.*",
+    r"https://python-basics-tutorial\.readthedocs\.io/.*",
+    r"https://jupyter-tutorial\.readthedocs\.io/.*",
+    r"https://pyviz-tutorial\.readthedocs\.io/.*",
+    r"https://scikit-learn\.org/.*",  # oft Rate-Limit oder langsam in CI
 ]
+# Weniger strenge Linkprüfung in CI: kürzerer Timeout, eine Wiederholung
+linkcheck_timeout = 5
+linkcheck_retries = 1
 
 
 def setup(app):

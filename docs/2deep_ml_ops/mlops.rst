@@ -82,6 +82,5 @@ Somit ist es auch Teil vom allgemeinen **CI/CD** (Continuous Integration/Continu
    **Abbildung 1:** Überblick über Training, Test und Inference Pipelines mit Active Learning.
 
 .. seealso::
-   https://github.com/veit/dvc-example/ 
-   
-   https://python4data.science/de/latest/productive/dvc/index.html 
+   `DVC-Beispiel (GitHub) <https://github.com/veit/dvc-example/>`_,
+   `Python4DataScience – DVC <https://python4data.science/de/latest/productive/dvc/index.html>`_.

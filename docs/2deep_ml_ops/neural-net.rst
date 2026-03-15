@@ -16,7 +16,7 @@ Was sind künstliche neuronale Netze? Wie unterscheiden sie sich von klassischen
    :align: center
    :width: 700px
 
-   **Abbildung 1:** Deep Neural Networks, source: `Lamarr-Institute <https://lamarr-institute.org/blog/deep-neural-networks/>`_, https://lamarr-institute.org/wp-content/uploads/deepLearn_2_EN.png 
+   **Abbildung 1:** Deep Neural Networks, source: `Lamarr-Institute (Blog) <https://lamarr-institute.org/blog/deep-neural-networks/>`_. 
 
 
 Wichtige Aktivierungsfunktionen:
@@ -40,9 +40,9 @@ Fortgeschrittene Deep-Learning-Techniken:
 
 * Convolutional Neural Networks (CNNs) für **Bildverarbeitung**.
 
-Eine gute dynamische Darstellung, wie das Zusammenspiel zwischen den Schichten 
-bei einem CNN funktioniert, kann in diesem Video gefunden werden: 
-https://www.youtube.com/watch?v=ip2HYPC_T9Q 
+Eine gute dynamische Darstellung, wie das Zusammenspiel zwischen den Schichten
+bei einem CNN funktioniert, kann in diesem Video gefunden werden:
+`3Blue1Brown: CNNs (YouTube) <https://www.youtube.com/watch?v=ip2HYPC_T9Q>`_. 
 
 * Recurrent Neural Networks (RNNs) für **Sequenz- und Textverarbeitung**.
 
