@@ -161,6 +161,8 @@ intersphinx_mapping = {
 linkcheck_ignore = [
     r"https://de\.mathworks\.com/.*",
     r"https://www\.cusy\.design/.*",
+    r"https://medium\.com/.*",
+    r"https://miro\.medium\.com/.*",
 ]
 
 
