@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - uses: pandoc/actions/setup@v1
+    - run: sudo apt-get update && sudo apt-get install -y pandoc graphviz
     - uses: ts-graphviz/setup-graphviz@v2
     - uses: actions/setup-python@v5
       with:

@@ -62,7 +62,7 @@ Das überangepasste Modell wird zwar auf den Trainingsdaten eine sehr niedrige F
 
    **Abbildung 1:** Overfitting, citation: By Chabacano - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=3610704
 
-Eine gute Darstellung von Overfitting, Underfitting und einem gut generalisierten Modell kann `hier <https://de.mathworks.com/discovery/overfitting.html>`_ gefunden werden. 
+Weitere Darstellungen von Overfitting und Underfitting finden sich z. B. in der `Wikipedia (Overfitting) <https://de.wikipedia.org/wiki/Overfitting>`_ oder in der `scikit-learn-Dokumentation <https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html>`_. 
 
 
 Wie erkennt man überangepasste Modelle?

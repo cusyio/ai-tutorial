@@ -33,8 +33,12 @@ project = "AI-Tutorial"
 author = "Min Ye, Veit Schiele"
 copyright = f"2025, {author}"
 
-# The full version, including alpha/beta/rc tags
-release = re.sub("^v", "", os.popen("git describe --abbrev=0").read().strip())
+# The full version, including alpha/beta/rc tags (fallback if no git tags)
+try:
+    _git_describe = os.popen("git describe --abbrev=0 2>/dev/null").read().strip()
+    release = re.sub("^v", "", _git_describe) if _git_describe else "24.1.0"
+except Exception:
+    release = "24.1.0"
 
 
 # -- General configuration ---------------------------------------------------
@@ -152,6 +156,12 @@ intersphinx_mapping = {
     "Python4DataScience": ("https://www.python4data.science/de/latest", None),
     "PyViz": ("https://pyviz-tutorial.readthedocs.io/de/latest", None),
 }
+
+# Linkcheck: bekannte externe URLs, die 403/404 liefern oder nicht zuverlässig erreichbar sind
+linkcheck_ignore = [
+    r"https://de\.mathworks\.com/.*",
+    r"https://www\.cusy\.design/.*",
+]
 
 
 def setup(app):
