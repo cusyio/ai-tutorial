@@ -34,6 +34,24 @@ dependencies = [
     "missingno"
 ]
 
+[project.optional-dependencies]
+docs = [
+    "sphinx>=8,<9",
+    "furo",
+    "ipython",
+    "ipywidgets",
+    "notebook",
+    "nbsphinx",
+    "sentence-transformers",
+    "sphinxext.opengraph",
+    "matplotlib",
+    "sphinx_copybutton",
+    "sphinx-inline-tabs",
+    "sphinxcontrib-svg2pdfconverter",
+    "sphinx-lint",
+    "pygments-pytest",
+]
+
 [dependency-groups]
 docs = [
     "sphinx>=8,<9",
