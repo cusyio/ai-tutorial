@@ -12,7 +12,7 @@ Intelligenz, das es Computern ermöglicht, aus Daten zu lernen, anstatt explizit
 programmiert zu werden. Es gibt drei Hauptarten des ML:
 
 1. Überwachtes Lernen (Supervised Learning)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Beim **überwachten Lernen** werden Modelle mit **gelabelten Daten** trainiert.
 
@@ -53,7 +53,7 @@ Modellbewertung
   Error (MSE).
 
 2. Unüberwachtes Lernen (Unsupervised Learning)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Beim **unüberwachten Lernen** gibt es **keine gelabelten Daten**.
 
@@ -112,7 +112,7 @@ t-SNE (t-Distributed Stochastic Neighbor Embedding)
 
 
 Vergleich: Überwachtes vs. Unüberwachtes Lernen
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../_static/images/day1-supervsed-unsupervised-learning.png
    :alt: Überwachtes Lernen vs. Unüberwachtes Lernen
@@ -141,7 +141,7 @@ Vergleich: Überwachtes vs. Unüberwachtes Lernen
     - Clustering, Dimensionsreduktion
 
 3. Reinforcement Learning (Bestärkendes Lernen, RL)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. seealso::
    * :doc:`../3reinforce_learn/index`
@@ -232,7 +232,7 @@ Rechenaufwand:
     RL benötigt oft viele Trainingsdurchläufe und Rechenleistung.
 
 4. Deep Learning (DL) als spezialisierte Form des ML
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Definition
 ::::::::::
