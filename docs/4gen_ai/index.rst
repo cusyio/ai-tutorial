@@ -22,7 +22,7 @@ Generative KI
    * - Einführung in Generative KI
      - Konzepte und Grundlagen
    * - Lernpfad (Roadmap)
-     - Text → Tokens → Embeddings → Retrieval → RAG → optional Interna
+     - Text → Tokens → Prompting → Embeddings → semant. Ähnlichkeit → Suche → RAG → optional Interna
    * - LLM-Intuition
      - Was ein Sprachmodell macht (Next-Token-Prediction)
    * - Tokenisierung
@@ -30,9 +30,11 @@ Generative KI
    * - Prompt-Engineering
      - Zero-Shot, Few-Shot, System-Prompt
    * - Embeddings
-     - Text als Vektor, semantische Ähnlichkeit
+     - Text als Vektor, Bedeutung im Raum
+   * - Semantische Ähnlichkeit
+     - Vektorvergleich, Kosinusähnlichkeit, Brücke zur Suche
    * - Semantische Suche
-     - Retrieval mit Kosinusähnlichkeit
+     - Retrieval mit Embeddings und Top-k
    * - RAG (Einführung)
      - Retrieval-Augmented Generation, Konzept
    * - RAG-Praxis (Notebook)
@@ -51,6 +53,8 @@ Generative KI
      - Wahrscheinlichkeitsmodelle, Transformer, Optimierung (nach RAG/Kapitel)
    * - LLM-Interna (konzeptionell)
      - Attention, Decoder-only, ausgewählte Code-Snippets (keine Vollimplementierung)
+   * - microGPT-Walkthrough (optional)
+     - Minimales GPT im Stil Karpathy: Text→Tokens→Embeddings→Transformer→Next-Token (Schlüsselcode)
 
 **Referenz (außerhalb des Haupt-Lernflusses)**
 
@@ -111,12 +115,14 @@ Die folgenden Beispiele zeigen, warum Ethik und Regulierung (z. B. AI Act) in 
    tokenization
    prompt_engineering
    embeddings
+   semantic_similarity
    semantic_search
    rag_intro
    rag_practice
    llm_limitations
    genai_theory
    llm_internals
+   microgpt_walkthrough
    genai_llm
    genai_infrastructure
    llm_1

@@ -1,7 +1,7 @@
 Embeddings: Text als Vektor
 ============================
 
-Damit Computer mit der **Bedeutung** von Text arbeiten können, wird Text in Zahlenvektoren übersetzt – solche Vektoren heißen **Embeddings**. Dieses Kapitel erklärt die Idee und den Nutzen.
+**Recap:** Wir haben gesehen, wie wir dem Modell über **Prompts** Eingaben geben – aber das Modell hat keinen Zugriff auf unsere Dokumente oder Datenbanken. **Warum dieses Kapitel:** Damit wir „ähnliche“ Texte finden können (z. B. welche Dokumentenabschnitte zu einer Frage passen), brauchen wir eine Darstellung von Text, die **Bedeutung** vergleichbar macht. Dafür wird Text in Zahlenvektoren übersetzt – solche Vektoren heißen **Embeddings**. Dieses Kapitel erklärt die Idee und den Nutzen.
 
 Intuition
 ---------
@@ -59,7 +59,7 @@ Beispiel (konzeptionell)
    # vec ist ein Array mit z. B. 384 Zahlen
    print(vec.shape)  # (384,)
 
-Mehrere Sätze auf einmal zu embedden ist effizienter (Batch). Die konkrete Nutzung für **Suche** folgt im Kapitel :doc:`semantic_search`.
+Mehrere Sätze auf einmal zu embedden ist effizienter (Batch). Die konkrete Nutzung für **Suche** folgt in den Kapiteln :doc:`semantic_similarity` (Wie messen wir Ähnlichkeit?) und :doc:`semantic_search` (Retrieval im Korpus).
 
 Wichtig
 --------
@@ -71,4 +71,4 @@ Wichtig
 Nächster Schritt
 ----------------
 
-Im Kapitel **Semantische Suche** (:doc:`semantic_search`) wird gezeigt, wie sich mit Embeddings die relevantesten Stellen in einem Dokumentenkorpus finden lassen.
+Embeddings liefern Vektoren – aber **wann** sind zwei Vektoren „ähnlich“? Dafür brauchen wir ein klares Maß (z. B. Kosinusähnlichkeit). Im Kapitel **Semantische Ähnlichkeit** (:doc:`semantic_similarity`) wird erklärt, wie wir Vektorähnlichkeit messen und warum genau das die Brücke zu semantischer Suche und RAG schlägt. Danach folgt **Semantische Suche** (:doc:`semantic_search`) – die konkrete Anwendung: die relevantesten Chunks im Korpus finden.

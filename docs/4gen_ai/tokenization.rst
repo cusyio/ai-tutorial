@@ -1,7 +1,7 @@
 Tokens und Tokenisierung
 =========================
 
-Damit ein LLM mit Text arbeiten kann, wird er zuerst in **Tokens** zerlegt. Dieses Kapitel erklärt die Idee und zeigt einfache Beispiele.
+**Recap:** Ein LLM sagt den **nächsten Token** vorher – es arbeitet also mit diskreten Einheiten, nicht mit Rohtext. **Warum dieses Kapitel:** Damit das Modell überhaupt rechnen kann, muss Text in diese Einheiten (Tokens) zerlegt und in Zahlen (IDs) abgebildet werden. Dieses Kapitel erklärt die Idee und zeigt einfache Beispiele.
 
 Warum nicht einfach Wörter?
 ----------------------------
@@ -38,7 +38,7 @@ Warum ist das relevant?
 * **Chunking** bei RAG: Dokumente werden sinnvoll in Token-Größen zerlegt; die Tokenisierung hilft, Grenzen zu setzen.
 
 Kontextlängen in der Praxis (Beispiele)
---------------------------------------
+---------------------------------------
 
 Verschiedene Anbieter und Modelle unterstützen unterschiedlich große Kontextfenster. Zur Einordnung ein Überblick bekannter Modelle (Stand grob 2024/2025; Werte können sich mit neuen Versionen ändern):
 
@@ -48,7 +48,7 @@ Verschiedene Anbieter und Modelle unterstützen unterschiedlich große Kontextfe
 * **DeepSeek:** DeepSeek V3 / R1 (Reasoning) mit z. B. 64K–128K Token – Beispiel eines leistungsstarken Modells eines anderen Anbieters.
 * **Meta:** Llama 3 (z. B. 8K–128K je nach Variante) – oft als Basis für lokale oder angepasste Lösungen genutzt.
 
-An solchen Werten sehen Sie: Kontextlänge ist ein zentrales Leistungsmerkmal; sie begrenzt, wie viel Vorwissen und wie lange Dokumente das Modell „auf einmal“ berücksichtigen kann.
+An solchen Werten wird klar: Kontextlänge ist ein zentrales Leistungsmerkmal; sie begrenzt, wie viel Vorwissen und wie lange Dokumente das Modell „auf einmal“ berücksichtigen kann.
 
 Einfaches Beispiel mit Python
 ------------------------------
@@ -74,9 +74,9 @@ Kurz zusammengefasst
 
 * Text wird durch einen **Tokenizer** in **Tokens** zerlegt und in **IDs** abgebildet.
 * Tokens sind nicht immer ganze Wörter; die Länge von Kontext und Kosten wird in Token gezählt.
-* Für RAG und Prompt-Engineering ist es hilfreich, ungefähr zu wissen, wie viele Tokens Ihr Text hat.
+* Für RAG und Prompt-Engineering ist es hilfreich, ungefähr zu wissen, wie viele Tokens ein Text hat.
 
 Nächster Schritt
 ----------------
 
-Im Kapitel **Prompting und Prompt-Engineering** (:doc:`prompt_engineering`) geht es darum, wie sich Eingaben so formulieren lassen, dass das Modell die gewünschte Art von Antwort liefert.
+Tokens und Kontextlänge sind die technische Basis. Damit das Modell die **gewünschte Art** von Antwort liefert, müssen wir die Eingabe gezielt formulieren. Im Kapitel **Prompting und Prompt-Engineering** (:doc:`prompt_engineering`) geht es darum, wie wir Fragen und Anweisungen so formulieren, dass das Modell die gewünschte Antwort liefert – und wo die Grenzen liegen (z. B. wann wir RAG brauchen).

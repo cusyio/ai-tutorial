@@ -1,7 +1,7 @@
 Semantische Suche
 ==================
 
-**Semantische Suche** bedeutet: Dokumente oder Textstellen finden, die **inhaltlich** zu einer Frage oder einem Suchbegriff passen – auch wenn die genauen Wörter nicht übereinstimmen. Dafür nutzen wir **Embeddings** und Ähnlichkeitsmaße.
+**Recap:** Wir haben **Embeddings** (Text als Vektor) und ein Maß für **semantische Ähnlichkeit** (z. B. Kosinusähnlichkeit) – also eine Zahl, die sagt, wie „nah“ zwei Texte im Vektorraum sind. **Warum dieses Kapitel:** Jetzt setzen wir beides ein: **Semantische Suche** bedeutet, in einem Korpus von Dokumenten die Stellen zu finden, die **inhaltlich** zu einer Frage passen – indem wir die Embeddings der Frage mit denen der Chunks vergleichen und die ähnlichsten auswählen (Retrieval). Das ist die Grundlage für **RAG**.
 
 Idee
 ----
@@ -61,4 +61,4 @@ Kurz zusammengefasst
 Nächster Schritt
 ----------------
 
-Im Kapitel **RAG – Retrieval-Augmented Generation** (:doc:`rag_intro`) wird erklärt, wie Retrieval und LLM zusammenspielen – und im Notebook :doc:`rag_practice` lässt sich der Ablauf lokal durchspielen.
+Retrieval liefert die **relevantesten Chunks** zu einer Frage. Diese Chunks werden dem LLM als **Kontext** mitgegeben – das ist der Kern von **RAG**. Im Kapitel **RAG – Retrieval-Augmented Generation** (:doc:`rag_intro`) wird erklärt, wie Retrieval und LLM zusammenspielen; im Notebook :doc:`rag_practice` lässt sich der Ablauf lokal durchspielen. Danach folgen **Grenzen und Risiken** (:doc:`llm_limitations`) und optional **LLM-Interna** (:doc:`llm_internals`).

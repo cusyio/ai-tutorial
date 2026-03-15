@@ -1,7 +1,7 @@
 LLM-Intuition: Was macht ein Sprachmodell?
 ==========================================
 
-In diesem Kapitel geht es darum, **ohne Formeln** zu verstehen, was ein Large Language Model (LLM) eigentlich tut.
+**Recap:** In der Einführung in Generative KI haben wir gesehen, dass generative Modelle neue Inhalte erzeugen – bei Sprachmodellen heißt das: Text. **Warum dieses Kapitel:** Bevor wir Tokens, Prompting oder RAG verstehen, brauchen wir eine klare Vorstellung davon, *was* ein LLM überhaupt tut. In diesem Kapitel geht es darum, **ohne Formeln** zu verstehen, was ein Large Language Model (LLM) im Kern macht.
 
 Die zentrale Idee
 -----------------
@@ -54,4 +54,4 @@ Diese Begriffe werden in den folgenden Kapiteln (Tokenisierung, Prompt-Engineeri
 Nächster Schritt
 ----------------
 
-Als Nächstes geht es um **Tokens und Tokenisierung** (:doc:`tokenization`): Wie aus Text die Einheiten werden, die das Modell verarbeitet.
+Das Modell arbeitet mit **Einheiten** (Tokens), nicht mit beliebigem Rohtext. Als Nächstes geht es um **Tokens und Tokenisierung** (:doc:`tokenization`): Wie aus Text genau die Einheiten werden, die das Modell verarbeitet – und warum Kontextlänge und Kosten in Token gemessen werden.

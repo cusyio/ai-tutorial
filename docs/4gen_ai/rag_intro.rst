@@ -1,7 +1,7 @@
 RAG – Retrieval-Augmented Generation
 =====================================
 
-**RAG** verbindet **semantische Suche** (Retrieval) mit einem **Sprachmodell** (Generation): Relevante Textstellen werden aus den eigenen Dokumenten geholt und dem LLM als Kontext mitgegeben. So kann das Modell auf **dieses Wissen** antworten, ohne es im Training gesehen zu haben.
+**Recap:** Mit **Embeddings** und **semantischer Ähnlichkeit** (Kosinus) haben wir die **relevantesten Chunks** zu einer Frage gefunden – das ist **Retrieval** (Semantische Suche). **Warum dieses Kapitel:** Diese Treffer sollen nicht nur angezeigt, sondern vom LLM genutzt werden. **RAG** verbindet **Retrieval** mit **Generation**: Relevante Textstellen werden aus den eigenen Dokumenten geholt und dem LLM als **Kontext** mitgegeben. So kann das Modell auf **dieses Wissen** antworten, ohne es im Training gesehen zu haben.
 
 Problem ohne RAG
 ----------------
@@ -68,4 +68,5 @@ Nächster Schritt
 ----------------
 
 * **Praxis:** Im Notebook :doc:`rag_practice` wird der RAG-Ablauf Schritt für Schritt nachgebaut (lokal, ohne externe LLM-API).
-* **Vertiefung:** Anschließend folgen **Grenzen und Risiken** (:doc:`llm_limitations`) und optional die **LLM-Interna** (:doc:`llm_internals`).
+* **Grenzen:** Bevor wir optional in die Architektur eintauchen, lohnt sich ein Blick auf **Grenzen und Risiken von LLMs** (:doc:`llm_limitations`) – Halluzinationen, Bias, Aktualität, Sicherheit.
+* **Optional:** Danach folgen **LLM-Interna** (:doc:`llm_internals`) und der **microGPT-Walkthrough** (:doc:`microgpt_walkthrough`) für alle, die sehen möchten, wie ein minimales GPT im Code aufgebaut ist.

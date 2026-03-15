@@ -1,7 +1,7 @@
 Grenzen und Risiken von LLMs
 =============================
 
-Large Language Models sind mächtige Werkzeuge, haben aber klare **Grenzen** und bringen **Risiken** mit sich. Dieses Kapitel fasst die wichtigsten Punkte für die Praxis zusammen.
+**Recap:** Mit **RAG** können wir dem LLM Kontext aus eigenen Dokumenten mitgeben – trotzdem bleibt das Modell ein statistisches Vorhersagemodell mit festen Grenzen. **Warum dieses Kapitel:** Bevor wir optional in die Architektur (LLM-Interna, microGPT) eintauchen, ist es wichtig, die **Grenzen und Risiken** zu kennen: Halluzinationen, Bias, Aktualität, Sicherheit und Regulierung. Dieses Kapitel fasst die wichtigsten Punkte für die Praxis zusammen.
 
 Halluzinationen
 ---------------
@@ -53,4 +53,4 @@ Kurz zusammengefasst
 Nächster Schritt
 ----------------
 
-Wer die **Architektur** von Transformern verstehen möchte – ohne ein vollständiges Modell zu implementieren – findet in der optionalen Sektion **LLM-Interna** (:doc:`llm_internals`) und in der **Theorie hinter Generativer KI** (:doc:`genai_theory`) die passende Vertiefung.
+Wer die **Architektur** von Transformern verstehen möchte – ohne ein vollständiges Modell zu implementieren – findet in den optionalen Kapiteln **LLM-Interna** (:doc:`llm_internals`) (Konzepte: Attention, Decoder-only) und **microGPT-Walkthrough** (:doc:`microgpt_walkthrough`) (ausgewählte Code-Bausteine im Stil Karpathy) die passende Vertiefung. Die **Theorie hinter Generativer KI** (:doc:`genai_theory`) liefert die mathematischen Details.

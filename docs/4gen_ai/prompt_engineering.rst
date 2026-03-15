@@ -1,7 +1,7 @@
 Prompting und Prompt-Engineering
 ================================
 
-Der **Prompt** ist der Text, den wir dem LLM als Eingabe geben. Wie er formuliert wird, hat großen Einfluss auf die Antwort. Dieses Kapitel führt in die Grundlagen ein.
+**Recap:** Das Modell verarbeitet Text als **Tokens** und sagt den nächsten Token vorher. Was es „sieht“, ist nur das, was wir im Prompt (und im Kontextfenster) mitgeben. **Warum dieses Kapitel:** Der **Prompt** ist der Text, den wir dem LLM als Eingabe geben – wie er formuliert wird, hat großen Einfluss auf die Antwort. Dieses Kapitel führt in die Grundlagen ein (Zero-Shot, Few-Shot, System-Prompt) und zeigt, wo die Grenze liegt: Für wissensbasierte Antworten aus eigenen Dokumenten brauchen wir später **Embeddings** und **RAG**.
 
 Was ist ein Prompt?
 -------------------
@@ -68,4 +68,4 @@ Das Modell „merkt sich“ nur das, was im **aktuellen Kontext** (Context Windo
 Nächster Schritt
 ----------------
 
-Für **semantische Suche** und **RAG** brauchen wir **Embeddings** – Vektoren, die die „Bedeutung“ von Text erfassen. Dafür geht es im nächsten Kapitel weiter: :doc:`embeddings`.
+Für **semantische Suche** und **RAG** brauchen wir eine Darstellung von Text, die „Bedeutung“ erfassbar macht – nicht nur einzelne Wörter. Dafür führen wir **Embeddings** ein: Texte werden zu Vektoren im gleichen Raum. Im nächsten Kapitel (:doc:`embeddings`) sehen wir, wie das funktioniert und wofür wir es brauchen.

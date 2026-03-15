@@ -44,3 +44,8 @@ Der Hauptunterschied zwischen generativen und diskriminativen Ansätzen liegt in
 
 
 Während also diskriminative Ansätze primär in der Erkennung und Kategorisierung von Mustern eingesetzt werden, ermöglichen generative Modelle die Erzeugung von neuen, bisher nicht existierenden Inhalten – was sie zu einem zentralen Baustein moderner kreativer und innovativer KI-Anwendungen macht.
+
+Nächster Schritt
+----------------
+
+Für den **Lernpfad zu LLMs und RAG** folgt als Nächstes die **Roadmap** (:doc:`genai_roadmap`) mit der konzeptionellen Abfolge (Text → Tokens → Embeddings → semantische Ähnlichkeit → Retrieval → RAG). Danach starten wir mit **LLM-Intuition** (:doc:`llm_intuition`): Was macht ein Sprachmodell im Kern?
