@@ -6,10 +6,10 @@ Semantische Suche
 Idee
 ----
 
-1. Sie haben einen **Korpus** (z. B. FAQs, Handbuchtexte, Schulungsunterlagen).
+1. Wir haben einen **Korpus** (z. B. FAQs, Handbuchtexte, Schulungsunterlagen).
 2. Jeder relevante Abschnitt („Chunk“) wird in einen **Vektor** (Embedding) umgewandelt und gespeichert.
 3. Bei einer **Anfrage** wird die Frage ebenfalls in einen Vektor umgewandelt.
-4. Sie suchen die Chunks, deren Vektoren der **Anfrage am ähnlichsten** sind – das sind die semantisch relevanten Treffer.
+4. Wir suchen die Chunks, deren Vektoren der **Anfrage am ähnlichsten** sind – das sind die semantisch relevanten Treffer.
 
 Ähnlichkeitsmaß: Kosinusähnlichkeit
 -----------------------------------
@@ -23,7 +23,7 @@ Die **Kosinusähnlichkeit** (cosine similarity) misst den Winkel zwischen zwei V
    def cosine_similarity(a, b):
        return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
 
-Wenn Sie viele Chunks haben, berechnen Sie die Ähnlichkeit der Anfrage zu jedem Chunk-Vektor und sortieren nach diesem Wert – die Top-k sind die **retrieval**-Ergebnisse.
+Bei vielen Chunks berechnen wir die Ähnlichkeit der Anfrage zu jedem Chunk-Vektor und sortieren nach diesem Wert – die Top-k sind die **retrieval**-Ergebnisse.
 
 Ablauf in der Praxis
 --------------------
@@ -61,4 +61,4 @@ Kurz zusammengefasst
 Nächster Schritt
 ----------------
 
-Im Kapitel **RAG – Retrieval-Augmented Generation** (:doc:`rag_intro`) wird erklärt, wie Retrieval und LLM zusammenspielen – und im Notebook :doc:`rag_practice` können Sie den Ablauf lokal durchspielen.
+Im Kapitel **RAG – Retrieval-Augmented Generation** (:doc:`rag_intro`) wird erklärt, wie Retrieval und LLM zusammenspielen – und im Notebook :doc:`rag_practice` lässt sich der Ablauf lokal durchspielen.

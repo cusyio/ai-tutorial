@@ -42,6 +42,7 @@ docs = [
     "ipywidgets",
     "notebook",
     "nbsphinx",
+    "sentence-transformers",
     "sphinxext.opengraph", # matplotlib is required for social cards
     "matplotlib",
     "sphinx_copybutton",

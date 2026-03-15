@@ -30,7 +30,7 @@ Beispiel (konzeptionell)
 
 Das Modell arbeitet mit den IDs; der Tokenizer übersetzt hin und her.
 
-Warum ist das für Sie relevant?
+Warum ist das relevant?
 --------------------------------
 
 * **Kontextlänge** wird in Token gemessen – nicht in Zeichen oder Wörtern. Eine „Context Length“ von 4096 bedeutet 4096 Tokens.
@@ -53,7 +53,7 @@ An solchen Werten sehen Sie: Kontextlänge ist ein zentrales Leistungsmerkmal; s
 Einfaches Beispiel mit Python
 ------------------------------
 
-Mit der Bibliothek ``tiktoken`` (z. B. für OpenAI-Modelle) können Sie Texte tokenisieren, **ohne** ein Modell aufzurufen:
+Mit der Bibliothek ``tiktoken`` (z. B. für OpenAI-Modelle) lassen sich Texte tokenisieren, **ohne** ein Modell aufzurufen:
 
 .. code-block:: python
 
@@ -79,4 +79,4 @@ Kurz zusammengefasst
 Nächster Schritt
 ----------------
 
-Im Kapitel **Prompting und Prompt-Engineering** (:doc:`prompt_engineering`) geht es darum, wie Sie Eingaben so formulieren, dass das Modell die gewünschte Art von Antwort liefert.
+Im Kapitel **Prompting und Prompt-Engineering** (:doc:`prompt_engineering`) geht es darum, wie sich Eingaben so formulieren lassen, dass das Modell die gewünschte Art von Antwort liefert.

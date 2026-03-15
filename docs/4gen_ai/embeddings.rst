@@ -6,7 +6,7 @@ Damit Computer mit der **Bedeutung** von Text arbeiten können, wird Text in Zah
 Intuition
 ---------
 
-Stellen Sie sich vor, jeder Satz oder jeder Absatz wird durch einen Punkt in einem hochdimensionalen Raum dargestellt. Zwei Texte mit **ähnlicher Bedeutung** liegen nah beieinander; unterschiedliche Themen liegen weiter auseinander. Ein **Embedding-Modell** erzeugt aus Text genau solche Punkte (Vektoren).
+Stellen wir uns vor: Jeder Satz oder jeder Absatz wird durch einen Punkt in einem hochdimensionalen Raum dargestellt. Zwei Texte mit **ähnlicher Bedeutung** liegen nah beieinander; unterschiedliche Themen liegen weiter auseinander. Ein **Embedding-Modell** erzeugt aus Text genau solche Punkte (Vektoren).
 
 .. code-block:: text
 
@@ -29,10 +29,10 @@ Ein **Embedding-Modell** ist eine Funktion (oft ein kleines neuronales Netz), di
 Lokale Embedding-Modelle
 -------------------------
 
-Damit Sie **ohne externe API** arbeiten können, eignen sich lokale Modelle, z. B. über die Bibliothek ``sentence-transformers``:
+Um **ohne externe API** zu arbeiten, eignen sich lokale Modelle, z. B. über die Bibliothek ``sentence-transformers``:
 
 * Kleine, schnelle Modelle (z. B. ``all-MiniLM-L6-v2``) laufen auf CPU.
-* Sie geben Text ein und erhalten einen Vektor zurück – ideal für semantische Suche und RAG-Übungen.
+* Man gibt Text ein und erhält einen Vektor zurück – ideal für semantische Suche und RAG-Übungen.
 
 Embeddings in der Praxis: Anbieter und Modelle
 -----------------------------------------------
@@ -71,4 +71,4 @@ Wichtig
 Nächster Schritt
 ----------------
 
-Im Kapitel **Semantische Suche** (:doc:`semantic_search`) wird gezeigt, wie Sie mit Embeddings die relevantesten Stellen in einem Dokumentenkorpus finden.
+Im Kapitel **Semantische Suche** (:doc:`semantic_search`) wird gezeigt, wie sich mit Embeddings die relevantesten Stellen in einem Dokumentenkorpus finden lassen.

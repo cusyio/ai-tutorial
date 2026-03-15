@@ -6,7 +6,7 @@ In diesem Kapitel geht es darum, **ohne Formeln** zu verstehen, was ein Large La
 Die zentrale Idee
 -----------------
 
-Stellen Sie sich vor, Sie lesen einen Satz und sollen das nächste Wort ergänzen – z. B. „Der Himmel ist …“. Sie wählen ein Wort, das **in den Kontext passt** (z. B. „blau“, „bewölkt“). Ein LLM macht im Kern genau das: Es sagt auf Basis des bisherigen Textes das **nächste Wort** (bzw. die nächste Einheit, den *Token*) vorher.
+Stellen wir uns vor: Wir lesen einen Satz und sollen das nächste Wort ergänzen – z. B. „Der Himmel ist …“. Wir wählen ein Wort, das **in den Kontext passt** (z. B. „blau“, „bewölkt“). Ein LLM macht im Kern genau das: Es sagt auf Basis des bisherigen Textes das **nächste Wort** (bzw. die nächste Einheit, den *Token*) vorher.
 
 .. code-block:: text
 
@@ -23,7 +23,7 @@ Je mehr Parameter und Trainingsdaten ein solches Modell hat, desto besser kann e
 Beispiele bekannter LLMs (Praxis)
 ---------------------------------
 
-Genau dieses Prinzip steckt hinter den Modellen, die Sie aus Produkten und Schlagzeilen kennen:
+Genau dieses Prinzip steckt hinter den Modellen, die aus Produkten und Schlagzeilen bekannt sind:
 
 * **ChatGPT** (OpenAI) – baut auf Modellen wie GPT-3.5 und GPT-4 auf; Next-Token-Prediction in der Breite nutzbar.
 * **Claude** (Anthropic) – ebenfalls ein autoregressives Sprachmodell, z. B. für Assistenten und lange Kontexte.
@@ -36,7 +36,7 @@ Alle diese Systeme sind im Kern **Sprachmodelle**, die aus Kontext den nächsten
 Von der Vorhersage zum generierten Text
 ---------------------------------------
 
-* Sie geben einen **Prompt** ein (z. B. eine Frage oder einen Anweisungstext).
+* Wir geben einen **Prompt** ein (z. B. eine Frage oder einen Anweisungstext).
 * Das Modell erzeugt Token für Token den **nächsten** Token.
 * Dieser wird wieder zur Eingabe hinzugefügt, und so weiter – bis eine Antwort oder ein Abschluss entsteht.
 
@@ -46,7 +46,7 @@ Wichtige Begriffe (kurz)
 -------------------------
 
 * **Token:** Die kleinste Einheit, die das Modell verarbeitet (oft Teilwörter, nicht immer ganze Wörter).
-* **Prompt:** Der Text, den Sie dem Modell als Eingabe geben.
+* **Prompt:** Der Text, den wir dem Modell als Eingabe geben.
 * **Kontext / Context Length:** Der Bereich des bisherigen Textes, den das Modell bei der Vorhersage berücksichtigt.
 
 Diese Begriffe werden in den folgenden Kapiteln (Tokenisierung, Prompt-Engineering) vertieft.

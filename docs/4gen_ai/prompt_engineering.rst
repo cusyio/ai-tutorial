@@ -1,7 +1,7 @@
 Prompting und Prompt-Engineering
 ================================
 
-Der **Prompt** ist der Text, den Sie dem LLM als Eingabe geben. Wie Sie ihn formulieren, hat großen Einfluss auf die Antwort. Dieses Kapitel führt in die Grundlagen ein.
+Der **Prompt** ist der Text, den wir dem LLM als Eingabe geben. Wie er formuliert wird, hat großen Einfluss auf die Antwort. Dieses Kapitel führt in die Grundlagen ein.
 
 Was ist ein Prompt?
 -------------------
@@ -16,8 +16,8 @@ Je klarer und eindeutiger die Aufgabe formuliert ist, desto zuverlässiger ist o
 Zero-Shot und Few-Shot
 ----------------------
 
-* **Zero-Shot:** Sie stellen eine Frage oder geben eine Anweisung **ohne** Beispiele. Das Modell antwortet nur aus seiner Trainingserfahrung.
-* **Few-Shot:** Sie geben **ein oder mehrere Beispiele** (Eingabe → gewünschte Ausgabe) im Prompt mit. Das Modell orientiert sich an diesem Muster.
+* **Zero-Shot:** Wir stellen eine Frage oder geben eine Anweisung **ohne** Beispiele. Das Modell antwortet nur aus seiner Trainingserfahrung.
+* **Few-Shot:** Wir geben **ein oder mehrere Beispiele** (Eingabe → gewünschte Ausgabe) im Prompt mit. Das Modell orientiert sich an diesem Muster.
 
 Beispiel Few-Shot (konzeptionell):
 
@@ -45,13 +45,13 @@ In der Praxis: Wer nutzt System- und Nutzer-Prompt?
 
 Die Trennung von System- und Nutzer-Prompt ist in vielen Produkten und APIs Standard:
 
-* **ChatGPT (OpenAI):** Über die API können Sie eine „System-Nachricht“ setzen (z. B. „Du bist ein präziser technischer Redakteur“); die Nutzeranfragen sind die User-Messages.
+* **ChatGPT (OpenAI):** Über die API lässt sich eine „System-Nachricht“ setzen (z. B. „Du bist ein präziser technischer Redakteur“); die Nutzeranfragen sind die User-Messages.
 * **Claude (Anthropic):** Ebenfalls mit System-Prompt konfigurierbar – z. B. für Ton, Format oder Domänen-Rolle.
 * **Google Gemini / Vertex AI:** System Instruction und User-Input sind getrennt; ähnlich bei Microsoft Copilot (Azure OpenAI).
 * **Llama-basierte Assistenten (z. B. über Ollama):** Viele Oberflächen erlauben einen System-Prompt für das Grundverhalten.
 * **Ältere bzw. einfache Chat-APIs:** Teilweise nur ein einziger Prompt; dann muss die „Rolle“ direkt im Nutzertext stehen (z. B. „Du bist … Antworte als …“).
 
-So können Sie Ihr Modell gezielt auf eine Aufgabe oder einen Stil trimmen – unabhängig vom konkreten Anbieter.
+So lässt sich das Modell gezielt auf eine Aufgabe oder einen Stil trimmen – unabhängig vom konkreten Anbieter.
 
 Praktische Tipps (kurz)
 -----------------------
@@ -68,4 +68,4 @@ Das Modell „merkt sich“ nur das, was im **aktuellen Kontext** (Context Windo
 Nächster Schritt
 ----------------
 
-Damit Sie später **semantisch suchen** und **RAG** umsetzen können, brauchen Sie **Embeddings** – Vektoren, die die „Bedeutung“ von Text erfassen. Dafür geht es im nächsten Kapitel weiter: :doc:`embeddings`.
+Für **semantische Suche** und **RAG** brauchen wir **Embeddings** – Vektoren, die die „Bedeutung“ von Text erfassen. Dafür geht es im nächsten Kapitel weiter: :doc:`embeddings`.

@@ -36,7 +36,7 @@ Self-Attention (Kernidee)
    Vereinfacht: Attention(Q, K, V) = softmax(Q K^T / sqrt(d)) · V
    → Jede Position erhält einen gewichteten Mix aus allen Value-Vektoren.
 
-Die mathematischen Details und die Formeln finden Sie in der **Theorie hinter Generativer KI** (:doc:`genai_theory`).
+Die mathematischen Details und die Formeln stehen in der **Theorie hinter Generativer KI** (:doc:`genai_theory`).
 
 Multi-Head-Attention
 --------------------
