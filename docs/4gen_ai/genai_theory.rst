@@ -204,5 +204,5 @@ Die Wahl und Konfiguration des Optimierungsalgorithmus ist entscheidend für die
 
 .. rubric:: Footnotes
 
-.. [#] Transformer-wikipedia: https://de.wikipedia.org/wiki/Transformer_%28Maschinelles_Lernen%29#/media/Datei:Transformer,_full_architecture.png 
+.. [#] Transformer-wikipedia: https://de.wikipedia.org/wiki/Transformer_%28Maschinelles_Lernen%29 (Architektur-Übersicht; Bild siehe folgende Quelle).
 .. [#] Transformer-diagram: https://raw.githubusercontent.com/dvgodoy/dl-visuals/main/Transformers/full_transformer.png 

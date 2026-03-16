@@ -134,8 +134,10 @@ Backwardpropagation (Rückwärtsdurchlauf):
   .. math::
       \frac{\partial L}{\partial w} = \frac{\partial L}{\partial y} \cdot \frac{\partial y}{\partial z} \cdot \frac{\partial z}{\partial w}
 
-* In jeder Epoche passt das Modell diese Parameter an und verringert so den Verlust, indem es dem Fehlergradienten folgt. 
-`Backpropagation <https://www.geeksforgeeks.org/backpropagation-in-neural-network/>`_ verwendet häufig Optimierungsalgorithmen wie Gradientenabstieg (Gradient Descent) oder stochastischer Gradientenabstieg (stochastic Gradient Descent). 
+* In jeder Epoche passt das Modell diese Parameter an und verringert so den Verlust, indem es dem Fehlergradienten folgt.
+
+* `Backpropagation <https://www.geeksforgeeks.org/backpropagation-in-neural-network/>`_ verwendet häufig Optimierungsalgorithmen wie Gradientenabstieg (Gradient Descent) oder stochastischer Gradientenabstieg (stochastic Gradient Descent).
+
 * Der Algorithmus berechnet den Gradienten mit Hilfe der Kettenregel aus der Infinitesimalrechnung und kann so effektiv durch komplexe Schichten im neuronalen Netz navigieren, um die Kostenfunktion zu minimieren.
 
 * Somit werden während der Backpropagation-Phase durch die Anwendung von z.B. **Gradientenabstiegsverfahren (Gradient Descent)**  die Gewichte so angepasst, dass der Gesamtfehler des Netzwerks iterativ minimiert und somit das Modell optimiert wird.
