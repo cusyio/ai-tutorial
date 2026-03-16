@@ -1,7 +1,7 @@
 Markov-Entscheidungsprozesse (MDP)
 ===================================
 
-Die meisten der Reinforment Learning Probleme können mit dem Framework des Markov-Entscheidungsprozess (Markov Decision Process, MDP) gelöst werden.
+Die meisten Reinforcement-Learning-Probleme können mit dem Framework des **Markov-Entscheidungsprozesses** (Markov Decision Process, MDP) gelöst werden.
 
 Der MDP ist ein mathematisches Framework für die Modellierung von Entscheidungsproblemen, bei denen die Ergebnisse teilweise zufällig und teilweise kontrollierbar sind.
 

@@ -11,11 +11,7 @@ Vertiefung: Neuronale Netze, Deep Learning, Systemüberblick, Use Case Fallgrube
 
 - Offene Fragen und Klarstellungen
 
-
-
-* Logistic Regression 
-* Decision Tree => Random Forest 
-* SVM ()
+**Klassische Algorithmen (Recap):** Logistic Regression, Decision Tree bzw. Random Forest, SVM (Support Vector Machines).
 
 .. list-table:: Vergleich von Regression, Klassifikation, Clustering und autonomen Aufgaben
    :header-rows: 1
@@ -38,7 +34,7 @@ Vertiefung: Neuronale Netze, Deep Learning, Systemüberblick, Use Case Fallgrube
      - Kundensegmentierung, Anomalieerkennung
      - Selbstfahrende Autos, Industrieroboter
      - KI-generierte Bilder, Texte, Musik
-   * - Gängige "Klassischen" Algorithmen
+   * - Gängige klassische Algorithmen
      - Lineare Regression, neuronale Netze
      - Decision Trees (Entscheidungsbäume), Random Forest, SVM
      - K-Means Clustering, K-nearest neighbour (kNN), DBSCAN

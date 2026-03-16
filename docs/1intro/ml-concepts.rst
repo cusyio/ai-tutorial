@@ -1,17 +1,18 @@
 Maschinelles Lernen (ML): Konzepte und Typen
 ============================================
 
-.. note::
-.. https://www.python4data.science/de/latest/productive/dvc/dag.html
+.. seealso::
+   DAG und Reproduzierbarkeit: `Python4DataScience – DVC/DAG
+   <https://www.python4data.science/de/latest/productive/dvc/dag.html>`_
 
-Was ist **Maschinellen Lernens (Machine Learning)**? 
+Was ist **Maschinelles Lernen (Machine Learning)**? 
 
 Maschinelles Lernen (Machine Learning, ML) ist ein Teilgebiet der Künstlichen
 Intelligenz, das es Computern ermöglicht, aus Daten zu lernen, anstatt explizit
 programmiert zu werden. Es gibt drei Hauptarten des ML:
 
 1. Überwachtes Lernen (Supervised Learning)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Beim **überwachten Lernen** werden Modelle mit **gelabelten Daten** trainiert.
 
@@ -52,7 +53,7 @@ Modellbewertung
   Error (MSE).
 
 2. Unüberwachtes Lernen (Unsupervised Learning)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Beim **unüberwachten Lernen** gibt es **keine gelabelten Daten**.
 
@@ -111,7 +112,7 @@ t-SNE (t-Distributed Stochastic Neighbor Embedding)
 
 
 Vergleich: Überwachtes vs. Unüberwachtes Lernen
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../_static/images/day1-supervsed-unsupervised-learning.png
    :alt: Überwachtes Lernen vs. Unüberwachtes Lernen
@@ -140,7 +141,7 @@ Vergleich: Überwachtes vs. Unüberwachtes Lernen
     - Clustering, Dimensionsreduktion
 
 3. Reinforcement Learning (Bestärkendes Lernen, RL)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. seealso::
    * :doc:`../3reinforce_learn/index`
@@ -148,7 +149,7 @@ Vergleich: Überwachtes vs. Unüberwachtes Lernen
 Definition
 ::::::::::
 
-Beim **Reinforcement Learning** (Bestärkenden Lernen, RL) lernt ein Agent durch
+Beim **Reinforcement Learning** (Bestärkendes Lernen, RL) lernt ein Agent durch
 **Interaktion mit einer Umgebung**, wobei er **Belohnungen oder Bestrafungen**
 erhält.
 
@@ -164,23 +165,31 @@ Grundprinzipien von Reinforcement Learning
 Beim Reinforcement Learning wird ein "Agent" definiert, z.B. Roboter, der sich innerhalb einer Umgebung, z.B. in einem Raum, sich zurechtfinden soll, mit einem klar definierten Ziel vor dem Auge, z.B. den Ausgang zu finden. 
 Der Agent bekommt keine klare Schrittreihenfolge vorgeschrieben, sondern hat Anweisungen für schrittweises Handeln und muss selbst herausfinden, wie er sich am besten zum Ziel kommt.   
 
-Auf Details gehen wir in einem späteren Abschnitt dieser Schulung ein. 
+Auf Details gehen wir in einem späteren Abschnitt dieser Schulung ein.
 
-.. Agent
+**Grundbegriffe:**
+
+**Agent**
     Das KI-System, das lernt (:abbr:`z.B. (zum Beispiel)` ein Roboter, ein
     autonomes Auto, ein Schachprogramm).
-.. Umgebung (Environment)
+
+**Umgebung (Environment)**
     Alles außerhalb des Agents, mit dem er interagiert.
-.. Zustand (State)
+
+**Zustand (State)**
     Eine Momentaufnahme der Umgebung, die den Agenten beeinflusst.
-.. Aktion (Action)
+
+**Aktion (Action)**
     Eine Entscheidung, die der Agent in einem bestimmten Zustand trifft.
-.. Belohnung (Reward)
+
+**Belohnung (Reward)**
     Eine numerische Bewertung der Aktion, die dem Agenten signalisiert, ob er
     sich der optimalen Lösung nähert oder nicht.
-.. Richtlinien (Policy)
+
+**Richtlinien (Policy)**
     Eine Strategie, die den besten nächsten Schritt für den Agenten bestimmt.
-.. Qualitäts-Wert (Q-Value)
+
+**Qualitäts-Wert (Q-Value)**
     Eine Bewertung, wie gut eine bestimmte Aktion in einem Zustand langfristig
     ist.
 
@@ -223,13 +232,13 @@ Rechenaufwand:
     RL benötigt oft viele Trainingsdurchläufe und Rechenleistung.
 
 4. Deep Learning (DL) als spezialisierte Form des ML
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Definition
 ::::::::::
 
 Deep Learning (DL) ist ein Teilgebiet des maschinellen Lernens, das auf
-**künstlichen neuronalen Netzen (KNNs)** basiert.
+**künstlichen neuronalen Netzen (Artificial Neural Networks, ANNs)** basiert.
 
 Es verwendet **mehrere Schichten von Neuronen** (daher der Begriff „Deep“), um
 hochkomplexe Muster in Daten zu lernen.
@@ -274,7 +283,8 @@ Transformer-Modelle
 Beispiele für Anwendungen von Deep Learning
 :::::::::::::::::::::::::::::::::::::::::::
 
-Bilderkennung:** Automatische Erkennung von Objekten in Bildern.
+Bilderkennung
+    Automatische Erkennung von Objekten in Bildern.
 
 Sprachverarbeitung (NLP)
     Chatbots, automatische Übersetzungen (Google Translate, ChatGPT).

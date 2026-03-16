@@ -16,7 +16,7 @@ Was sind künstliche neuronale Netze? Wie unterscheiden sie sich von klassischen
    :align: center
    :width: 700px
 
-   **Abbildung 1:** Deep Neural Networks, source: `Lamarr-Institute <https://lamarr-institute.org/blog/deep-neural-networks/>`_, https://lamarr-institute.org/wp-content/uploads/deepLearn_2_EN.png 
+   **Abbildung 1:** Deep Neural Networks, source: `Lamarr-Institute (Blog) <https://lamarr-institute.org/blog/deep-neural-networks/>`_. 
 
 
 Wichtige Aktivierungsfunktionen:
@@ -40,9 +40,9 @@ Fortgeschrittene Deep-Learning-Techniken:
 
 * Convolutional Neural Networks (CNNs) für **Bildverarbeitung**.
 
-Eine gute dynamische Darstellung, wie das Zusammenspiel zwischen den Schichten 
-bei einem CNN funktioniert, kann in diesem Video gefunden werden: 
-https://www.youtube.com/watch?v=ip2HYPC_T9Q 
+Eine gute dynamische Darstellung, wie das Zusammenspiel zwischen den Schichten
+bei einem CNN funktioniert, kann in diesem Video gefunden werden:
+`3Blue1Brown: CNNs (YouTube) <https://www.youtube.com/watch?v=ip2HYPC_T9Q>`_. 
 
 * Recurrent Neural Networks (RNNs) für **Sequenz- und Textverarbeitung**.
 
@@ -127,16 +127,18 @@ Backwardpropagation (Rückwärtsdurchlauf):
 
 * Nachdem in der Forwardpropagation die Input-Daten durch das Neural Network propagiert sind, werden die Ausgaben des Networks mit den gewünschten Ausgaben verglichen. 
 * Deren Differenz wird als der Fehler des Netzwerks in diesem Durchgang erachtet, d.h. Loss. 
-* Dieser Fehler wird dann in der `Backwardpropagation <https://de.wikipedia.org/wiki/Backpropagation>`_ über die letzten Schicht (Ausgabeschicht) zurück zur Eingabeschicht durch das Netzwerk propagiert, um **die Gewichte der Neuronen zu aktualisieren**.
+* Dieser Fehler wird dann in der `Backwardpropagation <https://de.wikipedia.org/wiki/Backpropagation>`_ über die letzte Schicht (Ausgabeschicht) zurück zur Eingabeschicht durch das Netzwerk propagiert, um **die Gewichte der Neuronen zu aktualisieren**.
 
 * Die Berechnung erfolgt mit Hilfe der **Kettenregel der Ableitungen**, um die Gradienten für jedes Gewicht zu bestimmen:
 
-..   .. math::
-..      rac{\partial L}{\partial w} = rac{\partial L}{\partial y} \cdot rac{\partial y}{\partial z} \cdot rac{\partial z}{\partial w}
+  .. math::
+      \frac{\partial L}{\partial w} = \frac{\partial L}{\partial y} \cdot \frac{\partial y}{\partial z} \cdot \frac{\partial z}{\partial w}
 
-* In jeder Epoche passt das Modell diese Parameter an und verringert so den Verlust, indem es dem Fehlergradienten folgt. 
-`Backpropagation <https://www.geeksforgeeks.org/backpropagation-in-neural-network/>`_ verwendet häufig Optimierungsalgorithmen wie Gradientenabstieg (Gradient Descent) oder stochastischer Gradientenabstieg (stochastic Gradient Descent). 
+* In jeder Epoche passt das Modell diese Parameter an und verringert so den Verlust, indem es dem Fehlergradienten folgt.
+
+* `Backpropagation <https://www.geeksforgeeks.org/backpropagation-in-neural-network/>`_ verwendet häufig Optimierungsalgorithmen wie Gradientenabstieg (Gradient Descent) oder stochastischer Gradientenabstieg (stochastic Gradient Descent).
+
 * Der Algorithmus berechnet den Gradienten mit Hilfe der Kettenregel aus der Infinitesimalrechnung und kann so effektiv durch komplexe Schichten im neuronalen Netz navigieren, um die Kostenfunktion zu minimieren.
 
-* Somit werden während der Backpropagation-Phase durch die Anwendung von z.B. **Gradientenabstiegsverfahrens (Gradient Descent)**  die Gewichte so angepasst, dass der Gesamtfehler des Netzwerks iterativ minimiert und somit das Modell optimiert wird.
+* Somit werden während der Backpropagation-Phase durch die Anwendung von z.B. **Gradientenabstiegsverfahren (Gradient Descent)**  die Gewichte so angepasst, dass der Gesamtfehler des Netzwerks iterativ minimiert und somit das Modell optimiert wird.
 

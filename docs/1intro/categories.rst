@@ -140,7 +140,7 @@ Generative Aufgaben
 Definition
 ~~~~~~~~~~
 
-* Generative KI zielt darauf ab, neue Daten zu erzeugen, die den Muster der
+* Generative KI zielt darauf ab, neue Daten zu erzeugen, die den Mustern der
   Trainingsdaten folgen, aber nicht identisch mit ihnen sind.
 * Diese Technologie basiert auf Modellen, die durch unüberwachtes oder
   selbstüberwachtes Lernen trainiert werden und dann neue Inhalte generieren.

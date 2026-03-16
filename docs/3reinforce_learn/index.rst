@@ -16,17 +16,13 @@ Reinforcement Learning (RL)
 - Offene Fragen und Klarstellungen
 
 
-.. list-table:: 
+.. list-table::
    :header-rows: 1
 
    * - Kapitel
      - Inhalte
-   * - Recap der wichtigsten Themen
-     - Wiederholung von Deep Learning und CNNs
-   * - Weiteres Beispiel in Classification (nicht Bilddaten)
-     - Use Case Kundenabwanderung: Daten, Modellieren 
-   * - Einführung in Reinforcement Learning
-     - Konzepte, Agent, Umgebung, Belohnungen
+   * - Definitionen und Grundprinzipien (RL)
+     - Konzepte, Agent, Umgebung, Belohnungen, Policy
    * - Markov-Entscheidungsprozesse
      - Definition, Zustände, Aktionen, Wertfunktionen
    * - Wertbasierte Methoden – Q-Learning
@@ -39,7 +35,6 @@ Reinforcement Learning (RL)
    :titlesonly:
    :maxdepth: 0
 
-   customer-churn
    def
    mdp
    qlearn
