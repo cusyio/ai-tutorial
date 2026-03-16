@@ -189,10 +189,17 @@ linkcheck_ignore = [
     r"https://jupyter-tutorial\.readthedocs\.io/.*",
     r"https://pyviz-tutorial\.readthedocs\.io/.*",
     r"https://scikit-learn\.org/.*",  # oft Rate-Limit oder langsam in CI
+    # Add patterns for links that are known to fail linkcheck but work in browsers
+    r'https://de\.wikipedia\.org/.*',
+    r'https://www\.youtube\.com/.*',
 ]
 # Weniger strenge Linkprüfung in CI: kürzerer Timeout, eine Wiederholung
-linkcheck_timeout = 5
-linkcheck_retries = 1
+linkcheck_retries = 2  # Retry failed links
+linkcheck_timeout = 10  # Increase timeout
+# Or configure user-agent
+linkcheck_request_headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+}
 
 
 def setup(app):
