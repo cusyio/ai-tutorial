@@ -1,0 +1,18 @@
+feature_name
+country_DE
+country_ES
+country_FR
+country_IT
+customer_segment_Premium
+customer_segment_Standard
+acquisition_channel_Organic
+acquisition_channel_Paid Ads
+acquisition_channel_Referral
+recency_days
+frequency
+monetary_total
+avg_order_value
+recent_30d_spend
+prev_30d_spend
+spend_trend
+tenure_days
