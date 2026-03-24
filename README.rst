@@ -4,12 +4,12 @@ Schnelleinstieg
 Status
 ------
 
-.. image:: https://img.shields.io/github/contributors/AInvone/Intro-in-KI-Schulung.svg
+.. image:: https://img.shields.io/github/contributors/cusyio/ai-tutorial.svg
    :alt: Contributors
-   :target: https://github.com/AInvone/Intro-in-KI-Schulung/graphs/contributors
-.. image:: https://img.shields.io/github/license/AInvone/Intro-in-KI-Schulung.svg
+   :target: https://github.com/cusyio/ai-tutorial/graphs/contributors
+.. image:: https://img.shields.io/github/license/cusyio/ai-tutorial.svg
    :alt: License
-   :target: https://github.com/AInvone/Intro-in-KI-Schulung/blob/main/LICENSE
+   :target: https://github.com/cusyio/ai-tutorial/blob/main/LICENSE
 
 Installation
 ------------
@@ -18,34 +18,21 @@ Installation
 
    .. code-block:: console
 
-      $ git clone https://github.com/AInvone/Intro-in-KI-Schulung.git
-      $ cd Intro-in-KI-Schulung
+      $ git clone https://github.com/cusyio/ai-tutorial.git
+      $ cd ai-tutorial
 
 #. Installieren von Python-Paketen:
 
-   … auf Linux/macOS:
+   .. code-block:: console
+
+      $ uv sync --frozen
+
+   Zum Erstellen der Dokumentations wird zusätzlich die Abhängigkeitsgruppe
+   ``docs`` benötigt:
 
    .. code-block:: console
 
-      $ python3 -m venv .venv
-      $ . .venv/bin/activate
-      $ python -m pip install --upgrade pip
-      $ python -m pip install --group dev
-
-   … auf Windows:
-
-   .. code-block:: ps1con
-
-      C:> py -m venv .venv
-      C:> .\.venv\Scripts\activate.bat
-      C:> python -m pip install --upgrade pip
-      C:> python -m pip install --group dev
-
-   Für den reinen Dokumentations-Build reicht die Gruppe ``docs``:
-
-   .. code-block:: console
-
-      $ python -m pip install --group docs
+      $ uv sync --frozen --group docs
 
 #. Erstellen der HTML-Dokumentation:
 
@@ -53,7 +40,7 @@ Installation
 
    .. code-block:: console
 
-      $ sphinx-build -b html docs docs/_build/html
+      $ uv run sphinx-build -b html docs docs/_build/html
 
    Das Ergebnis liegt in ``docs/_build/html/``; die Startseite ist
    ``docs/_build/html/index.html``.
@@ -90,16 +77,24 @@ Installation
 Folgt uns
 ---------
 
-* `GitHub <https://github.com/AInvone/Intro-in-KI-Schulung>`_
+* `GitHub <https://github.com/cusyio/ai-tutorial>`_
 
 Pull-Requests
 -------------
 
 Wenn ihr Vorschläge für Verbesserungen und Ergänzungen habt, empfehlen wir euch,
-einen `Fork <https://github.com/AInvone/Intro-in-KI-Schulung/fork>`_ unseres
-`GitHub Repository <https://github.com/AInvone/Intro-in-KI-Schulung/>`_ zu
-erstellen und eure Änderungen dort zu machen. Bevor ihr Commits macht,
-überprüft, ob die pre-commit-Checks erfolgreich durchlaufen:
+einen `Fork <https://github.com/cusyio/ai-tutorial/fork>`_ unseres `GitHub
+Repository <https://github.com/cusyio/ai-tutorial/>`_ zu erstellen und eure
+Änderungen dort zu machen.
+
+Die Entwicklungsumgebung könnt ihr erstellen mit 
+
+.. code-block:: console
+
+   $ uv sync --frozen --group dev
+
+Bevor ihr Commits macht, überprüft, ob die
+pre-commit-Checks erfolgreich durchlaufen:
 
 .. code-block:: console
 
