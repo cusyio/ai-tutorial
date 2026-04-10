@@ -26,6 +26,7 @@ dependencies = [
     "pandas",
     "plotly",
     "scikit-learn",
+    "shap",
     "tensorflow",
     "torch",
     "transformers",
