@@ -14,7 +14,7 @@ Generative KI
 
 **Hauptkapitel (Lernpfad)**
 
-.. list-table:: 
+.. list-table::
    :header-rows: 1
 
    * - Kapitel
@@ -44,7 +44,7 @@ Generative KI
 
 **Optionale Vertiefung (LLM-Interna)**
 
-.. list-table:: 
+.. list-table::
    :header-rows: 1
 
    * - Kapitel
@@ -58,7 +58,7 @@ Generative KI
 
 **Referenz (außerhalb des Haupt-Lernflusses)**
 
-.. list-table:: 
+.. list-table::
    :header-rows: 1
 
    * - Kapitel
@@ -68,12 +68,12 @@ Generative KI
 
 **Weitere Kapitel**
 
-.. list-table:: 
+.. list-table::
    :header-rows: 1
 
    * - Kapitel
      - Inhalte
-   * - Infrastruktur und Architektur 
+   * - Infrastruktur und Architektur
      - Hardware, Software-Frameworks, Architekturüberblick
    * - Hands-on Beispiel
      - Lokales LLM mit Feintuning auf domänspezifischen Daten

@@ -61,4 +61,4 @@ dev = [
 "Bug Tracker" = "https://github.com/AInvone/Intro-in-KI-Schulung/issues"
 
 [tool.codespell]
-skip = "*.rst, *.svg"
+skip = "*.ipynb, *.rst, *.svg, *.txt"

@@ -26,7 +26,7 @@ Changed
 * **Dokumentation:** Tag-4-Toctree neu sortiert: GenAI-Einführung/Theorie/Infrastruktur/LLM zuerst, dann Ensemble & Churn, dann Agents, Regulatorik, Abschluss.
 * **Build:** Sphinx-Version auf ``>=8,<9`` angehoben; nbsphinx_allow_errors auf False gesetzt (Notebooks sollen fehlerfrei laufen). Bei Build-Fehlern durch Notebooks in ``docs/conf.py`` vorübergehend wieder auf True setzen.
 * **README:** Build-Anleitung vereinfacht; Hinweis auf ``pip install --group docs`` und PDF/EPUB-Pfad ergänzt.
-* **docs/1intro/extra.rst:** :doc:-Links durch direkte URLs zu Python4DataScience (NumPy, pandas) und PyViz (Matplotlib) ersetzt, damit die Links auch ohne Intersphinx funktionieren.
+* **docs/1intro/extra.rst:** Links durch direkte URLs zu Python4DataScience (NumPy, pandas) und PyViz (Matplotlib) ersetzt, damit die Links auch ohne Intersphinx funktionieren.
 
 Added
 ~~~~~

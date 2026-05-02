@@ -46,14 +46,14 @@ Heutiger Kursinhalt
 ~~~~~~~~~~~~~~~~~~~~
 
 
-.. list-table:: 
+.. list-table::
    :header-rows: 1
 
    * - Kapitel
      - Inhalte
    * - Recap der wichtigsten Themen
      - Wiederholung der ML-Konzepte, Diskussion, Quiz
-   * - Modellverhalten 
+   * - Modellverhalten
      - Overfitting, Regularisierung und Optimierung
    * - Theorie: Neuronale Netze und Deep Learning
      - Aufbau, Backpropagation, Aktivierungsfunktionen

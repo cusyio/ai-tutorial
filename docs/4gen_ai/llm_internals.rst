@@ -18,7 +18,7 @@ Jeder Token wird zunächst in einen **Vektor** (Embedding) abgebildet. Diese Ein
 
    # Konzeptionell: Token-IDs werden zu Vektoren der Dimension d_model
    # (In PyTorch z.B.: nn.Embedding(vocab_size, d_model))
-   token_ids = [12, 45, 78]   # Beispiel-IDs
+   token_ids = [12, 45, 78]  # Beispiel-IDs
    # → Matrix der Form (seq_len, d_model)
 
 Positionen

@@ -1,5 +1,5 @@
 Use Case Fallgruben – Diskussion zur Kundenabwanderung (Customer Churn Prediction)
----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
 
 **Ziel:**
 
@@ -11,8 +11,8 @@ Use Case Fallgruben – Diskussion zur Kundenabwanderung (Customer Churn Predict
 
 Ein Telekommunikationsunternehmen möchte vorhersagen, ob ein Kunde abwandern wird oder nicht. Die Lernenden sollen erarbeiten:
 
-Relevante Gedankengänge: 
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Relevante Gedankengänge:
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. **Wie definiert man Kundenabwanderung?**
 
@@ -21,7 +21,7 @@ Relevante Gedankengänge:
 
 2. **Welche Daten sind relevant?**
 
-3. **Wie sollten Features gestaltet werden?** 
+3. **Wie sollten Features gestaltet werden?**
 
 Tipp: Anrufhäufigkeit, Vertragslaufzeit, Reklamationen?
 

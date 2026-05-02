@@ -157,7 +157,8 @@ intersphinx_mapping = {
     "PyViz": ("https://pyviz-tutorial.readthedocs.io/de/latest", None),
 }
 
-# Linkcheck: externe URLs, die in CI oft 403/404 liefern, Bots blockieren oder nicht zuverlässig erreichbar sind
+# Link check: external URLs that frequently return 403/404 errors in CI, block
+# bots or are unreliable
 linkcheck_ignore = [
     r"https://de\.mathworks\.com/.*",
     r"https://www\.cusy\.design/.*",
@@ -182,16 +183,16 @@ linkcheck_ignore = [
     r"https://www\.infosperber\.ch/.*",
     r"https://shap\.readthedocs\.io/.*",
     r"https://storage\.googleapis\.com/.*",
-    r"https://github\.com/.*",  # API/raw können in CI flackern
+    r"https://github\.com/.*",  # API/raw may flicker in CI
     r"https://www\.python4data\.science/.*",
     r"https://.*\.readthedocs\.io/.*",
     r"https://python-basics-tutorial\.readthedocs\.io/.*",
     r"https://jupyter-tutorial\.readthedocs\.io/.*",
     r"https://pyviz-tutorial\.readthedocs\.io/.*",
-    r"https://scikit-learn\.org/.*",  # oft Rate-Limit oder langsam in CI
+    r"https://scikit-learn\.org/.*",  # often rate-limited or slow in CI
     # Add patterns for links that are known to fail linkcheck but work in browsers
-    r'https://de\.wikipedia\.org/.*',
-    r'https://www\.youtube\.com/.*',
+    r"https://de\.wikipedia\.org/.*",
+    r"https://www\.youtube\.com/.*",
 ]
 # Weniger strenge Linkprüfung in CI: kürzerer Timeout, eine Wiederholung
 linkcheck_retries = 2  # Retry failed links

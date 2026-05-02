@@ -26,7 +26,7 @@ Beispiel Few-Shot (konzeptionell):
    Übersetze ins Deutsche:
    Hello → Hallo
    Good morning → Guten Morgen
-   Thank you → 
+   Thank you →
 
 Das Modell wird wahrscheinlich „Danke“ oder ähnlich ergänzen.
 

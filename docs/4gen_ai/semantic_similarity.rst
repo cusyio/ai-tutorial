@@ -59,12 +59,14 @@ Dabei ist ``a · b`` das Skalarprodukt und ``||a||`` die Länge (Norm) von ``a``
 
    import numpy as np
 
+
    def cosine_similarity(a, b):
        return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
 
+
    # Beispiel: zwei Vektoren (z. B. aus einem Embedding-Modell)
-   vec_frage = np.array([0.1, 0.9, 0.2, ...])   # Embedding der Frage
-   vec_chunk = np.array([0.15, 0.85, 0.25, ...]) # Embedding eines Chunks
+   vec_frage = np.array([0.1, 0.9, 0.2, ...])  # Embedding der Frage
+   vec_chunk = np.array([0.15, 0.85, 0.25, ...])  # Embedding eines Chunks
    score = cosine_similarity(vec_frage, vec_chunk)  # z. B. 0.92 → sehr ähnlich
 
 Warum Embeddings semantische Suche ermöglichen

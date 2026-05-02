@@ -5,7 +5,7 @@ Maschinelles Lernen (ML): Konzepte und Typen
    DAG und Reproduzierbarkeit: `Python4DataScience – DVC/DAG
    <https://www.python4data.science/de/latest/productive/dvc/dag.html>`_
 
-Was ist **Maschinelles Lernen (Machine Learning)**? 
+Was ist **Maschinelles Lernen (Machine Learning)**?
 
 Maschinelles Lernen (Machine Learning, ML) ist ein Teilgebiet der Künstlichen
 Intelligenz, das es Computern ermöglicht, aus Daten zu lernen, anstatt explizit
@@ -119,7 +119,7 @@ Vergleich: Überwachtes vs. Unüberwachtes Lernen
    :align: center
    :width: 700px
 
-   **Abbildung 1:** Überwachtes Lernen vs. Unüberwachtes Lernen 
+   **Abbildung 1:** Überwachtes Lernen vs. Unüberwachtes Lernen
 
 .. list-table:: Vergleich von Überwachtem und Unüberwachtem Lernen
   :header-rows: 1
@@ -162,8 +162,8 @@ wie ein Mensch, der durch Erfahrung lernt.
 Grundprinzipien von Reinforcement Learning
 ::::::::::::::::::::::::::::::::::::::::::
 
-Beim Reinforcement Learning wird ein "Agent" definiert, z.B. Roboter, der sich innerhalb einer Umgebung, z.B. in einem Raum, sich zurechtfinden soll, mit einem klar definierten Ziel vor dem Auge, z.B. den Ausgang zu finden. 
-Der Agent bekommt keine klare Schrittreihenfolge vorgeschrieben, sondern hat Anweisungen für schrittweises Handeln und muss selbst herausfinden, wie er sich am besten zum Ziel kommt.   
+Beim Reinforcement Learning wird ein "Agent" definiert, z.B. Roboter, der sich innerhalb einer Umgebung, z.B. in einem Raum, sich zurechtfinden soll, mit einem klar definierten Ziel vor dem Auge, z.B. den Ausgang zu finden.
+Der Agent bekommt keine klare Schrittreihenfolge vorgeschrieben, sondern hat Anweisungen für schrittweises Handeln und muss selbst herausfinden, wie er sich am besten zum Ziel kommt.
 
 Auf Details gehen wir in einem späteren Abschnitt dieser Schulung ein.
 
@@ -263,7 +263,7 @@ Ausgangsschicht (Output Layer)
    :align: center
    :width: 700px
 
-   **Abbildung 1:** Neural Network grober Aufbau 
+   **Abbildung 1:** Neural Network grober Aufbau
 
 Arten von neuronalen Netzwerken
 :::::::::::::::::::::::::::::::
@@ -297,10 +297,10 @@ Herausforderungen im Deep Learning
 ::::::::::::::::::::::::::::::::::
 
 Erklärbarkeit
-    DL-Modelle sind oft **Black Boxes**, deren Entscheidungen schwer nachvollziehbar sind. 
-    Früher hielt man generell alle Machine Learning Modelle für **Black Boxes**, aber dann hat man 
+    DL-Modelle sind oft **Black Boxes**, deren Entscheidungen schwer nachvollziehbar sind.
+    Früher hielt man generell alle Machine Learning Modelle für **Black Boxes**, aber dann hat man
     für die "traditionellere" ML-Modelle Wege gefunden, dass man von den Modell-Gewichten zu den Features zurückführen kann,
-    warum ein Modell diese Vorhersage getroffen hat, z.B. `shap <https://shap.readthedocs.io/en/latest/>`_ Bibliothek. 
+    warum ein Modell diese Vorhersage getroffen hat, z.B. `shap <https://shap.readthedocs.io/en/latest/>`_ Bibliothek.
 
 Datenbedarf
     Sehr große Mengen an **Trainingsdaten** sind notwendig.

@@ -6,19 +6,19 @@ Optimierung: Modellparameter effizient anpassen
 
 Die Wahl der richtigen **Optimierungsmethode** ist entscheidend für die Leistung eines Modells. Optimierung bedeutet, dass wir die **Modellparameter so anpassen, dass der Fehler minimiert wird** und das Modell möglichst gut generalisiert. Dabei gibt es verschiedene Ansätze, die in den folgenden Unterabschnitten erklärt werden.
 
-Grundlagen der Optimierung 
+Grundlagen der Optimierung
 :::::::::::::::::::::::::::::::::::::::::::::
 
-* Jedes Machine-Learning-Modell hat eine **Kosten- oder Verlustfunktion (Loss Function)**, die misst, wie gut oder schlecht das Modell Vorhersagen trifft. 
-* Ziel der Optimierung ist es, diese Verlustfunktion zu minimieren. 
+* Jedes Machine-Learning-Modell hat eine **Kosten- oder Verlustfunktion (Loss Function)**, die misst, wie gut oder schlecht das Modell Vorhersagen trifft.
+* Ziel der Optimierung ist es, diese Verlustfunktion zu minimieren.
 * Dabei suchen wir die optimalen Modellparameter (z. B. Gewichte in neuronalen Netzen oder Koeffizienten in linearen Modellen), sodass der Fehler möglichst klein ist.
 
 Gradient Descent – Das Fundament der Optimierung
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-**Gradient Descent (Gradientenabstieg)** ist eine der häufigsten Optimierungstechniken. 
+**Gradient Descent (Gradientenabstieg)** ist eine der häufigsten Optimierungstechniken.
 
-* Dessen Ziel liegt darin, den minimalen Verlustwert (Loss) zu finden. 
+* Dessen Ziel liegt darin, den minimalen Verlustwert (Loss) zu finden.
 * Dabei wird die **Ableitung der Verlustfunktion** verwendet, um herauszufinden, in welche Richtung sich die Parameter ändern müssen, um den Fehler zu minimieren.
 
 .. math::
@@ -40,7 +40,7 @@ Varianten von Gradient Descent
 2. **Stochastic Gradient Descent (SGD):**
 
    * wird als **stochastische Approximation** der Gradientenabstiegsoptimierung betrachtet:
-   * sie ersetzt den tatsächlichen Gradient (berechnet aus dem gesamten Datensatz) durch eine Schätzung davon (berechnet aus einer **zufällig selektierten Teilmenge** der Daten) 
+   * sie ersetzt den tatsächlichen Gradient (berechnet aus dem gesamten Datensatz) durch eine Schätzung davon (berechnet aus einer **zufällig selektierten Teilmenge** der Daten)
    * **Vorteil:** Schneller als Batch Gradient Descent, da es nach jeder Instanz ein Update gibt.
    * **Nachteil:** Kann aufgrund der ständigen Updates stark schwanken (stochastisches Verhalten).
 
@@ -95,7 +95,7 @@ Adaptive Lernraten-Methoden
 
 **Adam-Optimizer (Adaptive Moment Estimation):**
 
-* Kombiniert die Vorteile von Momentum und RMSprop, d.h. passt eigenständig die Lernrate individuell für jede Modellparameter-Aktualisierung an, ohne dass die Lernrate zu stark abfällt. 
+* Kombiniert die Vorteile von Momentum und RMSprop, d.h. passt eigenständig die Lernrate individuell für jede Modellparameter-Aktualisierung an, ohne dass die Lernrate zu stark abfällt.
 * **Vorteil:** Stabile und schnelle Konvergenz, besonders in Deep Learning.
 * **Nachteil:** Kann für einige Probleme eine zu hohe Variabilität aufweisen.
 
@@ -119,5 +119,3 @@ Neben der Optimierung der Modellparameter selbst müssen wir oft **Hyperparamete
 
 * Verwendet probabilistische Modelle zur effizienten Auswahl von Hyperparametern.
 * **Vorteil:** Schneller als Grid Search bei komplexen Modellen.
-
-

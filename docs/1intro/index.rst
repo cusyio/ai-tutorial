@@ -8,7 +8,7 @@ praktischer Implementierungen veranschaulicht.
 Gliederung
 ----------
 
-.. list-table:: 
+.. list-table::
    :header-rows: 1
 
    * - Kapitel

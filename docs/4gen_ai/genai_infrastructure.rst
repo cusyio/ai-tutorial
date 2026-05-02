@@ -1,26 +1,26 @@
 Infrastruktur und Architektur für GenAI
 ========================================
 
-- **Hardware:** Einsatz von GPUs, TPUs und Cloud-Lösungen für das Training großer Modelle.  
+- **Hardware:** Einsatz von GPUs, TPUs und Cloud-Lösungen für das Training großer Modelle.
 
-- **Software-Frameworks:** TensorFlow, PyTorch und spezialisierte Bibliotheken wie Huggingface Transformers.  
+- **Software-Frameworks:** TensorFlow, PyTorch und spezialisierte Bibliotheken wie Huggingface Transformers.
 
 - **Architekturüberblick:** Aufbau und Feintuning von LLMs, Datenpipelines und Skalierungstechniken.
 
 Hardware
 ------------
-Der Erfolg moderner generativer KI-Modelle hängt maßgeblich von der verfügbaren Hardware-Infrastruktur ab. 
-Für das Training von Deep-Learning-Modellen werden hochparallele Rechenressourcen benötigt. 
-Insbesondere kommen hierbei spezialisierte Grafikprozessoren (GPUs) zum Einsatz, die in der Lage sind, Tausende von Rechenoperationen gleichzeitig durchzuführen. 
+Der Erfolg moderner generativer KI-Modelle hängt maßgeblich von der verfügbaren Hardware-Infrastruktur ab.
+Für das Training von Deep-Learning-Modellen werden hochparallele Rechenressourcen benötigt.
+Insbesondere kommen hierbei spezialisierte Grafikprozessoren (GPUs) zum Einsatz, die in der Lage sind, Tausende von Rechenoperationen gleichzeitig durchzuführen.
 GPUs sind daher ideal für rechenintensive Aufgaben wie das Training von Transformer-Modellen, bei denen große Matrizenmultiplikationen und Vektoroperationen zentral sind.
 
-Alternativ bieten auch Tensor Processing Units (TPUs) von Google eine optimierte Lösung für maschinelles Lernen, indem sie speziell auf Tensoroperationen ausgerichtet sind. 
-Diese Hardwarelösungen werden häufig in großen Rechenzentren eingesetzt, wobei Cloud-Computing-Plattformen wie AWS, Google Cloud und Microsoft Azure die Möglichkeit bieten, je nach Bedarf flexibel zusätzliche Rechenleistung zu nutzen. 
+Alternativ bieten auch Tensor Processing Units (TPUs) von Google eine optimierte Lösung für maschinelles Lernen, indem sie speziell auf Tensoroperationen ausgerichtet sind.
+Diese Hardwarelösungen werden häufig in großen Rechenzentren eingesetzt, wobei Cloud-Computing-Plattformen wie AWS, Google Cloud und Microsoft Azure die Möglichkeit bieten, je nach Bedarf flexibel zusätzliche Rechenleistung zu nutzen.
 Diese Skalierbarkeit ist insbesondere für die Entwicklung und das Training von sehr großen Modellen von entscheidender Bedeutung.
 
 Software-Frameworks
 -------------------------
-Die Software-Frameworks sind essenziell, um die Hardware optimal zu nutzen und komplexe KI-Modelle effizient zu implementieren und zu trainieren. 
+Die Software-Frameworks sind essenziell, um die Hardware optimal zu nutzen und komplexe KI-Modelle effizient zu implementieren und zu trainieren.
 Zwei der wichtigsten Frameworks in diesem Kontext sind:
 
 - **TensorFlow:**
@@ -31,8 +31,8 @@ Zwei der wichtigsten Frameworks in diesem Kontext sind:
   Ein Framework von Facebook, das sich durch seine dynamische Berechnungsgrafik und intuitive Bedienung auszeichnet.
   PyTorch wird vor allem in der Forschung bevorzugt, da es flexible Modellierung und eine einfache Fehlersuche ermöglicht.
 
-Darüber hinaus gibt es spezialisierte Bibliotheken wie **Huggingface Transformers**, die den Umgang mit vortrainierten Transformer-Modellen erheblich vereinfachen. 
-Diese Bibliothek bietet eine Vielzahl von vortrainierten Modellen und Tools, die den Prozess des Fine-Tunings und der Anpassung an spezifische Aufgaben vereinfachen. 
+Darüber hinaus gibt es spezialisierte Bibliotheken wie **Huggingface Transformers**, die den Umgang mit vortrainierten Transformer-Modellen erheblich vereinfachen.
+Diese Bibliothek bietet eine Vielzahl von vortrainierten Modellen und Tools, die den Prozess des Fine-Tunings und der Anpassung an spezifische Aufgaben vereinfachen.
 Sie ermöglicht es, komplexe Modelle schnell und effizient in eigene Projekte zu integrieren.
 
 Architekturüberblick

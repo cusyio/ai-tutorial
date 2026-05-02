@@ -4,7 +4,7 @@ Nachtrag: Ensemble Methoden in ML
 Definition: Was sind Ensemble-Methoden?
 -----------------------------------------
 
-Ensemble-Methoden sind Techniken im maschinellen Lernen, die mehrere Modelle kombinieren, um eine bessere Gesamtvorhersage zu erzielen. Anstatt sich auf ein einzelnes Modell zu verlassen, nutzen Ensemble-Methoden **die kollektive Intelligenz mehrerer schwächerer Modelle**, um **robustere und genauere Ergebnisse** zu erzielen. 
+Ensemble-Methoden sind Techniken im maschinellen Lernen, die mehrere Modelle kombinieren, um eine bessere Gesamtvorhersage zu erzielen. Anstatt sich auf ein einzelnes Modell zu verlassen, nutzen Ensemble-Methoden **die kollektive Intelligenz mehrerer schwächerer Modelle**, um **robustere und genauere Ergebnisse** zu erzielen.
 
 Warum Ensemble-Methoden?
 --------------------------

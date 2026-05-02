@@ -16,21 +16,21 @@ Was sind künstliche neuronale Netze? Wie unterscheiden sie sich von klassischen
    :align: center
    :width: 700px
 
-   **Abbildung 1:** Deep Neural Networks, source: `Lamarr-Institute (Blog) <https://lamarr-institute.org/blog/deep-neural-networks/>`_. 
+   **Abbildung 1:** Deep Neural Networks, source: `Lamarr-Institute (Blog) <https://lamarr-institute.org/blog/deep-neural-networks/>`_.
 
 
 Wichtige Aktivierungsfunktionen:
 ::::::::::::::::::::::::::::::::
 
-* **ReLU (Rectified Linear Unit):** 
+* **ReLU (Rectified Linear Unit):**
 
 Häufig in CNNs verwendet, eliminiert negative Werte.
 
-* **Sigmoid:** 
+* **Sigmoid:**
 
 Wandelt Werte in einen Bereich zwischen 0 und 1 um, nützlich für Wahrscheinlichkeitsprognosen.
 
-* **Softmax:** 
+* **Softmax:**
 
 Wird in Klassifikationsproblemen für mehr als zwei Klassen genutzt.
 
@@ -42,7 +42,7 @@ Fortgeschrittene Deep-Learning-Techniken:
 
 Eine gute dynamische Darstellung, wie das Zusammenspiel zwischen den Schichten
 bei einem CNN funktioniert, kann in diesem Video gefunden werden:
-`3Blue1Brown: CNNs (YouTube) <https://www.youtube.com/watch?v=ip2HYPC_T9Q>`_. 
+`3Blue1Brown: CNNs (YouTube) <https://www.youtube.com/watch?v=ip2HYPC_T9Q>`_.
 
 * Recurrent Neural Networks (RNNs) für **Sequenz- und Textverarbeitung**.
 
@@ -69,7 +69,7 @@ Forwardpropagation (Vorwärtsdurchlauf):
 Loss Functions (Verlustfunktionen) und ihre Rolle:
 ----------------------------------------------------------
 
-Eine **Loss Function** 
+Eine **Loss Function**
 
 * misst die Differenz zwischen der Vorhersage des Modells und dem tatsächlichen Wert.
 * gibt an, wie gut oder schlecht das Modell arbeitet.
@@ -112,10 +112,10 @@ Zusammenhang zwischen Loss Function und Gradient Descent:
 Formel für das Gewicht-Update:
 :::::::::::::::::::::::::::::::
 
-Das Wichtigste an einem Modell sind die **Gewichte (weights)**. 
-Diese werden während der **Backwardpropagation (Rückwärtsdurchlauf)**-Phase aktualisiert, 
-indem man das Produkt der Learning-Rate (\alpha) und der Ableitung der Loss-Funktion 
-von den aktuellen Gewichten subtrahiert: 
+Das Wichtigste an einem Modell sind die **Gewichte (weights)**.
+Diese werden während der **Backwardpropagation (Rückwärtsdurchlauf)**-Phase aktualisiert,
+indem man das Produkt der Learning-Rate (\alpha) und der Ableitung der Loss-Funktion
+von den aktuellen Gewichten subtrahiert:
 
   .. math::
      w := w - \alpha \frac{\partial L}{\partial w}
@@ -125,8 +125,8 @@ von den aktuellen Gewichten subtrahiert:
 Backwardpropagation (Rückwärtsdurchlauf):
 ----------------------------------------------------------
 
-* Nachdem in der Forwardpropagation die Input-Daten durch das Neural Network propagiert sind, werden die Ausgaben des Networks mit den gewünschten Ausgaben verglichen. 
-* Deren Differenz wird als der Fehler des Netzwerks in diesem Durchgang erachtet, d.h. Loss. 
+* Nachdem in der Forwardpropagation die Input-Daten durch das Neural Network propagiert sind, werden die Ausgaben des Networks mit den gewünschten Ausgaben verglichen.
+* Deren Differenz wird als der Fehler des Netzwerks in diesem Durchgang erachtet, d.h. Loss.
 * Dieser Fehler wird dann in der `Backwardpropagation <https://de.wikipedia.org/wiki/Backpropagation>`_ über die letzte Schicht (Ausgabeschicht) zurück zur Eingabeschicht durch das Netzwerk propagiert, um **die Gewichte der Neuronen zu aktualisieren**.
 
 * Die Berechnung erfolgt mit Hilfe der **Kettenregel der Ableitungen**, um die Gradienten für jedes Gewicht zu bestimmen:
@@ -141,4 +141,3 @@ Backwardpropagation (Rückwärtsdurchlauf):
 * Der Algorithmus berechnet den Gradienten mit Hilfe der Kettenregel aus der Infinitesimalrechnung und kann so effektiv durch komplexe Schichten im neuronalen Netz navigieren, um die Kostenfunktion zu minimieren.
 
 * Somit werden während der Backpropagation-Phase durch die Anwendung von z.B. **Gradientenabstiegsverfahren (Gradient Descent)**  die Gewichte so angepasst, dass der Gesamtfehler des Netzwerks iterativ minimiert und somit das Modell optimiert wird.
-

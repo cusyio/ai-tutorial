@@ -77,16 +77,17 @@ Die Details (Query, Key, Value, Multi-Head) stehen in :doc:`llm_internals` und :
 .. code-block:: python
 
    class Block(nn.Module):
-       def __init__(self, n_embd, n_head, ...):
+       def __init__(self, n_embd, n_head):
            super().__init__()
-           self.sa = CausalSelfAttention(...)   # masked, decoder-only
+           self.sa = CausalSelfAttention()  # masked, decoder-only
            self.ffwd = nn.Sequential(
                nn.Linear(n_embd, 4 * n_embd),
                nn.GELU(),
                nn.Linear(4 * n_embd, n_embd),
            )
+
        def forward(self, x):
-           x = x + self.sa(x)   # Residual
+           x = x + self.sa(x)  # Residual
            x = x + self.ffwd(x)
            return x
 

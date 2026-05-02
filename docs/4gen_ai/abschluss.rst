@@ -33,4 +33,3 @@ und -visualisierung:
 * `PyViz-Tutorial <https://pyviz-tutorial.readthedocs.io/de/latest/>`_
 * `cusy Design-System: Datenvisualisierung
   <https://www.cusy.design/de/latest/viz/index.html>`_
-

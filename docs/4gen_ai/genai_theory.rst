@@ -1,9 +1,9 @@
 Theorie (Mathematik) hinter Generativer KI
 ==========================================
 
-- **Wahrscheinlichkeitsmodelle:** Grundlagen der statistischen Modellierung.  
+- **Wahrscheinlichkeitsmodelle:** Grundlagen der statistischen Modellierung.
 
-- **Transformer-Architektur:** Encoder-Decoder-Strukturen, Attention-Mechanismen und Selbstaufmerksamkeit.  
+- **Transformer-Architektur:** Encoder-Decoder-Strukturen, Attention-Mechanismen und Selbstaufmerksamkeit.
 
 - **Optimierungsalgorithmen:** Überblick über gängige Verfahren wie Adam und ihre mathematischen Grundlagen.
 
@@ -11,10 +11,10 @@ Theorie (Mathematik) hinter Generativer KI
 Wahrscheinlichkeitsmodelle - die Grundlage Generativer KI
 ------------------------------------------------------------
 
-Statistische Modellierung bildet die mathematische Grundlage hinter der Generativen KI. 
-Generative KI-Modelle basieren auf dem Prinzip, die zugrunde liegende Wahrscheinlichkeitsverteilung der Trainingsdaten zu erlernen. 
-Dabei wird angenommen, dass die beobachteten Daten aus einer bestimmten, aber oft unbekannten Verteilung stammen. 
-Durch die Anwendung von Konzepten wie der Maximum-Likelihood-Schätzung und der Minimierung der Kreuzentropie wird versucht, diese Verteilung zu approximieren. 
+Statistische Modellierung bildet die mathematische Grundlage hinter der Generativen KI.
+Generative KI-Modelle basieren auf dem Prinzip, die zugrunde liegende Wahrscheinlichkeitsverteilung der Trainingsdaten zu erlernen.
+Dabei wird angenommen, dass die beobachteten Daten aus einer bestimmten, aber oft unbekannten Verteilung stammen.
+Durch die Anwendung von Konzepten wie der Maximum-Likelihood-Schätzung und der Minimierung der Kreuzentropie wird versucht, diese Verteilung zu approximieren.
 Dies bildet die Grundlage dafür, dass das Modell anschließend in der Lage ist, neue, statistisch konsistente Datenpunkte zu generieren, die den Mustern und Strukturen der Trainingsdaten entsprechen.
 
 **1.1 Bedingte Wahrscheinlichkeiten**
@@ -28,8 +28,8 @@ LLMs berechnen die Wahrscheinlichkeit eines Tokens basierend auf dem bisherigen 
 Das bedeutet: Die Wahrscheinlichkeit für ein ganzes Textstück ergibt sich durch das Produkt der Wahrscheinlichkeiten für jedes Token, gegeben alle vorhergehenden.
 
 
-Generative Modelle basieren darauf, die zugrunde liegende Wahrscheinlichkeitsverteilung der Daten zu approximieren. 
-Dabei geht man davon aus, dass jedes Datenbeispiel \(x\) mit einer Wahrscheinlichkeit \(P(x)\) aus einer (meist unbekannten) Verteilung stammt. 
+Generative Modelle basieren darauf, die zugrunde liegende Wahrscheinlichkeitsverteilung der Daten zu approximieren.
+Dabei geht man davon aus, dass jedes Datenbeispiel \(x\) mit einer Wahrscheinlichkeit \(P(x)\) aus einer (meist unbekannten) Verteilung stammt.
 Das Ziel ist es, ein Modell mit Parametern \(\theta\) so anzupassen, dass es diese Verteilung möglichst gut erfasst.
 
 Ein gängiger Ansatz hierfür ist die **Maximum-Likelihood-Schätzung (MLE)**. Die Likelihood-Funktion für \(N\) unabhängige Datenbeispiele lautet:
@@ -46,7 +46,7 @@ Statt direkt diese Funktion zu maximieren, wird oft der negative Log-Likelihood 
 **1.2 Sprachmodellierung als Prädiktion**
 ::::::::::::::::::::::::::::::::::::::::::
 
-Die Aufgabe eines Sprachmodells ist es, das **nächste Token** vorherzusagen – also den **Output mit der höchsten Wahrscheinlichkeit** auszugeben. 
+Die Aufgabe eines Sprachmodells ist es, das **nächste Token** vorherzusagen – also den **Output mit der höchsten Wahrscheinlichkeit** auszugeben.
 Dies ist ein typisches Beispiel für ein **bedingtes Wahrscheinlichkeitsmodell**.
 
 **1.3 Entropie & Log-Loss**
@@ -62,16 +62,16 @@ Generative KI basiert im Kern auf **Wahrscheinlichkeitsmodellen**, die darauf ab
 Transformer-Architektur
 -----------------------------
 
-Die Transformer-Architektur bildet das Rückgrat moderner generativer Modelle und hat die Art und Weise revolutioniert, wie Sequenzdaten verarbeitet werden – insbesondere in der Generierung von Texten. 
-Sie verzichtet auf rekurrente Strukturen und setzt stattdessen vollständig auf Attention-Mechanismen. 
+Die Transformer-Architektur bildet das Rückgrat moderner generativer Modelle und hat die Art und Weise revolutioniert, wie Sequenzdaten verarbeitet werden – insbesondere in der Generierung von Texten.
+Sie verzichtet auf rekurrente Strukturen und setzt stattdessen vollständig auf Attention-Mechanismen.
 
 Die wichtigsten Bestandteile dieser Architektur sind:
 
-Self-Attention, Multi-Head-Attention und Feed-Forward-Netzwerke. 
+Self-Attention, Multi-Head-Attention und Feed-Forward-Netzwerke.
 
 **Self-Attention:**
 
-Im Zentrum steht das Konzept der Selbstaufmerksamkeit (Self-Attention), das dem Modell ermöglicht, Beziehungen zwischen allen Elementen einer Eingabesequenz simultan zu berücksichtigen. 
+Im Zentrum steht das Konzept der Selbstaufmerksamkeit (Self-Attention), das dem Modell ermöglicht, Beziehungen zwischen allen Elementen einer Eingabesequenz simultan zu berücksichtigen.
 
 Jeder Eingabesequenz werden drei unterschiedliche Vektorrepräsentationen zugeordnet:
 
@@ -87,19 +87,19 @@ Die Self-Attention berechnet, wie stark jedes Element einer Sequenz mit allen an
 Hierbei ist \(d_k\) die Dimension der Key-Vektoren. Die Division durch \(\sqrt{d_k}\) verhindert, dass die resultierenden Werte zu groß werden und die Softmax-Funktion verzerrt.
 
 
-**Multi-Head-Attention:** 
+**Multi-Head-Attention:**
 
 Die Multi-Head-Attention erlaubt es dem Modell, verschiedene Aspekte der Beziehungen in parallelen "Aufmerksamkeits-Köpfen" zu betrachten.
 
-Anstatt nur eine einzige Attention-Berechnung durchzuführen, wird der Mechanismus in mehrere parallele "Köpfe" (Heads) aufgeteilt. 
-Jeder Kopf führt eine eigene Attention-Berechnung durch und fokussiert dabei auf unterschiedliche Aspekte der Eingabesequenz. 
+Anstatt nur eine einzige Attention-Berechnung durchzuführen, wird der Mechanismus in mehrere parallele "Köpfe" (Heads) aufgeteilt.
+Jeder Kopf führt eine eigene Attention-Berechnung durch und fokussiert dabei auf unterschiedliche Aspekte der Eingabesequenz.
 Die Resultate der einzelnen Köpfe werden anschließend zusammengeführt, um eine reichhaltige, kontextabhängige Darstellung zu erhalten.
 
 
-**Feed-Forward-Netzwerke:** 
+**Feed-Forward-Netzwerke:**
 
-Nach der Attention folgt ein vollständig verbundenes Feed-Forward-Netzwerk, das positionweise auf jede Eingaberepräsentation angewandt wird. 
-Typischerweise besteht dieses Netzwerk aus zwei linearen Transformationen mit einer *nichtlinearen* Aktivierungsfunktion (z. B. ReLU) dazwischen, 
+Nach der Attention folgt ein vollständig verbundenes Feed-Forward-Netzwerk, das positionweise auf jede Eingaberepräsentation angewandt wird.
+Typischerweise besteht dieses Netzwerk aus zwei linearen Transformationen mit einer *nichtlinearen* Aktivierungsfunktion (z. B. ReLU) dazwischen,
 die für die Modellierung komplexer Zusammenhänge notwendig sind:
 
 .. math::
@@ -143,8 +143,8 @@ Ein typischer Transformer-Block besteht somit aus:
 Optimierungsalgorithmen
 ----------------------------
 
-Der Trainingsprozess generativer Modelle (so wie bei generell allen Deep-Learning-Modellen) basiert auf iterativen Optimierungsmethoden, bei denen die Modellparameter so angepasst werden, dass der Fehler (Verlustfunktion) zwischen den generierten und den echten Daten minimiert wird. 
-Zentral hierbei ist der Einsatz von Gradientenabstiegsverfahren. Neben dem klassischen Gradientenabstieg existieren verschiedene weiterentwickelte Algorithmen, die adaptive Lernraten und Momentum nutzen. 
+Der Trainingsprozess generativer Modelle (so wie bei generell allen Deep-Learning-Modellen) basiert auf iterativen Optimierungsmethoden, bei denen die Modellparameter so angepasst werden, dass der Fehler (Verlustfunktion) zwischen den generierten und den echten Daten minimiert wird.
+Zentral hierbei ist der Einsatz von Gradientenabstiegsverfahren. Neben dem klassischen Gradientenabstieg existieren verschiedene weiterentwickelte Algorithmen, die adaptive Lernraten und Momentum nutzen.
 
 **Grundlegender Gradientenabstieg:**
 
@@ -205,4 +205,4 @@ Die Wahl und Konfiguration des Optimierungsalgorithmus ist entscheidend für die
 .. rubric:: Footnotes
 
 .. [#] Transformer-wikipedia: https://de.wikipedia.org/wiki/Transformer_%28Maschinelles_Lernen%29 (Architektur-Übersicht; Bild siehe folgende Quelle).
-.. [#] Transformer-diagram: https://raw.githubusercontent.com/dvgodoy/dl-visuals/main/Transformers/full_transformer.png 
+.. [#] Transformer-diagram: https://raw.githubusercontent.com/dvgodoy/dl-visuals/main/Transformers/full_transformer.png

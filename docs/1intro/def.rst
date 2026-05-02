@@ -1,7 +1,7 @@
 Definition von Künstlicher Intelligenz
 ======================================
 
-Was ist die **Künstliche Intelligenz (KI)**? 
+Was ist die **Künstliche Intelligenz (KI)**?
 
 Künstliche Intelligenz (KI) bezeichnet die Fähigkeit eines Computers oder einer
 Maschine, menschenähnliche kognitive Funktionen auszuführen. Dazu gehören
@@ -20,7 +20,7 @@ Die Entwicklung der KI lässt sich in mehrere Phasen einteilen:
       wurden entwickelt.
     * Alan Turings berühmter `Turing-Test
       <https://de.wikipedia.org/wiki/Turing-Test>`_ stellte eine `frühe Methode
-      zur Bewertung der Intelligenz einer Maschine 
+      zur Bewertung der Intelligenz einer Maschine
       <https://de.wikipedia.org/wiki/Turing-Test#/media/Datei:Turing-Test_ger_ABC.png>`_ vor.
     * In den 1960er Jahren entstanden erste Expertensysteme, die regelbasierte
       Entscheidungsfindung ermöglichten.
@@ -43,9 +43,9 @@ Unterschiedliche Formen der Künstlichen Intelligenz
 KI kann auf verschiedene **Art und Weise** in verschiedene Kategorien unterteilt
 werden. Eine Möglichkeit ist die Kategorisierung nach ihrem Funktionsumfang und
 ihren Anwendungsmöglichkeiten, wie von Prof. Arend Hintze, Forscher
-und Professor der Integrative Biology an der Michigan State University, in dessen 
-`Understanding the four types of AI, from reactive robots to self-aware beings 
-<https://theconversation.com/understanding-the-four-types-of-ai-from-reactive-robots-to-self-aware-beings-67616>`_ 
+und Professor der Integrative Biology an der Michigan State University, in dessen
+`Understanding the four types of AI, from reactive robots to self-aware beings
+<https://theconversation.com/understanding-the-four-types-of-ai-from-reactive-robots-to-self-aware-beings-67616>`_
 definierte:
 
 #. Reaktive KI (Reactive AI)
@@ -166,15 +166,15 @@ Ethische Fragestellungen in der KI
 Mit der rasanten Entwicklung der KI gehen auch bedeutende ethische Fragen
 einher:
 
-Bias und Diskriminierung: 
+Bias und Diskriminierung:
     KI-Modelle können bestehende Vorurteile aus den gegebenen Trainingsdaten übernehmen.
-Arbeitsplatzverdrängung: 
+Arbeitsplatzverdrängung:
     Automatisierung kann menschliche Arbeitsplätze gefährden.
-Transparenz und Erklärbarkeit: 
+Transparenz und Erklärbarkeit:
     Viele KI-Modelle, insbesondere Deep Learning, sind schwer zu interpretieren.
-Verantwortung und Haftung: 
+Verantwortung und Haftung:
     Wer ist verantwortlich, wenn eine KI fehlerhafte oder schädliche
     Entscheidungen trifft?
-Datenschutz: 
+Datenschutz:
     KI-Anwendungen erfordern oft große Datenmengen, was Datenschutzprobleme
     aufwirft.

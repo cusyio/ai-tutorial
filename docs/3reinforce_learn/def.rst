@@ -44,7 +44,7 @@ Stellen wir uns einen Roboter in einem Raum vor, der selbst erlernen soll, wie e
 
 - Die **Aktionen** bestehen aus vier Bewegungsmöglichkeiten: **oben, unten, links, rechts**. (in 2D-Darstellung)
 
-- Die **Belohnung** beträgt **+100**, wenn der Roboter den Ausgang findet, **-100**, wenn er gegen eine Wand läuft, und **-1** bei jedem Schritt, den er macht, ohne zum Ziel zu kommen. 
+- Die **Belohnung** beträgt **+100**, wenn der Roboter den Ausgang findet, **-100**, wenn er gegen eine Wand läuft, und **-1** bei jedem Schritt, den er macht, ohne zum Ziel zu kommen.
 
 - Die **Policy (Strategie)** bestimmt, welche Aktion der Roboter in welchem Zustand ausführt.
 

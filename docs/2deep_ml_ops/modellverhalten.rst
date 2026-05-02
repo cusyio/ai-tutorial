@@ -4,7 +4,7 @@ Modellverhalten: Overfitting, Regularisierung und Optimierung
 Einführung
 ---------------
 
-Nachdem wir uns am ersten Tag mit **Regression und Klassifikation** beschäftigt haben, wenden wir uns nun einem zentralen Problem im maschinellen Lernen zu: 
+Nachdem wir uns am ersten Tag mit **Regression und Klassifikation** beschäftigt haben, wenden wir uns nun einem zentralen Problem im maschinellen Lernen zu:
 **Wie stellen wir sicher, dass unser Modell nicht nur auf Trainingsdaten gut funktioniert, sondern auch auf unbekannte Daten?**
 
 Dazu müssen wir zwei zentrale Konzepte verstehen:
@@ -24,35 +24,35 @@ Beim Training von ML-Modellen kann es vorkommen, dass ein Modell entweder **zu g
 Underfitting
 ------------
 
-**Underfitting** tritt auf, wenn ein Modell zu einfach ist, um die zugrunde liegenden Muster in den Daten zu erfassen. 
-Dies geschieht oft, wenn das Modell zu wenige Parameter hat oder wenn es nicht ausreichend trainiert wurde. 
-Ein unterangepasstes Modell zeigt sowohl auf den Trainingsdaten als auch auf den Testdaten hohe Fehlerwerte, weil es die Struktur der Daten nicht richtig abbilden kann. 
+**Underfitting** tritt auf, wenn ein Modell zu einfach ist, um die zugrunde liegenden Muster in den Daten zu erfassen.
+Dies geschieht oft, wenn das Modell zu wenige Parameter hat oder wenn es nicht ausreichend trainiert wurde.
+Ein unterangepasstes Modell zeigt sowohl auf den Trainingsdaten als auch auf den Testdaten hohe Fehlerwerte, weil es die Struktur der Daten nicht richtig abbilden kann.
 Ein typisches Beispiel ist die Verwendung einer linearen Regression für eine stark nicht-lineare Beziehung, wodurch das Modell die Zusammenhänge nicht ausreichend erfasst.
 
 
 Overfitting
 --------------
 
-Overfitting ist eines der größten Probleme im maschinellen Lernen. 
+Overfitting ist eines der größten Probleme im maschinellen Lernen.
 
 Was ist Overfitting?
 ::::::::::::::::::::::::
 
-Es tritt auf, wenn ein Modell die Trainingsdaten **zu stark auswendig lernt**, anstatt die zugrunde liegenden Muster zu erkennen. 
+Es tritt auf, wenn ein Modell die Trainingsdaten **zu stark auswendig lernt**, anstatt die zugrunde liegenden Muster zu erkennen.
 Dies führt dazu, dass das Modell auf neuen, unbekannten Daten schlecht generalisiert.
 
-Das passiert leicht, wenn das ausgewählte und trainierte Modell zu komplex ist und sich **zu stark an den Trainingsdatensatz anpasst**, sodass es auf neuen Daten nicht mehr gut funktioniert. 
+Das passiert leicht, wenn das ausgewählte und trainierte Modell zu komplex ist und sich **zu stark an den Trainingsdatensatz anpasst**, sodass es auf neuen Daten nicht mehr gut funktioniert.
 
 **Beispiel:**
 
-Stellen wir uns vor, wir möchten den Zusammenhang zwischen der Körpergröße und dem Gewicht von Personen vorhersagen. 
+Stellen wir uns vor, wir möchten den Zusammenhang zwischen der Körpergröße und dem Gewicht von Personen vorhersagen.
 
 - Ein einfaches Modell (z. B. lineare Regression) könnte sagen: **„Größere Menschen wiegen tendenziell mehr.“**
-- Ein überangepasstes Modell könnte sich jedoch **zu stark an zufällige Ausreißer anpassen** und unnötig komplexe Regeln aufstellen wie: 
+- Ein überangepasstes Modell könnte sich jedoch **zu stark an zufällige Ausreißer anpassen** und unnötig komplexe Regeln aufstellen wie:
 
 **„Personen mit einer Körpergröße von 1,78m wiegen exakt 73,2kg, aber bei 1,79m sinkt das Gewicht plötzlich auf 71,5kg.“**
 
-Das überangepasste Modell wird zwar auf den Trainingsdaten eine sehr niedrige Fehlerquote haben, 
+Das überangepasste Modell wird zwar auf den Trainingsdaten eine sehr niedrige Fehlerquote haben,
 **aber es wird auf neuen, unbekannten Daten sehr schlecht funktionieren**.
 
 .. figure:: ../_static/images/day2-overfitting.png
@@ -62,7 +62,7 @@ Das überangepasste Modell wird zwar auf den Trainingsdaten eine sehr niedrige F
 
    Abbildung 1: Overfitting (Citation: Chabacano, CC BY-SA 4.0, Wikimedia Commons).
 
-Weitere Darstellungen von Overfitting und Underfitting finden sich z. B. in der `Wikipedia (Overfitting) <https://de.wikipedia.org/wiki/Overfitting>`_ oder in der `scikit-learn-Dokumentation <https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html>`_. 
+Weitere Darstellungen von Overfitting und Underfitting finden sich z. B. in der `Wikipedia (Overfitting) <https://de.wikipedia.org/wiki/Overfitting>`_ oder in der `scikit-learn-Dokumentation <https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html>`_.
 
 
 Wie erkennt man überangepasste Modelle?
@@ -110,13 +110,13 @@ Eine typische Methode, um Overfitting zu erkennen, ist die **Lernkurve**, die ze
 
    **Abbildung 3:** Lernkurve – Overfitting zeigt sich durch eine große Lücke zwischen Training- und Testfehler.
 
-**Interpretation des Trainingsverlustes (Training Loss)** 
+**Interpretation des Trainingsverlustes (Training Loss)**
 
 Die Lernkurve eines Overfit-Modells weist zu Beginn einen sehr niedrigen Training-Loss auf, der mit dem Hinzufügen von Trainingsbeispielen allmählich leicht ansteigt und nicht abflacht.
 
 **Interpretieren des Validierungsverlustes (Validation Loss)**
 
-Die Lernkurve eines Overfit-Modells weist zu Beginn einen hohen Validierungsverlust auf, der mit dem Hinzufügen von Trainingsbeispielen allmählich sinkt und nicht abflacht. 
+Die Lernkurve eines Overfit-Modells weist zu Beginn einen hohen Validierungsverlust auf, der mit dem Hinzufügen von Trainingsbeispielen allmählich sinkt und nicht abflacht.
 Das deutet darauf hin, dass das Hinzufügen weiterer Trainingsbeispiele die Leistung des Modells bei ungesehenen Daten verbessern kann.
 Es ist auch zu erkennen, dass die Trainings- und Validierungsverluste weit voneinander entfernt sind, die sich bei Hinzufügen zusätzlicher Trainingsdaten einander annähern können.
 
@@ -124,39 +124,39 @@ Es ist auch zu erkennen, dass die Trainings- und Validierungsverluste weit vonei
 2. Modellkomplexität
 ::::::::::::::::::::
 
-Bei der Entscheidung der Modellkomplexität sind zwei Faktoren ausschlaggebend: 
-**Bias** vs. **Varianz** 
+Bei der Entscheidung der Modellkomplexität sind zwei Faktoren ausschlaggebend:
+**Bias** vs. **Varianz**
 
 **Bias**
 
 Sei Y der wahre Wert eines Parameters, und sei Ŷ (Y-hat) ein Schätzer von Y auf der Grundlage einer Datenstichprobe. Dann ist die Verzerrung des Schätzers Ŷ gegeben durch:
 
    .. math::
-      Bias(\hat{Y}) = E(\hat{Y}) - Y 
+      Bias(\hat{Y}) = E(\hat{Y}) - Y
 
-wobei 
+wobei
 
-.. math:: E(\hat{Y}) 
-    
-der Erwartungswert des Schätzers 
+.. math:: E(\hat{Y})
 
-.. math:: \hat{Y} 
+der Erwartungswert des Schätzers
 
-ist. Es ist die Messung des Modells, wie gut es zu den Daten passt. 
+.. math:: \hat{Y}
+
+ist. Es ist die Messung des Modells, wie gut es zu den Daten passt.
 
 **Geringe Verzerrung:**
 
-Eine geringe Verzerrung bedeutet, dass weniger Annahmen getroffen werden, um die Zielfunktion zu erstellen. 
+Eine geringe Verzerrung bedeutet, dass weniger Annahmen getroffen werden, um die Zielfunktion zu erstellen.
 In diesem Fall stimmt das Modell gut mit dem Trainingsdatensatz überein.
 
 **Hohe Verzerrung:**
 
-Ein hoher Verzerrungswert bedeutet, dass mehr Annahmen zur Erstellung der Zielfunktion getroffen werden. 
-In diesem Fall stimmt das Modell nicht genau mit dem Trainingsdatensatz überein. 
+Ein hoher Verzerrungswert bedeutet, dass mehr Annahmen zur Erstellung der Zielfunktion getroffen werden.
+In diesem Fall stimmt das Modell nicht genau mit dem Trainingsdatensatz überein.
 
 **Varianz**
 
-Die Varianz ist ein Streuungsmaß. Sie ist das Quadrat der Standardabweichung und stellt die Werte-Verteilung um den Mittelwert herum dar. 
+Die Varianz ist ein Streuungsmaß. Sie ist das Quadrat der Standardabweichung und stellt die Werte-Verteilung um den Mittelwert herum dar.
 Berechnet wird die Varianz, indem die Summe der quadrierten Abweichungen aller Messwerte vom arithmetischen Mittel durch die Anzahl der Messwerte dividiert wird.
 
    .. math::
@@ -184,13 +184,13 @@ Methoden zur Regularisierung:
    * Besonders wichtig bei Deep Learning.
 
 
-* **L1-Regularisierung (Lasso Regression)** 
+* **L1-Regularisierung (Lasso Regression)**
    Setzt einige Koeffizienten auf 0, um unwichtige Merkmale zu eliminieren.
 
    .. math::
-      L_1 = \sum{|x_i|} 
+      L_1 = \sum{|x_i|}
 
-* **L2-Regularisierung (Ridge Regression)** 
+* **L2-Regularisierung (Ridge Regression)**
    Bestraft große Koeffizienten, um ein stabileres Modell zu erzeugen.
 
    .. math::
@@ -201,13 +201,13 @@ Methoden zur Regularisierung:
    * K-Fold Cross Validation hilft, das Modell auf mehreren Trainings/Test-Splits zu überprüfen.
 
 
-* **Dropout (bei neuronalen Netzen)** 
+* **Dropout (bei neuronalen Netzen)**
    Deaktiviert zufällig einige Neuronen während des Trainings.
 
 * **Early Stopping**
    * Stoppt das Training, sobald sich die Testfehler nicht weiter verbessern.
 
-* **Datenaugmentierung** 
+* **Datenaugmentierung**
      Erhöht die Datenvielfalt (besonders nützlich in Computer Vision).
 
 
@@ -221,7 +221,9 @@ Code-Beispiel: Ridge & Lasso Regression
    from sklearn.metrics import mean_squared_error
 
    # Trainings- und Testsplit
-   X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+   X_train, X_test, y_train, y_test = train_test_split(
+       X, y, test_size=0.2, random_state=42
+   )
 
    # Ridge Regression
    ridge = Ridge(alpha=1.0)

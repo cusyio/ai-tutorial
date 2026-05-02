@@ -6,7 +6,7 @@ Was ist Lineare Regression?
 
 * Die **Lineare Regression** ist eines der grundlegendsten Modelle des maschinellen Lernens.
 * Sie wird verwendet, um eine abhängige Variable (Zielvariable) anhand einer oder mehrerer unabhängiger Variablen vorherzusagen.
-* Bei der linearen Regression ist die Voraussetzung, dass das `Skalenniveau <https://datatab.de/tutorial/skalenniveau>`_ der abhängigen Variable `intervallskaliert <https://de.statista.com/statistik/lexikon/definition/71/intervallskaliert/#:~:text=Eine%20Skala%20ist%20intervallskaliert%2C%20wenn,den%20Werten%205%20und%206.>`_ ist, sowie eine Normalverteilung vorliegt. 
+* Bei der linearen Regression ist die Voraussetzung, dass das `Skalenniveau <https://datatab.de/tutorial/skalenniveau>`_ der abhängigen Variable `intervallskaliert <https://de.statista.com/statistik/lexikon/definition/71/intervallskaliert/#:~:text=Eine%20Skala%20ist%20intervallskaliert%2C%20wenn,den%20Werten%205%20und%206.>`_ ist, sowie eine Normalverteilung vorliegt.
 * Ist die abhängige Variable kategorisch, wird eine logistische Regression verwendet.
 
 * Die Gleichung einer einfachen linearen Regression lautet:
@@ -28,18 +28,18 @@ Was ist Lineare Regression?
 Interpretabilität von Linearen Regressions-Modellen
 ----------------------------------------------------
 
-Wie bei vielen Modellen müssen für die Lineare Regression einige Voraussetzungen in den Daten erfüllt sein, 
-damit die Ergebnisse der Regressionsanalyse interpretiert werden können. 
+Wie bei vielen Modellen müssen für die Lineare Regression einige Voraussetzungen in den Daten erfüllt sein,
+damit die Ergebnisse der Regressionsanalyse interpretiert werden können.
 
-* Linearität: 
+* Linearität:
     Es muss ein linearer Zusammenhang zwischen der abhängigen und den unabhängigen Variablen bestehen.
-* Homoskedastizität: 
+* Homoskedastizität:
     Die Residuen müssen eine konstante Varianz haben.
-* Normalität: 
+* Normalität:
     Normalverteilte Fehlerkomponente
-* Keine Multikollinearität: 
+* Keine Multikollinearität:
     Keine hohe Korrelation zwischen den unabhängigen Variablen
-* Keine Autokorrelation: 
+* Keine Autokorrelation:
     Die Fehlerkomponente sollte keine Autokorrelation aufweisen.
 
 .. seealso::

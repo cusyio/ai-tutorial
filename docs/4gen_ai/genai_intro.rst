@@ -4,18 +4,18 @@ Generative KI: Konzepte und Grundlagen
 Definition und Abgrenzung
 ------------------------------
 
-Was versteht man unter generativer KI? 
+Was versteht man unter generativer KI?
 
-Generative KI bezeichnet Ansätze und Modelle, die darauf ausgelegt sind, eigenständig neue Inhalte zu erzeugen, die in Struktur und Stil den Trainingsdaten ähneln. 
-Das bedeutet, dass das Modell aus einer großen Menge an Beispieldaten lernt und anschließend in der Lage ist, neue, kreative Ergebnisse zu generieren – sei es in Form von Texten, Bildern, Musik oder anderen Medien.  
-Im Gegensatz zu traditionellen, auf Klassifikation ausgerichteten Methoden (diskriminativen Ansätzen), die lediglich Unterschiede zwischen vorgegebenen Kategorien erkennen und zuordnen, strebt die generative KI danach, die zugrunde liegende Wahrscheinlichkeitsverteilung der Daten zu modellieren. 
+Generative KI bezeichnet Ansätze und Modelle, die darauf ausgelegt sind, eigenständig neue Inhalte zu erzeugen, die in Struktur und Stil den Trainingsdaten ähneln.
+Das bedeutet, dass das Modell aus einer großen Menge an Beispieldaten lernt und anschließend in der Lage ist, neue, kreative Ergebnisse zu generieren – sei es in Form von Texten, Bildern, Musik oder anderen Medien.
+Im Gegensatz zu traditionellen, auf Klassifikation ausgerichteten Methoden (diskriminativen Ansätzen), die lediglich Unterschiede zwischen vorgegebenen Kategorien erkennen und zuordnen, strebt die generative KI danach, die zugrunde liegende Wahrscheinlichkeitsverteilung der Daten zu modellieren.
 Dadurch wird es möglich, nicht nur existierende Daten zu klassifizieren, sondern auch völlig neue Inhalte zu kreieren, die über das Gelernte hinausgehen.
 
 Anwendungsbeispiele
 ------------------------
 
 Generative KI findet in zahlreichen Anwendungsbereichen Einsatz, was ihre enorme Vielseitigkeit unterstreicht. Beispiele hierfür sind:
- 
+
 - **Textgenerierung:** Automatisches Verfassen von Artikeln, Zusammenfassungen oder kreativen Geschichten.
   Bekannte Produkte: **ChatGPT** (OpenAI), **Claude** (Anthropic), **Gemini** (Google), **Copilot** (Microsoft) sowie Open-Source-Alternativen wie **Llama** (Meta) oder **DeepSeek** – alle nutzen im Kern Sprachmodelle für Konversation und Text.
 
@@ -33,7 +33,7 @@ Unterschiede zu diskriminativen Ansätzen
 ---------------------------------------------
 
 Der Hauptunterschied zwischen generativen und diskriminativen Ansätzen liegt in ihrer Zielsetzung und Methodik:
- 
+
 - **Generative Modelle** lernen die vollständige Wahrscheinlichkeitsverteilung der Eingabedaten.
   Sie können dadurch nicht nur Muster erkennen, sondern auch neue Datenpunkte generieren, die in das erlernte Schema passen.
   Dies ermöglicht kreative Anwendungen, bei denen neue Inhalte aus dem Gelernten abgeleitet werden.

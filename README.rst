@@ -87,7 +87,7 @@ einen `Fork <https://github.com/cusyio/ai-tutorial/fork>`_ unseres `GitHub
 Repository <https://github.com/cusyio/ai-tutorial/>`_ zu erstellen und eure
 Änderungen dort zu machen.
 
-Die Entwicklungsumgebung könnt ihr erstellen mit 
+Die Entwicklungsumgebung könnt ihr erstellen mit
 
 .. code-block:: console
 
