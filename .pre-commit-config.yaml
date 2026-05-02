@@ -22,7 +22,7 @@ repos:
     - id: sphinx-lint
       types: [rst]
   - repo: https://github.com/pycqa/isort
-    rev: a333737ed43df02b18e6c95477ea1b285b3de15a # 8.0.1
+    rev: d422b4f92901584f4052d0f00c72c1421e1de8cc # 9.0.0a3
     hooks:
     - id: isort
       additional_dependencies: ["toml"]
