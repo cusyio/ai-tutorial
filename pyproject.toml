@@ -60,5 +60,8 @@ dev = [
 "Homepage" = "https://github.com/AInvone/Intro-in-KI-Schulung/"
 "Bug Tracker" = "https://github.com/AInvone/Intro-in-KI-Schulung/issues"
 
+[tool.uv]
+exclude-newer = "P3D"  # "3 days" in RFC 3339 format
+
 [tool.codespell]
 skip = "*.ipynb, *.rst, *.svg, *.txt"
